@@ -319,6 +319,77 @@ def water_usage_efficiency_reward(params: dict) -> float:
 
 # Other reward methods can be added here.
 
+def rcarbon_ls_reward(params: dict) -> float:
+    """
+    Rcarbon variant: heavily penalizes carbon footprint.
+    CO2 weight = 3.0, task penalty weight = 0.5
+    """
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    update_energy_history(total_energy)
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+
+    # Heavy carbon weight (3x)
+    footprint_reward = -3.0 * (norm_ci * norm_total_energy / 0.50)
+
+    # Light task penalty (0.5x)
+    overdue_penalty_scale = 0.15
+    overdue_penalty_bias = 0.15
+    tasks_overdue_penalty = -overdue_penalty_scale * np.sqrt(params['ls_overdue_penalty']) + overdue_penalty_bias
+    age_penalty_scale = 0.05
+    tasks_age_penalty = -age_penalty_scale * params['ls_oldest_task_age']
+
+    total_reward = footprint_reward + tasks_overdue_penalty + tasks_age_penalty
+    return float(np.clip(total_reward, -10, 10))
+
+
+def rtask_ls_reward(params: dict) -> float:
+    """
+    Rtask variant: heavily penalizes task delay / queue.
+    CO2 weight = 0.5, task penalty weight = 3.0
+    """
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    update_energy_history(total_energy)
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+
+    # Light carbon weight (0.5x)
+    footprint_reward = -0.5 * (norm_ci * norm_total_energy / 0.50)
+
+    # Heavy task penalty (3x)
+    overdue_penalty_scale = 0.9
+    overdue_penalty_bias = 0.9
+    tasks_overdue_penalty = -overdue_penalty_scale * np.sqrt(params['ls_overdue_penalty']) + overdue_penalty_bias
+    age_penalty_scale = 0.3
+    tasks_age_penalty = -age_penalty_scale * params['ls_oldest_task_age']
+
+    total_reward = footprint_reward + tasks_overdue_penalty + tasks_age_penalty
+    return float(np.clip(total_reward, -10, 10))
+
+
+def rbalanced_ls_reward(params: dict) -> float:
+    """
+    Rbalanced variant: equal weights across all objectives.
+    CO2 weight = 1.0, task penalty weight = 1.0 (same as default but explicit)
+    """
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    update_energy_history(total_energy)
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+
+    # Balanced carbon weight (1.0x)
+    footprint_reward = -1.0 * (norm_ci * norm_total_energy / 0.50)
+
+    # Balanced task penalty (1.0x)
+    overdue_penalty_scale = 0.3
+    overdue_penalty_bias = 0.3
+    tasks_overdue_penalty = -overdue_penalty_scale * np.sqrt(params['ls_overdue_penalty']) + overdue_penalty_bias
+    age_penalty_scale = 0.1
+    tasks_age_penalty = -age_penalty_scale * params['ls_oldest_task_age']
+
+    total_reward = footprint_reward + tasks_overdue_penalty + tasks_age_penalty
+    return float(np.clip(total_reward, -10, 10))
+
 REWARD_METHOD_MAP = {
     'default_dc_reward' : default_dc_reward,
     'default_bat_reward': default_bat_reward,
@@ -331,6 +402,9 @@ REWARD_METHOD_MAP = {
     'energy_PUE_reward' : energy_PUE_reward,
     'temperature_efficiency_reward' : temperature_efficiency_reward,
     'water_usage_efficiency_reward' : water_usage_efficiency_reward,
+    'rcarbon_ls_reward' : rcarbon_ls_reward,
+    'rtask_ls_reward'   : rtask_ls_reward,
+    'rbalanced_ls_reward': rbalanced_ls_reward,
 }
 
 def get_reward_method(reward_method : str = 'default_dc_reward'):
