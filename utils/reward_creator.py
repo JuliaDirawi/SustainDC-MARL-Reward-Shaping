@@ -105,6 +105,38 @@ def default_dc_reward(params: dict) -> float:
     
     return footprint_reward
 
+def rcarbon_dc_reward(params: dict) -> float:
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+    
+    carbon_penalty = -3.0 * (norm_ci * norm_total_energy / 0.50)  # heavy carbon weight
+    water_penalty = -0.5 * params['dc_water_usage'] / 1000
+    
+    return np.clip(carbon_penalty + water_penalty, -10, 10)
+
+
+def rtask_dc_reward(params: dict) -> float:
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+    
+    carbon_penalty = -0.5 * (norm_ci * norm_total_energy / 0.50)  # light carbon weight
+    water_penalty = -0.5 * params['dc_water_usage'] / 1000
+    
+    return np.clip(carbon_penalty + water_penalty, -10, 10)
+
+
+def rbalanced_dc_reward(params: dict) -> float:
+    total_energy = params['bat_total_energy_with_battery_KWh']
+    norm_total_energy = normalize_energy(total_energy)
+    norm_ci = params['norm_CI']
+    
+    carbon_penalty = -1.0 * (norm_ci * norm_total_energy / 0.50)  # balanced weight
+    water_penalty = -1.0 * params['dc_water_usage'] / 1000
+    
+    return np.clip(carbon_penalty + water_penalty, -10, 10)
+
 
 def default_bat_reward(params: dict) -> float:
     """
@@ -481,6 +513,9 @@ REWARD_METHOD_MAP = {
     'rcarbon_bat_reward' : rcarbon_bat_reward,
     'rtask_bat_reward'   : rtask_bat_reward,
     'rbalanced_bat_reward': rbalanced_bat_reward,
+    'rcarbon_dc_reward': rcarbon_dc_reward,
+    'rtask_dc_reward': rtask_dc_reward,
+    'rbalanced_dc_reward': rbalanced_dc_reward,
 }
 
 def get_reward_method(reward_method : str = 'default_dc_reward'):
@@ -496,4 +531,3 @@ def get_reward_method(reward_method : str = 'default_dc_reward'):
     assert reward_method in REWARD_METHOD_MAP.keys(), f"Specified Reward Method {reward_method} not in REWARD_METHOD_MAP"
     
     return REWARD_METHOD_MAP[reward_method]
-
