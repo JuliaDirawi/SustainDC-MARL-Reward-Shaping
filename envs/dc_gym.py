@@ -201,7 +201,15 @@ class dc_gymenv(gym.Env):
         self.water_usage = self.dc.calculate_cooling_tower_water_usage()
 
         # calculate reward
-        self.reward = 0
+        energy_penalty = self.HVAC_load / 1e3
+        water_penalty = self.water_usage / 1000
+        load_penalty = data_center_total_ITE_Load / 1e3
+
+        self.reward = -(
+        0.5 * energy_penalty +
+        0.3 * water_penalty +
+        0.2 * load_penalty
+        )
                 
         # calculate self.raw_next_state
         self.raw_next_state = self.get_obs()
