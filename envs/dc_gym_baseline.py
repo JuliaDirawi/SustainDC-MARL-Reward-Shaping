@@ -9,7 +9,7 @@ import envs.datacenter as DataCenter
 from utils import reward_creator
 
 class dc_gymenv(gym.Env):
-   
+    
     def __init__(self, observation_variables : list,
                        observation_space : spaces.Box,
                        action_variables: list,
@@ -23,12 +23,10 @@ class dc_gymenv(gym.Env):
                        DC_Config : dict,
                        seed : int = 123,
                        episode_length_in_time : pd.Timedelta = None,  # can be 1 week in minutes eg pd.Timedelta('7days')
-                       reward_type="default"                      
                        ):
         """Creates the data center environment
-            
-        Args: 
-            
+
+        Args:
             observation_variables (list[str]): The partial list of variables that will be evaluated inside this evironment.The actual
                                                 gym space may include other variables like sine cosine of hours, day of year, cpu usage,
                                                 carbon intensity and battery state of charge.
@@ -45,7 +43,7 @@ class dc_gymenv(gym.Env):
             episode_length_in_time (pd.Timedelta, optional): The maximum length after which the done flag should be True. Defaults to None. 
                                                             Setting none causes done to be True after data set is exausted.
         """
-        self.reward_type = reward_type
+        
         self.observation_variables = observation_variables
         self.observation_space = observation_space
         self.action_variables = action_variables
@@ -144,107 +142,80 @@ class dc_gymenv(gym.Env):
     def step(self, action):
 
         """
-        Makes an environment step in dc_gymenv.
-        """
+        Makes an environment step in`dc_gymenv.
 
+        Args:
+            action_id (int): Action to take.
+
+        Returns:
+            observations (List[float]): Current state of the environmment
+            reward (float): reward value.
+            done (bool): A boolean value signaling the if the episode has ended.
+            info (dict): A dictionary that containing additional information about the environment state
+        """
+        # Change the action for a random action
+        # action = np.random.randint(self.action_space.n)
+        # print(f'Warning, using random action {action} in the dc environment')
+        
         crac_setpoint_delta = self.action_mapping[action]
-   
-        # consecutive action tracking
+        
+        # Check if the current action is in the same direction as the last one
         if crac_setpoint_delta == self.last_action and action != 0:
             self.consecutive_actions += 1
         else:
             self.consecutive_actions = 1
-            self.action_scaling_factor = 1
+            self.action_scaling_factor = 1  # Reset scaling factor if the direction changes
 
+        # Adjust the scaling factor based on consecutive actions
         if self.consecutive_actions > 3:
-            self.action_scaling_factor += 1
-
-        # update setpoint
+            self.action_scaling_factor += 1  # Increase the scale factor after every 3 consecutive actions
+        
         self.raw_curr_stpt += crac_setpoint_delta * self.action_scaling_factor
         self.raw_curr_stpt = max(min(self.raw_curr_stpt, self.max_temp), self.min_temp)
-
-        # load
-        ITE_load_pct_list = [self.cpu_load_frac * 100 for _ in range(self.DC_Config.NUM_RACKS)]
+    
+        ITE_load_pct_list = [self.cpu_load_frac*100 for i in range(self.DC_Config.NUM_RACKS)] 
 
         self.rackwise_cpu_pwr, self.rackwise_itfan_pwr, self.rackwise_outlet_temp = \
-            self.dc.compute_datacenter_IT_load_outlet_temp(
-                ITE_load_pct_list=ITE_load_pct_list,
-                CRAC_setpoint=self.raw_curr_stpt
-            )
-
-        avg_CRAC_return_temp = DataCenter.calculate_avg_CRAC_return_temp(
-            rack_return_approach_temp_list=getattr(
-                self.DC_Config,
-                "rack_return_approach_temp_list",
-                self.rackwise_outlet_temp
-            ),
-            rackwise_outlet_temp=self.rackwise_outlet_temp
-        )
-
-        data_center_total_ITE_Load = (
-            sum(self.rackwise_cpu_pwr) +
-            sum(self.rackwise_itfan_pwr)
-        )
-
-        try:
-            (
-                self.CRAC_Fan_load,
-                self.CT_Cooling_load,
-                self.CRAC_Cooling_load,
-                self.Compressor_load,
-                self.CW_pump_load
-            ) = self.dc.calculate_system_loads()
-
-        except Exception:
-            self.CRAC_Fan_load = 0
-            self.CT_Cooling_load = 0
-            self.CRAC_Cooling_load = 0
-            self.Compressor_load = 0
-            self.CW_pump_load = 0
-
+            self.dc.compute_datacenter_IT_load_outlet_temp(ITE_load_pct_list=ITE_load_pct_list, CRAC_setpoint=self.raw_curr_stpt)
+           
+            
+        avg_CRAC_return_temp = DataCenter.calculate_avg_CRAC_return_temp(rack_return_approach_temp_list=self.DC_Config.RACK_RETURN_APPROACH_TEMP_LIST,
+                                                                         rackwise_outlet_temp=self.rackwise_outlet_temp)
+        
+        data_center_total_ITE_Load = sum(self.rackwise_cpu_pwr) + sum(self.rackwise_itfan_pwr)
+        
+        
+        self.CRAC_Fan_load, self.CT_Cooling_load, self.CRAC_Cooling_load, self.Compressor_load, self.CW_pump_load, self.CT_pump_load  = DataCenter.calculate_HVAC_power(CRAC_setpoint=self.raw_curr_stpt,
+                                                                                                                                                                       avg_CRAC_return_temp=avg_CRAC_return_temp,
+                                                                                                                                                                       ambient_temp=self.ambient_temp,
+                                                                                                                                                                       data_center_full_load=data_center_total_ITE_Load,
+                                                                                                                                                                       DC_Config=self.DC_Config)
         self.HVAC_load = self.CT_Cooling_load + self.Compressor_load
 
-        # water usage
-        self.dc.hot_water_temp = avg_CRAC_return_temp
-        self.dc.cold_water_temp = self.raw_curr_stpt
-        self.dc.wet_bulb_temp = self.wet_bulb
+        # Set the additional attributes for the cooling tower water usage calculation
+        self.dc.hot_water_temp = avg_CRAC_return_temp  # °C
+        self.dc.cold_water_temp = self.raw_curr_stpt  # °C
+        self.dc.wet_bulb_temp = self.wet_bulb  # °C from weather data
 
+        # Calculate the cooling tower water usage
         self.water_usage = self.dc.calculate_cooling_tower_water_usage()
 
-        # reward
-        energy_penalty = self.HVAC_load / 1e3
-        water_penalty = self.water_usage / 1000
-        load_penalty = data_center_total_ITE_Load / 1e3
-
-        if self.reward_type == "default":
-            self.reward = -(0.5 * energy_penalty + 0.3 * water_penalty + 0.2 * load_penalty)
-
-        elif self.reward_type == "reward1":
-            self.reward = -(0.7 * energy_penalty + 0.2 * water_penalty + 0.1 * load_penalty)
-
-        elif self.reward_type == "reward2":
-            self.reward = -(0.4 * energy_penalty + 0.4 * water_penalty + 0.2 * load_penalty)
-
-        elif self.reward_type == "reward3":
-            self.reward = -(0.3 * energy_penalty + 0.2 * water_penalty + 0.5 * load_penalty)
-
-        # next state
+        # calculate reward
+        self.reward = 0
+                
+        # calculate self.raw_next_state
         self.raw_next_state = self.get_obs()
-
-        # last action
+        
+        # Update the last action
         self.last_action = crac_setpoint_delta
-
-        # info
+        
+        # add info dictionary 
         self.info = {
             'dc_ITE_total_power_kW': data_center_total_ITE_Load / 1e3,
             'dc_CT_total_power_kW': self.CT_Cooling_load / 1e3,
             'dc_Compressor_total_power_kW': self.Compressor_load / 1e3,
-            'dc_HVAC_total_power_kW': self.HVAC_load / 1e3,
-            'dc_total_power_kW': (
-                data_center_total_ITE_Load +
-                self.CT_Cooling_load +
-                self.Compressor_load
-            ) / 1e3,
+            'dc_HVAC_total_power_kW': (self.CT_Cooling_load + self.Compressor_load) / 1e3,
+            'dc_total_power_kW': (data_center_total_ITE_Load + self.CT_Cooling_load + self.Compressor_load) / 1e3,
             'dc_crac_setpoint_delta': crac_setpoint_delta,
             'dc_crac_setpoint': self.raw_curr_stpt,
             'dc_cpu_workload_fraction': self.cpu_load_frac,
@@ -255,15 +226,15 @@ class dc_gymenv(gym.Env):
             'dc_CW_pump_power_kW': self.CW_pump_load,
             'dc_CT_pump_power_kW': self.CT_pump_load,
             'dc_water_usage': self.water_usage,
-            }
+        }
+        
 
+        #Done and truncated are managed by the main class, implement individual function if needed
         truncated = False
-        done = False
-
+        done = False 
+        # return processed/unprocessed state to agent
         if self.scale_obs:
             return self.normalize(self.raw_next_state), self.reward, done, truncated, self.info
-        else:
-            return self.raw_next_state, self.reward, done, truncated, self.info
 
     def NormalizeObservation(self,):
         """
