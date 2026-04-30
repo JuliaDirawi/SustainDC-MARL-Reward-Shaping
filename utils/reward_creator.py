@@ -183,7 +183,7 @@ def rcarbon_bat_reward(params: dict) -> float:
     # Heavy carbon weight (3x)
     footprint_reward = -3.0 * (norm_ci * norm_total_energy / 0.50)  # Stronger emphasis on carbon reduction
 
-    return float(footprint_reward)
+    return float(np.clip(footprint_reward, -10, 10))
 
 
 def rtask_bat_reward(params: dict) -> float:
@@ -208,7 +208,7 @@ def rtask_bat_reward(params: dict) -> float:
     # Light carbon weight (0.5x)
     footprint_reward = -0.5 * (norm_ci * norm_total_energy / 0.50)  # Lower carbon pressure for more operational flexibility
 
-    return float(footprint_reward)
+    return float(np.clip(footprint_reward, -10, 10))
 
 
 def rbalanced_bat_reward(params: dict) -> float:
@@ -233,7 +233,7 @@ def rbalanced_bat_reward(params: dict) -> float:
     # Balanced carbon weight (1.0x)
     footprint_reward = -1.0 * (norm_ci * norm_total_energy / 0.50)  # Same emphasis as the default reward
 
-    return float(footprint_reward)
+    return float(np.clip(footprint_reward, -10, 10))
 
 def custom_agent_reward(params: dict) -> float:
     """
