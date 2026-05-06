@@ -1,0 +1,2798 @@
+=== MAPPO + RTASK ===
+Start: Sun May  3 16:26:28 EEST 2026
+choose to use cpu...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...WARNING, using default values for chiller sizing...
+
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...WARNING, using default values for chiller sizing...
+
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+share_observation_space:  [Box(-2.0, 2.0, (29,), float32), Box(-2.0, 2.0, (29,), float32), Box(-2.0, 2.0, (29,), float32)]
+observation_space:  [Box(-2.0, 2.0, (26,), float32), Box(-2.0, 2.0, (26,), float32), Box(-2.0, 2.0, (26,), float32)]
+action_space:  [Discrete(3), Discrete(3), Discrete(3)]
+Start Training
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 5/2034 episodes, total num timesteps 61440/25000000, FPS 562.
+Average step reward is 0.5878929495811462.
+Some episodes done, average episode reward is -1497.8682207416134.
+
+Episode 5: Avg Net Energy=258.560, Avg CO2=69156.227, Water Usage=55549850.469
+Tasks in Queue=2578429.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 10/2034 episodes, total num timesteps 122880/25000000, FPS 536.
+Average step reward is 0.701887309551239.
+Some episodes done, average episode reward is -1463.8104648310862.
+
+Episode 10: Avg Net Energy=249.445, Avg CO2=61236.620, Water Usage=54930917.399
+Tasks in Queue=2351255.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 15/2034 episodes, total num timesteps 184320/25000000, FPS 516.
+Average step reward is 0.7838336825370789.
+Some episodes done, average episode reward is -1294.2920881370662.
+
+Episode 15: Avg Net Energy=246.305, Avg CO2=55339.525, Water Usage=54895968.061
+Tasks in Queue=1729552.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 20/2034 episodes, total num timesteps 245760/25000000, FPS 508.
+Average step reward is 0.7337413430213928.
+Some episodes done, average episode reward is -1312.044737591142.
+
+Episode 20: Avg Net Energy=240.702, Avg CO2=63191.678, Water Usage=54336622.480
+Tasks in Queue=2150765.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 25/2034 episodes, total num timesteps 307200/25000000, FPS 502.
+Average step reward is 0.7005268931388855.
+Some episodes done, average episode reward is -1267.2075504509387.
+
+Episode 25: Avg Net Energy=239.102, Avg CO2=64796.576, Water Usage=54345762.727
+Tasks in Queue=2179107.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1175.3528099449259.
+
+Episode 25: Avg Net Energy=232.288, Avg CO2=58437.865, Water Usage=151424614.539
+Tasks in Queue=4746431.000, Tasks Dropped=0.000
+We are saving model weights at episode 25 with average episode reward -1175.3528099449259
+
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 30/2034 episodes, total num timesteps 368640/25000000, FPS 465.
+Average step reward is 0.7313690185546875.
+Some episodes done, average episode reward is -1337.4177063580971.
+
+Episode 30: Avg Net Energy=239.265, Avg CO2=60029.339, Water Usage=54352329.519
+Tasks in Queue=1766884.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 35/2034 episodes, total num timesteps 430080/25000000, FPS 468.
+Average step reward is 0.8094260692596436.
+Some episodes done, average episode reward is -1313.813523810799.
+
+Episode 35: Avg Net Energy=239.185, Avg CO2=55584.593, Water Usage=54391408.531
+Tasks in Queue=960944.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 40/2034 episodes, total num timesteps 491520/25000000, FPS 470.
+Average step reward is 0.849987804889679.
+Some episodes done, average episode reward is -1292.776193393446.
+
+Episode 40: Avg Net Energy=235.220, Avg CO2=57730.175, Water Usage=53937568.657
+Tasks in Queue=683645.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 45/2034 episodes, total num timesteps 552960/25000000, FPS 472.
+Average step reward is 0.8314900994300842.
+Some episodes done, average episode reward is -1305.1379660310815.
+
+Episode 45: Avg Net Energy=236.866, Avg CO2=65249.257, Water Usage=54159298.050
+Tasks in Queue=759259.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 50/2034 episodes, total num timesteps 614400/25000000, FPS 474.
+Average step reward is 0.8798421025276184.
+Some episodes done, average episode reward is -1271.8328638347637.
+
+Episode 50: Avg Net Energy=234.527, Avg CO2=63329.651, Water Usage=53836252.222
+Tasks in Queue=603379.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1193.2043270225313.
+
+Episode 50: Avg Net Energy=232.250, Avg CO2=58916.127, Water Usage=151466117.543
+Tasks in Queue=3934403.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 55/2034 episodes, total num timesteps 675840/25000000, FPS 457.
+Average step reward is 0.8944615721702576.
+Some episodes done, average episode reward is -1263.317801008335.
+
+Episode 55: Avg Net Energy=233.434, Avg CO2=59034.184, Water Usage=53723993.124
+Tasks in Queue=626082.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 60/2034 episodes, total num timesteps 737280/25000000, FPS 460.
+Average step reward is 0.844480574131012.
+Some episodes done, average episode reward is -1249.8491988414028.
+
+Episode 60: Avg Net Energy=234.919, Avg CO2=53164.498, Water Usage=53908771.839
+Tasks in Queue=878770.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 65/2034 episodes, total num timesteps 798720/25000000, FPS 462.
+Average step reward is 0.8286108374595642.
+Some episodes done, average episode reward is -1295.380995778193.
+
+Episode 65: Avg Net Energy=235.300, Avg CO2=60192.547, Water Usage=54015874.991
+Tasks in Queue=816865.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 70/2034 episodes, total num timesteps 860160/25000000, FPS 463.
+Average step reward is 0.6868240237236023.
+Some episodes done, average episode reward is -1299.3419521076717.
+
+Episode 70: Avg Net Energy=235.193, Avg CO2=63681.944, Water Usage=54050623.674
+Tasks in Queue=1951467.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 75/2034 episodes, total num timesteps 921600/25000000, FPS 465.
+Average step reward is 0.5433861613273621.
+Some episodes done, average episode reward is -1420.4531989903983.
+
+Episode 75: Avg Net Energy=236.436, Avg CO2=62615.319, Water Usage=54234610.697
+Tasks in Queue=2793571.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1454.5710891799238.
+
+Episode 75: Avg Net Energy=232.750, Avg CO2=58505.799, Water Usage=151381548.077
+Tasks in Queue=9373578.000, Tasks Dropped=41.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 80/2034 episodes, total num timesteps 983040/25000000, FPS 453.
+Average step reward is 0.39342936873435974.
+Some episodes done, average episode reward is -1586.4857848072315.
+
+Episode 80: Avg Net Energy=235.572, Avg CO2=57237.935, Water Usage=54162651.885
+Tasks in Queue=3511328.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 85/2034 episodes, total num timesteps 1044480/25000000, FPS 455.
+Average step reward is 0.46776866912841797.
+Some episodes done, average episode reward is -1743.22747979397.
+
+Episode 85: Avg Net Energy=233.922, Avg CO2=57992.264, Water Usage=53992195.538
+Tasks in Queue=3212852.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 90/2034 episodes, total num timesteps 1105920/25000000, FPS 457.
+Average step reward is 0.3788281977176666.
+Some episodes done, average episode reward is -1703.8111947656005.
+
+Episode 90: Avg Net Energy=234.501, Avg CO2=65253.537, Water Usage=53998499.477
+Tasks in Queue=3656441.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 95/2034 episodes, total num timesteps 1167360/25000000, FPS 459.
+Average step reward is 0.28663375973701477.
+Some episodes done, average episode reward is -1697.8213761813902.
+
+Episode 95: Avg Net Energy=234.709, Avg CO2=63181.954, Water Usage=54128236.104
+Tasks in Queue=3886231.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 100/2034 episodes, total num timesteps 1228800/25000000, FPS 460.
+Average step reward is 0.34617412090301514.
+Some episodes done, average episode reward is -1748.999150456263.
+
+Episode 100: Avg Net Energy=233.189, Avg CO2=58109.150, Water Usage=53856214.487
+Tasks in Queue=3905245.000, Tasks Dropped=0.000
+Evaluation average episode reward is -2726.3898589327673.
+
+Episode 100: Avg Net Energy=232.351, Avg CO2=58617.373, Water Usage=151462411.437
+Tasks in Queue=19993188.000, Tasks Dropped=3445.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 105/2034 episodes, total num timesteps 1290240/25000000, FPS 450.
+Average step reward is 0.4642667770385742.
+Some episodes done, average episode reward is -1764.3856434785123.
+
+Episode 105: Avg Net Energy=234.506, Avg CO2=54031.697, Water Usage=54048714.210
+Tasks in Queue=3444443.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 110/2034 episodes, total num timesteps 1351680/25000000, FPS 452.
+Average step reward is 0.5724965929985046.
+Some episodes done, average episode reward is -1724.9898413036483.
+
+Episode 110: Avg Net Energy=233.448, Avg CO2=60403.443, Water Usage=53872907.541
+Tasks in Queue=3049282.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 115/2034 episodes, total num timesteps 1413120/25000000, FPS 453.
+Average step reward is 0.49188709259033203.
+Some episodes done, average episode reward is -1604.163366521626.
+
+Episode 115: Avg Net Energy=233.859, Avg CO2=63209.586, Water Usage=53893372.588
+Tasks in Queue=3545385.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 120/2034 episodes, total num timesteps 1474560/25000000, FPS 454.
+Average step reward is 0.516380250453949.
+Some episodes done, average episode reward is -1557.0129847612818.
+
+Episode 120: Avg Net Energy=232.919, Avg CO2=60215.550, Water Usage=53833099.142
+Tasks in Queue=3628656.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 125/2034 episodes, total num timesteps 1536000/25000000, FPS 456.
+Average step reward is 0.6057865023612976.
+Some episodes done, average episode reward is -1584.0588030742722.
+
+Episode 125: Avg Net Energy=235.066, Avg CO2=54127.475, Water Usage=54143594.013
+Tasks in Queue=3121216.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1659.5444853911904.
+
+Episode 125: Avg Net Energy=232.234, Avg CO2=58299.013, Water Usage=151353785.017
+Tasks in Queue=12846235.000, Tasks Dropped=209.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 130/2034 episodes, total num timesteps 1597440/25000000, FPS 448.
+Average step reward is 0.7117331624031067.
+Some episodes done, average episode reward is -1556.0828783890738.
+
+Episode 130: Avg Net Energy=230.899, Avg CO2=55194.777, Water Usage=53470423.271
+Tasks in Queue=2644055.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 135/2034 episodes, total num timesteps 1658880/25000000, FPS 450.
+Average step reward is 0.5807977318763733.
+Some episodes done, average episode reward is -1518.3231222314705.
+
+Episode 135: Avg Net Energy=232.908, Avg CO2=64411.859, Water Usage=53869300.347
+Tasks in Queue=3485286.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 140/2034 episodes, total num timesteps 1720320/25000000, FPS 451.
+Average step reward is 0.46248137950897217.
+Some episodes done, average episode reward is -1620.9791557111446.
+
+Episode 140: Avg Net Energy=232.702, Avg CO2=62422.424, Water Usage=53802797.489
+Tasks in Queue=3830359.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 145/2034 episodes, total num timesteps 1781760/25000000, FPS 452.
+Average step reward is 0.5865298509597778.
+Some episodes done, average episode reward is -1624.273559108111.
+
+Episode 145: Avg Net Energy=232.448, Avg CO2=59676.989, Water Usage=53710652.094
+Tasks in Queue=3381109.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 150/2034 episodes, total num timesteps 1843200/25000000, FPS 453.
+Average step reward is 0.5926212668418884.
+Some episodes done, average episode reward is -1574.7032046916581.
+
+Episode 150: Avg Net Energy=233.954, Avg CO2=54779.907, Water Usage=53957553.904
+Tasks in Queue=3378769.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1618.5115696679045.
+
+Episode 150: Avg Net Energy=231.849, Avg CO2=60126.102, Water Usage=151032633.780
+Tasks in Queue=13142460.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 155/2034 episodes, total num timesteps 1904640/25000000, FPS 447.
+Average step reward is 0.6441279053688049.
+Some episodes done, average episode reward is -1622.485114524872.
+
+Episode 155: Avg Net Energy=232.819, Avg CO2=59650.460, Water Usage=53854610.721
+Tasks in Queue=3272875.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 160/2034 episodes, total num timesteps 1966080/25000000, FPS 449.
+Average step reward is 0.4583103656768799.
+Some episodes done, average episode reward is -1483.0633856497877.
+
+Episode 160: Avg Net Energy=235.794, Avg CO2=64366.335, Water Usage=54302211.337
+Tasks in Queue=4168676.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 165/2034 episodes, total num timesteps 2027520/25000000, FPS 450.
+Average step reward is 0.613903284072876.
+Some episodes done, average episode reward is -1512.5775760188942.
+
+Episode 165: Avg Net Energy=230.693, Avg CO2=61241.583, Water Usage=53542818.531
+Tasks in Queue=3657102.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 170/2034 episodes, total num timesteps 2088960/25000000, FPS 451.
+Average step reward is 0.679918110370636.
+Some episodes done, average episode reward is -1569.1010967939558.
+
+Episode 170: Avg Net Energy=233.169, Avg CO2=50408.934, Water Usage=53862771.872
+Tasks in Queue=3123840.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 175/2034 episodes, total num timesteps 2150400/25000000, FPS 452.
+Average step reward is 0.6126071810722351.
+Some episodes done, average episode reward is -1533.6719317247014.
+
+Episode 175: Avg Net Energy=233.664, Avg CO2=56220.393, Water Usage=53919107.820
+Tasks in Queue=3402415.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1577.4981263646018.
+
+Episode 175: Avg Net Energy=232.500, Avg CO2=59864.656, Water Usage=151479948.391
+Tasks in Queue=12428240.000, Tasks Dropped=194.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 180/2034 episodes, total num timesteps 2211840/25000000, FPS 447.
+Average step reward is 0.6242886781692505.
+Some episodes done, average episode reward is -1502.4957387173915.
+
+Episode 180: Avg Net Energy=233.581, Avg CO2=63215.905, Water Usage=53958312.948
+Tasks in Queue=3582494.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 185/2034 episodes, total num timesteps 2273280/25000000, FPS 448.
+Average step reward is 0.6595329642295837.
+Some episodes done, average episode reward is -1435.2182730354468.
+
+Episode 185: Avg Net Energy=231.090, Avg CO2=61771.925, Water Usage=53556909.384
+Tasks in Queue=3567680.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 190/2034 episodes, total num timesteps 2334720/25000000, FPS 448.
+Average step reward is 0.6366420388221741.
+Some episodes done, average episode reward is -1483.099007681177.
+
+Episode 190: Avg Net Energy=232.876, Avg CO2=60196.060, Water Usage=53791996.680
+Tasks in Queue=3524004.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 195/2034 episodes, total num timesteps 2396160/25000000, FPS 449.
+Average step reward is 0.6702564358711243.
+Some episodes done, average episode reward is -1507.5960625515227.
+
+Episode 195: Avg Net Energy=235.000, Avg CO2=53372.517, Water Usage=54211951.133
+Tasks in Queue=2972888.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 200/2034 episodes, total num timesteps 2457600/25000000, FPS 450.
+Average step reward is 0.7186236381530762.
+Some episodes done, average episode reward is -1482.299197105207.
+
+Episode 200: Avg Net Energy=231.776, Avg CO2=59470.055, Water Usage=53711721.195
+Tasks in Queue=2903073.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1411.5256124293549.
+
+Episode 200: Avg Net Energy=232.078, Avg CO2=58528.557, Water Usage=151058961.901
+Tasks in Queue=10422267.000, Tasks Dropped=16.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 205/2034 episodes, total num timesteps 2519040/25000000, FPS 445.
+Average step reward is 0.6162784099578857.
+Some episodes done, average episode reward is -1436.949198139934.
+
+Episode 205: Avg Net Energy=233.381, Avg CO2=62867.055, Water Usage=53971595.220
+Tasks in Queue=3453800.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 210/2034 episodes, total num timesteps 2580480/25000000, FPS 446.
+Average step reward is 0.690257728099823.
+Some episodes done, average episode reward is -1481.8767143024359.
+
+Episode 210: Avg Net Energy=233.660, Avg CO2=61649.625, Water Usage=53957016.870
+Tasks in Queue=2657606.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 215/2034 episodes, total num timesteps 2641920/25000000, FPS 447.
+Average step reward is 0.7537055611610413.
+Some episodes done, average episode reward is -1424.5018096044207.
+
+Episode 215: Avg Net Energy=233.955, Avg CO2=55402.183, Water Usage=54049898.207
+Tasks in Queue=1883391.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 220/2034 episodes, total num timesteps 2703360/25000000, FPS 447.
+Average step reward is 0.7722597718238831.
+Some episodes done, average episode reward is -1395.5741825119424.
+
+Episode 220: Avg Net Energy=233.975, Avg CO2=55543.977, Water Usage=53890237.252
+Tasks in Queue=1523538.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 225/2034 episodes, total num timesteps 2764800/25000000, FPS 448.
+Average step reward is 0.7922795414924622.
+Some episodes done, average episode reward is -1336.775740894588.
+
+Episode 225: Avg Net Energy=230.813, Avg CO2=62971.183, Water Usage=53647577.731
+Tasks in Queue=1621771.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1370.4251568317006.
+
+Episode 225: Avg Net Energy=232.503, Avg CO2=59509.435, Water Usage=151465031.753
+Tasks in Queue=2622882.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 230/2034 episodes, total num timesteps 2826240/25000000, FPS 444.
+Average step reward is 0.7766587734222412.
+Some episodes done, average episode reward is -1419.2747586760936.
+
+Episode 230: Avg Net Energy=231.230, Avg CO2=61518.850, Water Usage=53605776.716
+Tasks in Queue=1496936.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 235/2034 episodes, total num timesteps 2887680/25000000, FPS 445.
+Average step reward is 0.7638208270072937.
+Some episodes done, average episode reward is -1359.8510584479989.
+
+Episode 235: Avg Net Energy=234.032, Avg CO2=57851.985, Water Usage=54063493.171
+Tasks in Queue=1173571.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 240/2034 episodes, total num timesteps 2949120/25000000, FPS 446.
+Average step reward is 0.8215987682342529.
+Some episodes done, average episode reward is -1393.4948301392694.
+
+Episode 240: Avg Net Energy=232.546, Avg CO2=50601.885, Water Usage=53904809.140
+Tasks in Queue=980723.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 245/2034 episodes, total num timesteps 3010560/25000000, FPS 446.
+Average step reward is 0.8040483593940735.
+Some episodes done, average episode reward is -1379.4192336612934.
+
+Episode 245: Avg Net Energy=230.602, Avg CO2=59217.477, Water Usage=53564984.354
+Tasks in Queue=1098094.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 250/2034 episodes, total num timesteps 3072000/25000000, FPS 447.
+Average step reward is 0.7187129855155945.
+Some episodes done, average episode reward is -1370.3758375178388.
+
+Episode 250: Avg Net Energy=233.801, Avg CO2=63623.393, Water Usage=53972411.537
+Tasks in Queue=1186103.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1302.7339622378845.
+
+Episode 250: Avg Net Energy=232.644, Avg CO2=60633.470, Water Usage=151649122.534
+Tasks in Queue=34156.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 255/2034 episodes, total num timesteps 3133440/25000000, FPS 444.
+Average step reward is 0.6703516840934753.
+Some episodes done, average episode reward is -1376.0805571923247.
+
+Episode 255: Avg Net Energy=235.705, Avg CO2=60650.234, Water Usage=54370607.247
+Tasks in Queue=982959.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 260/2034 episodes, total num timesteps 3194880/25000000, FPS 444.
+Average step reward is 0.735268771648407.
+Some episodes done, average episode reward is -1391.3530791843805.
+
+Episode 260: Avg Net Energy=233.480, Avg CO2=54375.145, Water Usage=53983984.763
+Tasks in Queue=711913.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 265/2034 episodes, total num timesteps 3256320/25000000, FPS 445.
+Average step reward is 0.7660356163978577.
+Some episodes done, average episode reward is -1444.2508177575066.
+
+Episode 265: Avg Net Energy=232.629, Avg CO2=52561.952, Water Usage=53866564.694
+Tasks in Queue=544969.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 270/2034 episodes, total num timesteps 3317760/25000000, FPS 446.
+Average step reward is 0.6177273392677307.
+Some episodes done, average episode reward is -1483.889814931629.
+
+Episode 270: Avg Net Energy=233.193, Avg CO2=63952.964, Water Usage=53821133.668
+Tasks in Queue=753700.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 275/2034 episodes, total num timesteps 3379200/25000000, FPS 447.
+Average step reward is 0.6541085839271545.
+Some episodes done, average episode reward is -1459.5146938686257.
+
+Episode 275: Avg Net Energy=232.984, Avg CO2=62449.598, Water Usage=53927720.877
+Tasks in Queue=569855.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1322.607052367964.
+
+Episode 275: Avg Net Energy=233.010, Avg CO2=59883.276, Water Usage=151690049.688
+Tasks in Queue=0.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 280/2034 episodes, total num timesteps 3440640/25000000, FPS 444.
+Average step reward is 0.6927990317344666.
+Some episodes done, average episode reward is -1457.552814941703.
+
+Episode 280: Avg Net Energy=232.858, Avg CO2=57956.549, Water Usage=53891628.270
+Tasks in Queue=467925.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 285/2034 episodes, total num timesteps 3502080/25000000, FPS 445.
+Average step reward is 0.7617438435554504.
+Some episodes done, average episode reward is -1445.946869443031.
+
+Episode 285: Avg Net Energy=232.251, Avg CO2=50033.471, Water Usage=53782287.469
+Tasks in Queue=449793.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 290/2034 episodes, total num timesteps 3563520/25000000, FPS 446.
+Average step reward is 0.6466183066368103.
+Some episodes done, average episode reward is -1477.536236623806.
+
+Episode 290: Avg Net Energy=234.338, Avg CO2=60495.936, Water Usage=54082466.466
+Tasks in Queue=531711.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 295/2034 episodes, total num timesteps 3624960/25000000, FPS 446.
+Average step reward is 0.6263821721076965.
+Some episodes done, average episode reward is -1489.3526693402607.
+
+Episode 295: Avg Net Energy=233.503, Avg CO2=63202.288, Water Usage=53942839.984
+Tasks in Queue=658597.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 300/2034 episodes, total num timesteps 3686400/25000000, FPS 447.
+Average step reward is 0.6512227058410645.
+Some episodes done, average episode reward is -1461.2995546136178.
+
+Episode 300: Avg Net Energy=233.264, Avg CO2=61429.972, Water Usage=53944339.504
+Tasks in Queue=620395.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1246.861047850697.
+
+Episode 300: Avg Net Energy=232.076, Avg CO2=58191.698, Water Usage=151491880.227
+Tasks in Queue=130635.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 305/2034 episodes, total num timesteps 3747840/25000000, FPS 445.
+Average step reward is 0.7912130355834961.
+Some episodes done, average episode reward is -1471.1529204180986.
+
+Episode 305: Avg Net Energy=230.594, Avg CO2=51231.631, Water Usage=53568361.257
+Tasks in Queue=624464.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 310/2034 episodes, total num timesteps 3809280/25000000, FPS 445.
+Average step reward is 0.811366081237793.
+Some episodes done, average episode reward is -1430.926864006321.
+
+Episode 310: Avg Net Energy=230.555, Avg CO2=55925.557, Water Usage=53585136.150
+Tasks in Queue=491437.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 315/2034 episodes, total num timesteps 3870720/25000000, FPS 446.
+Average step reward is 0.7366884350776672.
+Some episodes done, average episode reward is -1438.8183951917883.
+
+Episode 315: Avg Net Energy=232.797, Avg CO2=66042.430, Water Usage=53969143.008
+Tasks in Queue=608063.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 320/2034 episodes, total num timesteps 3932160/25000000, FPS 447.
+Average step reward is 0.7586726546287537.
+Some episodes done, average episode reward is -1403.5390562689063.
+
+Episode 320: Avg Net Energy=231.634, Avg CO2=61965.652, Water Usage=53600053.400
+Tasks in Queue=746909.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 325/2034 episodes, total num timesteps 3993600/25000000, FPS 447.
+Average step reward is 0.8027169108390808.
+Some episodes done, average episode reward is -1414.130028525318.
+
+Episode 325: Avg Net Energy=232.488, Avg CO2=53078.735, Water Usage=53932837.212
+Tasks in Queue=480918.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1445.0916403386489.
+
+Episode 325: Avg Net Energy=233.182, Avg CO2=58970.737, Water Usage=151905837.246
+Tasks in Queue=1582446.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 330/2034 episodes, total num timesteps 4055040/25000000, FPS 445.
+Average step reward is 0.8688293099403381.
+Some episodes done, average episode reward is -1415.4229105429101.
+
+Episode 330: Avg Net Energy=229.578, Avg CO2=52570.317, Water Usage=53496139.446
+Tasks in Queue=399549.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 335/2034 episodes, total num timesteps 4116480/25000000, FPS 446.
+Average step reward is 0.7749693989753723.
+Some episodes done, average episode reward is -1381.8806151047518.
+
+Episode 335: Avg Net Energy=232.688, Avg CO2=60377.701, Water Usage=53778227.215
+Tasks in Queue=657810.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 340/2034 episodes, total num timesteps 4177920/25000000, FPS 446.
+Average step reward is 0.746549129486084.
+Some episodes done, average episode reward is -1338.1373535982927.
+
+Episode 340: Avg Net Energy=233.897, Avg CO2=63771.412, Water Usage=53944004.505
+Tasks in Queue=652690.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 345/2034 episodes, total num timesteps 4239360/25000000, FPS 447.
+Average step reward is 0.7536848187446594.
+Some episodes done, average episode reward is -1358.4557182812378.
+
+Episode 345: Avg Net Energy=235.540, Avg CO2=60432.193, Water Usage=54227782.094
+Tasks in Queue=447816.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 350/2034 episodes, total num timesteps 4300800/25000000, FPS 448.
+Average step reward is 0.8472294211387634.
+Some episodes done, average episode reward is -1363.8689832171106.
+
+Episode 350: Avg Net Energy=232.191, Avg CO2=53593.685, Water Usage=53776544.580
+Tasks in Queue=355694.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1358.4197206540669.
+
+Episode 350: Avg Net Energy=232.566, Avg CO2=58163.629, Water Usage=151438194.957
+Tasks in Queue=1111080.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 355/2034 episodes, total num timesteps 4362240/25000000, FPS 445.
+Average step reward is 0.781531035900116.
+Some episodes done, average episode reward is -1354.4955816887107.
+
+Episode 355: Avg Net Energy=234.770, Avg CO2=58159.614, Water Usage=54152353.988
+Tasks in Queue=351424.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 360/2034 episodes, total num timesteps 4423680/25000000, FPS 446.
+Average step reward is 0.7762977480888367.
+Some episodes done, average episode reward is -1317.7353744422487.
+
+Episode 360: Avg Net Energy=234.387, Avg CO2=64746.199, Water Usage=54114438.020
+Tasks in Queue=346128.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 365/2034 episodes, total num timesteps 4485120/25000000, FPS 446.
+Average step reward is 0.8096728324890137.
+Some episodes done, average episode reward is -1336.8009475443139.
+
+Episode 365: Avg Net Energy=232.905, Avg CO2=61944.203, Water Usage=53790030.539
+Tasks in Queue=266256.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 370/2034 episodes, total num timesteps 4546560/25000000, FPS 447.
+Average step reward is 0.8624992370605469.
+Some episodes done, average episode reward is -1327.1405168689262.
+
+Episode 370: Avg Net Energy=232.533, Avg CO2=56927.779, Water Usage=53829778.243
+Tasks in Queue=202374.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 375/2034 episodes, total num timesteps 4608000/25000000, FPS 448.
+Average step reward is 0.8551809191703796.
+Some episodes done, average episode reward is -1296.0714348730837.
+
+Episode 375: Avg Net Energy=234.060, Avg CO2=53782.144, Water Usage=53960568.848
+Tasks in Queue=172625.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1320.5124200353666.
+
+Episode 375: Avg Net Energy=232.526, Avg CO2=58014.916, Water Usage=151587068.544
+Tasks in Queue=220189.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 380/2034 episodes, total num timesteps 4669440/25000000, FPS 446.
+Average step reward is 0.8412866592407227.
+Some episodes done, average episode reward is -1312.8351051855122.
+
+Episode 380: Avg Net Energy=233.748, Avg CO2=60138.103, Water Usage=53951415.965
+Tasks in Queue=176764.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 385/2034 episodes, total num timesteps 4730880/25000000, FPS 446.
+Average step reward is 0.8314033150672913.
+Some episodes done, average episode reward is -1303.4964695751094.
+
+Episode 385: Avg Net Energy=233.225, Avg CO2=62863.509, Water Usage=53947349.939
+Tasks in Queue=197476.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 390/2034 episodes, total num timesteps 4792320/25000000, FPS 447.
+Average step reward is 0.850513756275177.
+Some episodes done, average episode reward is -1298.1219947623874.
+
+Episode 390: Avg Net Energy=233.268, Avg CO2=62772.165, Water Usage=53874735.982
+Tasks in Queue=143455.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 395/2034 episodes, total num timesteps 4853760/25000000, FPS 447.
+Average step reward is 0.8329065442085266.
+Some episodes done, average episode reward is -1265.6094021889003.
+
+Episode 395: Avg Net Energy=235.889, Avg CO2=54862.379, Water Usage=54276215.935
+Tasks in Queue=102011.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 400/2034 episodes, total num timesteps 4915200/25000000, FPS 448.
+Average step reward is 0.8378806114196777.
+Some episodes done, average episode reward is -1298.898034381221.
+
+Episode 400: Avg Net Energy=234.485, Avg CO2=57504.631, Water Usage=54072242.111
+Tasks in Queue=87785.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1272.936048462129.
+
+Episode 400: Avg Net Energy=232.122, Avg CO2=59338.308, Water Usage=151293922.577
+Tasks in Queue=184298.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 405/2034 episodes, total num timesteps 4976640/25000000, FPS 446.
+Average step reward is 0.9598113894462585.
+Some episodes done, average episode reward is -1226.8976028672578.
+
+Episode 405: Avg Net Energy=229.455, Avg CO2=62180.908, Water Usage=53314169.959
+Tasks in Queue=82754.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 410/2034 episodes, total num timesteps 5038080/25000000, FPS 446.
+Average step reward is 0.8840869069099426.
+Some episodes done, average episode reward is -1312.0259007019688.
+
+Episode 410: Avg Net Energy=232.125, Avg CO2=62188.278, Water Usage=53816302.053
+Tasks in Queue=73561.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 415/2034 episodes, total num timesteps 5099520/25000000, FPS 447.
+Average step reward is 0.9120656847953796.
+Some episodes done, average episode reward is -1287.0798512436868.
+
+Episode 415: Avg Net Energy=231.863, Avg CO2=54837.425, Water Usage=53746341.553
+Tasks in Queue=72987.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 420/2034 episodes, total num timesteps 5160960/25000000, FPS 448.
+Average step reward is 0.9553821682929993.
+Some episodes done, average episode reward is -1267.2554545845771.
+
+Episode 420: Avg Net Energy=230.002, Avg CO2=52385.732, Water Usage=53490511.807
+Tasks in Queue=65923.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 425/2034 episodes, total num timesteps 5222400/25000000, FPS 448.
+Average step reward is 0.8742458820343018.
+Some episodes done, average episode reward is -1275.750485876784.
+
+Episode 425: Avg Net Energy=233.335, Avg CO2=62004.656, Water Usage=53945269.007
+Tasks in Queue=79783.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1305.6184002149294.
+
+Episode 425: Avg Net Energy=232.394, Avg CO2=60369.343, Water Usage=151363141.491
+Tasks in Queue=191704.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 430/2034 episodes, total num timesteps 5283840/25000000, FPS 446.
+Average step reward is 0.9050384163856506.
+Some episodes done, average episode reward is -1277.1656051762895.
+
+Episode 430: Avg Net Energy=231.453, Avg CO2=62280.739, Water Usage=53707316.998
+Tasks in Queue=94994.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 435/2034 episodes, total num timesteps 5345280/25000000, FPS 447.
+Average step reward is 0.8629024624824524.
+Some episodes done, average episode reward is -1296.3422706510676.
+
+Episode 435: Avg Net Energy=234.002, Avg CO2=60348.548, Water Usage=54014875.934
+Tasks in Queue=53942.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 440/2034 episodes, total num timesteps 5406720/25000000, FPS 447.
+Average step reward is 0.8682568669319153.
+Some episodes done, average episode reward is -1249.8408374650219.
+
+Episode 440: Avg Net Energy=234.380, Avg CO2=57785.509, Water Usage=54066212.666
+Tasks in Queue=40938.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 445/2034 episodes, total num timesteps 5468160/25000000, FPS 448.
+Average step reward is 0.8897119164466858.
+Some episodes done, average episode reward is -1276.0585707998293.
+
+Episode 445: Avg Net Energy=233.551, Avg CO2=57121.906, Water Usage=53921581.505
+Tasks in Queue=41279.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 450/2034 episodes, total num timesteps 5529600/25000000, FPS 448.
+Average step reward is 0.8922579288482666.
+Some episodes done, average episode reward is -1270.2609418387112.
+
+Episode 450: Avg Net Energy=232.617, Avg CO2=64212.395, Water Usage=53805552.025
+Tasks in Queue=54677.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1330.4245576879307.
+
+Episode 450: Avg Net Energy=233.159, Avg CO2=58234.375, Water Usage=151647026.664
+Tasks in Queue=84338.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 455/2034 episodes, total num timesteps 5591040/25000000, FPS 446.
+Average step reward is 0.9064561724662781.
+Some episodes done, average episode reward is -1265.4300338675823.
+
+Episode 455: Avg Net Energy=231.649, Avg CO2=61857.590, Water Usage=53637986.374
+Tasks in Queue=57428.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 460/2034 episodes, total num timesteps 5652480/25000000, FPS 447.
+Average step reward is 0.9319172501564026.
+Some episodes done, average episode reward is -1269.936104683709.
+
+Episode 460: Avg Net Energy=231.666, Avg CO2=57070.442, Water Usage=53668421.489
+Tasks in Queue=44071.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 465/2034 episodes, total num timesteps 5713920/25000000, FPS 447.
+Average step reward is 0.9261714816093445.
+Some episodes done, average episode reward is -1240.5752667807492.
+
+Episode 465: Avg Net Energy=232.308, Avg CO2=52084.438, Water Usage=53743610.350
+Tasks in Queue=31656.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 470/2034 episodes, total num timesteps 5775360/25000000, FPS 448.
+Average step reward is 0.8787954449653625.
+Some episodes done, average episode reward is -1268.1937322292188.
+
+Episode 470: Avg Net Energy=232.523, Avg CO2=57879.017, Water Usage=53784833.687
+Tasks in Queue=52318.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 475/2034 episodes, total num timesteps 5836800/25000000, FPS 448.
+Average step reward is 0.8632058501243591.
+Some episodes done, average episode reward is -1292.6318676971916.
+
+Episode 475: Avg Net Energy=233.637, Avg CO2=63827.206, Water Usage=53951053.708
+Tasks in Queue=40126.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1258.588422426739.
+
+Episode 475: Avg Net Energy=232.295, Avg CO2=58403.730, Water Usage=151650104.425
+Tasks in Queue=25388.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 480/2034 episodes, total num timesteps 5898240/25000000, FPS 447.
+Average step reward is 0.8609609603881836.
+Some episodes done, average episode reward is -1267.4155084515503.
+
+Episode 480: Avg Net Energy=233.635, Avg CO2=61959.695, Water Usage=54055777.535
+Tasks in Queue=26443.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 485/2034 episodes, total num timesteps 5959680/25000000, FPS 447.
+Average step reward is 0.8925706744194031.
+Some episodes done, average episode reward is -1272.4326918275608.
+
+Episode 485: Avg Net Energy=234.238, Avg CO2=53125.306, Water Usage=54032252.234
+Tasks in Queue=24125.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 490/2034 episodes, total num timesteps 6021120/25000000, FPS 448.
+Average step reward is 0.898379385471344.
+Some episodes done, average episode reward is -1276.9285348717533.
+
+Episode 490: Avg Net Energy=233.585, Avg CO2=57280.394, Water Usage=53937821.547
+Tasks in Queue=26934.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 495/2034 episodes, total num timesteps 6082560/25000000, FPS 448.
+Average step reward is 0.9340448975563049.
+Some episodes done, average episode reward is -1235.1092347792005.
+
+Episode 495: Avg Net Energy=231.026, Avg CO2=62772.377, Water Usage=53583025.429
+Tasks in Queue=37539.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 500/2034 episodes, total num timesteps 6144000/25000000, FPS 449.
+Average step reward is 0.9071986079216003.
+Some episodes done, average episode reward is -1271.7979581522866.
+
+Episode 500: Avg Net Energy=231.594, Avg CO2=61906.822, Water Usage=53711567.759
+Tasks in Queue=34368.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1279.0146680789098.
+
+Episode 500: Avg Net Energy=232.550, Avg CO2=58906.011, Water Usage=151297222.648
+Tasks in Queue=21653.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 505/2034 episodes, total num timesteps 6205440/25000000, FPS 447.
+Average step reward is 0.9268305897712708.
+Some episodes done, average episode reward is -1294.468220380302.
+
+Episode 505: Avg Net Energy=231.851, Avg CO2=57181.399, Water Usage=53795201.768
+Tasks in Queue=34966.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 510/2034 episodes, total num timesteps 6266880/25000000, FPS 447.
+Average step reward is 0.8888545632362366.
+Some episodes done, average episode reward is -1248.7289243374744.
+
+Episode 510: Avg Net Energy=234.608, Avg CO2=53897.531, Water Usage=54036126.264
+Tasks in Queue=25443.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 515/2034 episodes, total num timesteps 6328320/25000000, FPS 448.
+Average step reward is 0.9101528525352478.
+Some episodes done, average episode reward is -1297.799762615504.
+
+Episode 515: Avg Net Energy=233.374, Avg CO2=60583.226, Water Usage=53968601.427
+Tasks in Queue=25120.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 520/2034 episodes, total num timesteps 6389760/25000000, FPS 448.
+Average step reward is 0.9047059416770935.
+Some episodes done, average episode reward is -1232.6669925874064.
+
+Episode 520: Avg Net Energy=232.349, Avg CO2=62698.844, Water Usage=53825507.665
+Tasks in Queue=33107.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 525/2034 episodes, total num timesteps 6451200/25000000, FPS 449.
+Average step reward is 0.9197902679443359.
+Some episodes done, average episode reward is -1244.4653064957802.
+
+Episode 525: Avg Net Energy=231.628, Avg CO2=60099.370, Water Usage=53665111.457
+Tasks in Queue=27179.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1312.0980965643657.
+
+Episode 525: Avg Net Energy=233.046, Avg CO2=58165.968, Water Usage=151768948.886
+Tasks in Queue=11001.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 530/2034 episodes, total num timesteps 6512640/25000000, FPS 447.
+Average step reward is 0.9024100303649902.
+Some episodes done, average episode reward is -1266.0954815605078.
+
+Episode 530: Avg Net Energy=232.779, Avg CO2=57181.874, Water Usage=53900223.783
+Tasks in Queue=25330.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 535/2034 episodes, total num timesteps 6574080/25000000, FPS 448.
+Average step reward is 0.9266036152839661.
+Some episodes done, average episode reward is -1284.5570152426174.
+
+Episode 535: Avg Net Energy=232.295, Avg CO2=54725.038, Water Usage=53841672.531
+Tasks in Queue=21809.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 540/2034 episodes, total num timesteps 6635520/25000000, FPS 448.
+Average step reward is 0.8640924096107483.
+Some episodes done, average episode reward is -1290.4698861415948.
+
+Episode 540: Avg Net Energy=233.789, Avg CO2=64801.851, Water Usage=53985337.971
+Tasks in Queue=33028.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 545/2034 episodes, total num timesteps 6696960/25000000, FPS 448.
+Average step reward is 0.8446882367134094.
+Some episodes done, average episode reward is -1254.0729442499003.
+
+Episode 545: Avg Net Energy=234.462, Avg CO2=63384.104, Water Usage=54115626.576
+Tasks in Queue=47100.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 550/2034 episodes, total num timesteps 6758400/25000000, FPS 449.
+Average step reward is 0.8666021227836609.
+Some episodes done, average episode reward is -1299.2362648871774.
+
+Episode 550: Avg Net Energy=234.726, Avg CO2=59339.709, Water Usage=54097385.205
+Tasks in Queue=42803.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1272.2484725217605.
+
+Episode 550: Avg Net Energy=232.608, Avg CO2=59060.992, Water Usage=151751833.296
+Tasks in Queue=17900.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 555/2034 episodes, total num timesteps 6819840/25000000, FPS 447.
+Average step reward is 0.9174354672431946.
+Some episodes done, average episode reward is -1262.853538605138.
+
+Episode 555: Avg Net Energy=233.313, Avg CO2=50551.440, Water Usage=54019135.954
+Tasks in Queue=39151.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 560/2034 episodes, total num timesteps 6881280/25000000, FPS 447.
+Average step reward is 0.8747430443763733.
+Some episodes done, average episode reward is -1262.2265732179392.
+
+Episode 560: Avg Net Energy=234.409, Avg CO2=60948.716, Water Usage=54166384.917
+Tasks in Queue=48628.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 565/2034 episodes, total num timesteps 6942720/25000000, FPS 448.
+Average step reward is 0.8405759930610657.
+Some episodes done, average episode reward is -1287.1024358989034.
+
+Episode 565: Avg Net Energy=234.859, Avg CO2=63955.103, Water Usage=54231091.426
+Tasks in Queue=49174.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 570/2034 episodes, total num timesteps 7004160/25000000, FPS 448.
+Average step reward is 0.8519501686096191.
+Some episodes done, average episode reward is -1257.1752257528444.
+
+Episode 570: Avg Net Energy=234.236, Avg CO2=62450.323, Water Usage=54084209.898
+Tasks in Queue=40038.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 575/2034 episodes, total num timesteps 7065600/25000000, FPS 448.
+Average step reward is 0.9627524018287659.
+Some episodes done, average episode reward is -1244.1733441830986.
+
+Episode 575: Avg Net Energy=230.570, Avg CO2=51042.904, Water Usage=53589075.590
+Tasks in Queue=35779.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1225.3178133444937.
+
+Episode 575: Avg Net Energy=232.048, Avg CO2=58037.525, Water Usage=151397192.546
+Tasks in Queue=19749.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 580/2034 episodes, total num timesteps 7127040/25000000, FPS 447.
+Average step reward is 0.9026966691017151.
+Some episodes done, average episode reward is -1303.9764207792987.
+
+Episode 580: Avg Net Energy=233.058, Avg CO2=54868.898, Water Usage=53916057.937
+Tasks in Queue=41562.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 585/2034 episodes, total num timesteps 7188480/25000000, FPS 447.
+Average step reward is 0.9283817410469055.
+Some episodes done, average episode reward is -1225.456155053075.
+
+Episode 585: Avg Net Energy=231.072, Avg CO2=63192.334, Water Usage=53666438.662
+Tasks in Queue=31838.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 590/2034 episodes, total num timesteps 7249920/25000000, FPS 448.
+Average step reward is 0.8293034434318542.
+Some episodes done, average episode reward is -1262.4922240112458.
+
+Episode 590: Avg Net Energy=234.447, Avg CO2=63278.017, Water Usage=54003900.293
+Tasks in Queue=32733.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 595/2034 episodes, total num timesteps 7311360/25000000, FPS 448.
+Average step reward is 0.868523120880127.
+Some episodes done, average episode reward is -1329.0015661777952.
+
+Episode 595: Avg Net Energy=234.354, Avg CO2=59186.466, Water Usage=54182102.887
+Tasks in Queue=32360.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 600/2034 episodes, total num timesteps 7372800/25000000, FPS 448.
+Average step reward is 0.9352476596832275.
+Some episodes done, average episode reward is -1270.3258270029294.
+
+Episode 600: Avg Net Energy=232.122, Avg CO2=52192.011, Water Usage=53794958.894
+Tasks in Queue=27720.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1274.2123415237932.
+
+Episode 600: Avg Net Energy=232.508, Avg CO2=59807.798, Water Usage=151679852.573
+Tasks in Queue=8893.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 605/2034 episodes, total num timesteps 7434240/25000000, FPS 447.
+Average step reward is 0.8936298489570618.
+Some episodes done, average episode reward is -1261.9548197521808.
+
+Episode 605: Avg Net Energy=232.612, Avg CO2=59773.974, Water Usage=53842684.385
+Tasks in Queue=30452.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 610/2034 episodes, total num timesteps 7495680/25000000, FPS 447.
+Average step reward is 0.8361809253692627.
+Some episodes done, average episode reward is -1237.179231908475.
+
+Episode 610: Avg Net Energy=234.835, Avg CO2=63882.770, Water Usage=54304198.937
+Tasks in Queue=45408.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 615/2034 episodes, total num timesteps 7557120/25000000, FPS 448.
+Average step reward is 0.8465797305107117.
+Some episodes done, average episode reward is -1257.4066792114857.
+
+Episode 615: Avg Net Energy=234.173, Avg CO2=62824.228, Water Usage=54104745.725
+Tasks in Queue=60853.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 620/2034 episodes, total num timesteps 7618560/25000000, FPS 448.
+Average step reward is 0.9197047352790833.
+Some episodes done, average episode reward is -1271.4683387033415.
+
+Episode 620: Avg Net Energy=233.089, Avg CO2=50833.071, Water Usage=53900489.166
+Tasks in Queue=45701.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 625/2034 episodes, total num timesteps 7680000/25000000, FPS 448.
+Average step reward is 0.9281463623046875.
+Some episodes done, average episode reward is -1271.334783036685.
+
+Episode 625: Avg Net Energy=232.257, Avg CO2=55873.055, Water Usage=53712195.866
+Tasks in Queue=51781.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1312.9677034847196.
+
+Episode 625: Avg Net Energy=232.728, Avg CO2=58975.037, Water Usage=151542656.015
+Tasks in Queue=33481.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 630/2034 episodes, total num timesteps 7741440/25000000, FPS 447.
+Average step reward is 0.9126526713371277.
+Some episodes done, average episode reward is -1268.842699070268.
+
+Episode 630: Avg Net Energy=231.968, Avg CO2=64271.664, Water Usage=53774448.803
+Tasks in Queue=49706.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 635/2034 episodes, total num timesteps 7802880/25000000, FPS 448.
+Average step reward is 0.8633623719215393.
+Some episodes done, average episode reward is -1279.0582769318896.
+
+Episode 635: Avg Net Energy=233.371, Avg CO2=62502.201, Water Usage=53952646.470
+Tasks in Queue=53320.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 640/2034 episodes, total num timesteps 7864320/25000000, FPS 448.
+Average step reward is 0.8676268458366394.
+Some episodes done, average episode reward is -1266.9696122646912.
+
+Episode 640: Avg Net Energy=234.733, Avg CO2=57498.584, Water Usage=54162231.664
+Tasks in Queue=55063.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 645/2034 episodes, total num timesteps 7925760/25000000, FPS 448.
+Average step reward is 0.909877598285675.
+Some episodes done, average episode reward is -1278.9192500825898.
+
+Episode 645: Avg Net Energy=233.303, Avg CO2=53018.440, Water Usage=53850589.076
+Tasks in Queue=62120.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 650/2034 episodes, total num timesteps 7987200/25000000, FPS 449.
+Average step reward is 0.8626208901405334.
+Some episodes done, average episode reward is -1260.5945566800717.
+
+Episode 650: Avg Net Energy=235.270, Avg CO2=60011.427, Water Usage=54163857.416
+Tasks in Queue=79788.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1285.40245701652.
+
+Episode 650: Avg Net Energy=232.489, Avg CO2=58625.528, Water Usage=151436662.993
+Tasks in Queue=68707.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 655/2034 episodes, total num timesteps 8048640/25000000, FPS 447.
+Average step reward is 0.816842794418335.
+Some episodes done, average episode reward is -1283.244086353416.
+
+Episode 655: Avg Net Energy=235.804, Avg CO2=63777.672, Water Usage=54204721.946
+Tasks in Queue=96709.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 660/2034 episodes, total num timesteps 8110080/25000000, FPS 448.
+Average step reward is 0.843026876449585.
+Some episodes done, average episode reward is -1270.0423101870783.
+
+Episode 660: Avg Net Energy=234.768, Avg CO2=61247.660, Water Usage=54064711.954
+Tasks in Queue=64771.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 665/2034 episodes, total num timesteps 8171520/25000000, FPS 448.
+Average step reward is 0.8652402758598328.
+Some episodes done, average episode reward is -1225.4980176171223.
+
+Episode 665: Avg Net Energy=234.858, Avg CO2=57391.463, Water Usage=54088741.739
+Tasks in Queue=38549.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 670/2034 episodes, total num timesteps 8232960/25000000, FPS 448.
+Average step reward is 0.937055766582489.
+Some episodes done, average episode reward is -1257.8735856683322.
+
+Episode 670: Avg Net Energy=231.805, Avg CO2=54662.994, Water Usage=53770502.765
+Tasks in Queue=36511.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 675/2034 episodes, total num timesteps 8294400/25000000, FPS 449.
+Average step reward is 0.8337287902832031.
+Some episodes done, average episode reward is -1301.6806341610416.
+
+Episode 675: Avg Net Energy=234.151, Avg CO2=63520.917, Water Usage=54026626.230
+Tasks in Queue=44532.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1313.8771637966227.
+
+Episode 675: Avg Net Energy=232.975, Avg CO2=58679.593, Water Usage=151528805.143
+Tasks in Queue=23693.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 680/2034 episodes, total num timesteps 8355840/25000000, FPS 448.
+Average step reward is 0.873068630695343.
+Some episodes done, average episode reward is -1283.002652564926.
+
+Episode 680: Avg Net Energy=233.163, Avg CO2=62866.520, Water Usage=53904527.039
+Tasks in Queue=75518.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 685/2034 episodes, total num timesteps 8417280/25000000, FPS 448.
+Average step reward is 0.8785128593444824.
+Some episodes done, average episode reward is -1277.9335642285719.
+
+Episode 685: Avg Net Energy=233.461, Avg CO2=61343.558, Water Usage=53867776.932
+Tasks in Queue=66185.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 690/2034 episodes, total num timesteps 8478720/25000000, FPS 448.
+Average step reward is 0.9155661463737488.
+Some episodes done, average episode reward is -1265.0908780873515.
+
+Episode 690: Avg Net Energy=232.410, Avg CO2=51517.105, Water Usage=53826900.311
+Tasks in Queue=65945.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 695/2034 episodes, total num timesteps 8540160/25000000, FPS 449.
+Average step reward is 0.8980944156646729.
+Some episodes done, average episode reward is -1254.4982332869056.
+
+Episode 695: Avg Net Energy=232.333, Avg CO2=59967.140, Water Usage=53782297.302
+Tasks in Queue=70831.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 700/2034 episodes, total num timesteps 8601600/25000000, FPS 449.
+Average step reward is 0.839306116104126.
+Some episodes done, average episode reward is -1250.423143277841.
+
+Episode 700: Avg Net Energy=234.344, Avg CO2=64216.955, Water Usage=54103636.362
+Tasks in Queue=98185.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1210.466945652838.
+
+Episode 700: Avg Net Energy=232.032, Avg CO2=58641.176, Water Usage=151120197.793
+Tasks in Queue=124900.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 705/2034 episodes, total num timesteps 8663040/25000000, FPS 448.
+Average step reward is 0.8328433036804199.
+Some episodes done, average episode reward is -1302.9114138550676.
+
+Episode 705: Avg Net Energy=235.138, Avg CO2=63052.025, Water Usage=54143804.876
+Tasks in Queue=62112.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 710/2034 episodes, total num timesteps 8724480/25000000, FPS 448.
+Average step reward is 0.9073120951652527.
+Some episodes done, average episode reward is -1269.3301062748353.
+
+Episode 710: Avg Net Energy=232.972, Avg CO2=53392.887, Water Usage=53873941.862
+Tasks in Queue=40440.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 715/2034 episodes, total num timesteps 8785920/25000000, FPS 448.
+Average step reward is 0.8977801203727722.
+Some episodes done, average episode reward is -1260.0945265578287.
+
+Episode 715: Avg Net Energy=232.913, Avg CO2=55224.164, Water Usage=53966852.954
+Tasks in Queue=30808.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 720/2034 episodes, total num timesteps 8847360/25000000, FPS 449.
+Average step reward is 0.950904369354248.
+Some episodes done, average episode reward is -1258.0565650185667.
+
+Episode 720: Avg Net Energy=230.429, Avg CO2=62810.857, Water Usage=53628973.053
+Tasks in Queue=42372.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 725/2034 episodes, total num timesteps 8908800/25000000, FPS 449.
+Average step reward is 0.8912308812141418.
+Some episodes done, average episode reward is -1288.7854072845546.
+
+Episode 725: Avg Net Energy=232.227, Avg CO2=62332.447, Water Usage=53825470.238
+Tasks in Queue=40638.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1280.1709998312115.
+
+Episode 725: Avg Net Energy=232.776, Avg CO2=58783.521, Water Usage=151790555.980
+Tasks in Queue=24887.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 730/2034 episodes, total num timesteps 8970240/25000000, FPS 448.
+Average step reward is 0.8942276835441589.
+Some episodes done, average episode reward is -1259.515846672339.
+
+Episode 730: Avg Net Energy=232.827, Avg CO2=60550.067, Water Usage=53905210.608
+Tasks in Queue=47784.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 735/2034 episodes, total num timesteps 9031680/25000000, FPS 448.
+Average step reward is 0.9557130932807922.
+Some episodes done, average episode reward is -1273.4676768134223.
+
+Episode 735: Avg Net Energy=230.507, Avg CO2=52438.468, Water Usage=53587298.641
+Tasks in Queue=41747.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 740/2034 episodes, total num timesteps 9093120/25000000, FPS 448.
+Average step reward is 0.9065375328063965.
+Some episodes done, average episode reward is -1270.6180284085256.
+
+Episode 740: Avg Net Energy=232.444, Avg CO2=58678.790, Water Usage=53905741.756
+Tasks in Queue=50212.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 745/2034 episodes, total num timesteps 9154560/25000000, FPS 449.
+Average step reward is 0.7864570617675781.
+Some episodes done, average episode reward is -1239.0809714673858.
+
+Episode 745: Avg Net Energy=236.637, Avg CO2=64651.568, Water Usage=54424771.139
+Tasks in Queue=51592.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 750/2034 episodes, total num timesteps 9216000/25000000, FPS 449.
+Average step reward is 0.8270905017852783.
+Some episodes done, average episode reward is -1266.9479196280552.
+
+Episode 750: Avg Net Energy=235.271, Avg CO2=59260.940, Water Usage=54158219.390
+Tasks in Queue=45843.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1278.5527964634448.
+
+Episode 750: Avg Net Energy=232.644, Avg CO2=58247.839, Water Usage=151572411.550
+Tasks in Queue=17315.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 755/2034 episodes, total num timesteps 9277440/25000000, FPS 448.
+Average step reward is 0.8921524882316589.
+Some episodes done, average episode reward is -1265.6704634325245.
+
+Episode 755: Avg Net Energy=233.674, Avg CO2=52154.007, Water Usage=53976051.011
+Tasks in Queue=33690.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 760/2034 episodes, total num timesteps 9338880/25000000, FPS 448.
+Average step reward is 0.9253018498420715.
+Some episodes done, average episode reward is -1271.2149643699743.
+
+Episode 760: Avg Net Energy=232.117, Avg CO2=53635.974, Water Usage=53800852.498
+Tasks in Queue=36577.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 765/2034 episodes, total num timesteps 9400320/25000000, FPS 448.
+Average step reward is 0.8616235852241516.
+Some episodes done, average episode reward is -1266.799786706218.
+
+Episode 765: Avg Net Energy=233.128, Avg CO2=62712.217, Water Usage=54010963.485
+Tasks in Queue=29244.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 770/2034 episodes, total num timesteps 9461760/25000000, FPS 449.
+Average step reward is 0.8831238150596619.
+Some episodes done, average episode reward is -1279.1548929642247.
+
+Episode 770: Avg Net Energy=232.402, Avg CO2=62061.813, Water Usage=53870375.809
+Tasks in Queue=48324.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 775/2034 episodes, total num timesteps 9523200/25000000, FPS 449.
+Average step reward is 0.9214103817939758.
+Some episodes done, average episode reward is -1297.0303560841478.
+
+Episode 775: Avg Net Energy=231.456, Avg CO2=61728.575, Water Usage=53755826.389
+Tasks in Queue=42558.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1264.7037901832298.
+
+Episode 775: Avg Net Energy=232.681, Avg CO2=59591.410, Water Usage=151591440.097
+Tasks in Queue=17853.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 780/2034 episodes, total num timesteps 9584640/25000000, FPS 448.
+Average step reward is 0.9203770160675049.
+Some episodes done, average episode reward is -1268.0042498563312.
+
+Episode 780: Avg Net Energy=232.070, Avg CO2=54420.265, Water Usage=53694412.293
+Tasks in Queue=42789.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 785/2034 episodes, total num timesteps 9646080/25000000, FPS 448.
+Average step reward is 0.8404118418693542.
+Some episodes done, average episode reward is -1269.9052554495217.
+
+Episode 785: Avg Net Energy=235.604, Avg CO2=59329.623, Water Usage=54276074.513
+Tasks in Queue=40723.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 790/2034 episodes, total num timesteps 9707520/25000000, FPS 448.
+Average step reward is 0.8695142865180969.
+Some episodes done, average episode reward is -1302.1414681597118.
+
+Episode 790: Avg Net Energy=233.351, Avg CO2=63505.781, Water Usage=53881458.799
+Tasks in Queue=52343.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 795/2034 episodes, total num timesteps 9768960/25000000, FPS 449.
+Average step reward is 0.8897323608398438.
+Some episodes done, average episode reward is -1263.5379923732798.
+
+Episode 795: Avg Net Energy=232.988, Avg CO2=60177.912, Water Usage=53855426.215
+Tasks in Queue=39826.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 800/2034 episodes, total num timesteps 9830400/25000000, FPS 449.
+Average step reward is 0.8748525977134705.
+Some episodes done, average episode reward is -1301.2201408420678.
+
+Episode 800: Avg Net Energy=234.805, Avg CO2=52094.240, Water Usage=54072504.714
+Tasks in Queue=34222.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1277.9902384788961.
+
+Episode 800: Avg Net Energy=232.460, Avg CO2=58295.790, Water Usage=151597690.160
+Tasks in Queue=9803.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 805/2034 episodes, total num timesteps 9891840/25000000, FPS 448.
+Average step reward is 0.9031597971916199.
+Some episodes done, average episode reward is -1244.207681172202.
+
+Episode 805: Avg Net Energy=232.505, Avg CO2=55038.195, Water Usage=53786406.614
+Tasks in Queue=28609.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 810/2034 episodes, total num timesteps 9953280/25000000, FPS 448.
+Average step reward is 0.8379663825035095.
+Some episodes done, average episode reward is -1290.103528605681.
+
+Episode 810: Avg Net Energy=234.628, Avg CO2=65306.690, Water Usage=54179095.711
+Tasks in Queue=31403.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 815/2034 episodes, total num timesteps 10014720/25000000, FPS 449.
+Average step reward is 0.8867045044898987.
+Some episodes done, average episode reward is -1260.021492107143.
+
+Episode 815: Avg Net Energy=232.600, Avg CO2=62654.597, Water Usage=53806045.008
+Tasks in Queue=44072.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 820/2034 episodes, total num timesteps 10076160/25000000, FPS 449.
+Average step reward is 0.9531502723693848.
+Some episodes done, average episode reward is -1260.98881973002.
+
+Episode 820: Avg Net Energy=230.831, Avg CO2=54337.798, Water Usage=53592289.788
+Tasks in Queue=49619.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 825/2034 episodes, total num timesteps 10137600/25000000, FPS 449.
+Average step reward is 0.9408872127532959.
+Some episodes done, average episode reward is -1260.701026767146.
+
+Episode 825: Avg Net Energy=231.558, Avg CO2=50667.030, Water Usage=53486926.324
+Tasks in Queue=42193.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1328.3333184080234.
+
+Episode 825: Avg Net Energy=233.059, Avg CO2=59125.255, Water Usage=151889652.020
+Tasks in Queue=29844.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 830/2034 episodes, total num timesteps 10199040/25000000, FPS 448.
+Average step reward is 0.8720189929008484.
+Some episodes done, average episode reward is -1270.2768813915625.
+
+Episode 830: Avg Net Energy=233.376, Avg CO2=60996.475, Water Usage=53968776.164
+Tasks in Queue=55774.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 835/2034 episodes, total num timesteps 10260480/25000000, FPS 448.
+Average step reward is 0.7987044453620911.
+Some episodes done, average episode reward is -1283.5657611458867.
+
+Episode 835: Avg Net Energy=235.835, Avg CO2=63861.952, Water Usage=54187195.678
+Tasks in Queue=50090.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 840/2034 episodes, total num timesteps 10321920/25000000, FPS 449.
+Average step reward is 0.9001400470733643.
+Some episodes done, average episode reward is -1252.9845227410929.
+
+Episode 840: Avg Net Energy=232.484, Avg CO2=61715.071, Water Usage=53816315.528
+Tasks in Queue=57877.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 845/2034 episodes, total num timesteps 10383360/25000000, FPS 449.
+Average step reward is 0.8457221984863281.
+Some episodes done, average episode reward is -1262.4457813249285.
+
+Episode 845: Avg Net Energy=235.492, Avg CO2=58261.118, Water Usage=54128648.625
+Tasks in Queue=64088.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 850/2034 episodes, total num timesteps 10444800/25000000, FPS 449.
+Average step reward is 0.8796184659004211.
+Some episodes done, average episode reward is -1276.5461625093947.
+
+Episode 850: Avg Net Energy=234.015, Avg CO2=55831.576, Water Usage=54114564.732
+Tasks in Queue=72100.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1263.9866865914903.
+
+Episode 850: Avg Net Energy=232.496, Avg CO2=59437.638, Water Usage=151456215.024
+Tasks in Queue=92304.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 855/2034 episodes, total num timesteps 10506240/25000000, FPS 448.
+Average step reward is 0.8713288307189941.
+Some episodes done, average episode reward is -1277.7860007747313.
+
+Episode 855: Avg Net Energy=233.330, Avg CO2=63656.163, Water Usage=53975647.219
+Tasks in Queue=69659.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 860/2034 episodes, total num timesteps 10567680/25000000, FPS 448.
+Average step reward is 0.8991946578025818.
+Some episodes done, average episode reward is -1316.2839318800648.
+
+Episode 860: Avg Net Energy=232.104, Avg CO2=62049.783, Water Usage=53731080.982
+Tasks in Queue=67124.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 865/2034 episodes, total num timesteps 10629120/25000000, FPS 449.
+Average step reward is 0.913055419921875.
+Some episodes done, average episode reward is -1254.7636236720703.
+
+Episode 865: Avg Net Energy=231.873, Avg CO2=57484.873, Water Usage=53623931.095
+Tasks in Queue=74330.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 870/2034 episodes, total num timesteps 10690560/25000000, FPS 449.
+Average step reward is 0.9025072455406189.
+Some episodes done, average episode reward is -1289.6405433253613.
+
+Episode 870: Avg Net Energy=232.679, Avg CO2=53523.437, Water Usage=53759095.427
+Tasks in Queue=73467.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 875/2034 episodes, total num timesteps 10752000/25000000, FPS 449.
+Average step reward is 0.8651905059814453.
+Some episodes done, average episode reward is -1262.233819272744.
+
+Episode 875: Avg Net Energy=233.088, Avg CO2=60063.253, Water Usage=53899026.787
+Tasks in Queue=62222.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1244.405600987089.
+
+Episode 875: Avg Net Energy=232.254, Avg CO2=58925.735, Water Usage=151500073.213
+Tasks in Queue=78330.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 880/2034 episodes, total num timesteps 10813440/25000000, FPS 448.
+Average step reward is 0.9137664437294006.
+Some episodes done, average episode reward is -1297.3426447097486.
+
+Episode 880: Avg Net Energy=231.766, Avg CO2=63143.482, Water Usage=53655144.391
+Tasks in Queue=49263.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 885/2034 episodes, total num timesteps 10874880/25000000, FPS 448.
+Average step reward is 0.9254388809204102.
+Some episodes done, average episode reward is -1333.5813630740165.
+
+Episode 885: Avg Net Energy=231.824, Avg CO2=60086.441, Water Usage=53812112.636
+Tasks in Queue=42546.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 890/2034 episodes, total num timesteps 10936320/25000000, FPS 449.
+Average step reward is 0.934764564037323.
+Some episodes done, average episode reward is -1307.7910243101571.
+
+Episode 890: Avg Net Energy=232.438, Avg CO2=53310.827, Water Usage=53787805.382
+Tasks in Queue=46349.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 895/2034 episodes, total num timesteps 10997760/25000000, FPS 449.
+Average step reward is 0.8898910880088806.
+Some episodes done, average episode reward is -1240.4205094364931.
+
+Episode 895: Avg Net Energy=233.370, Avg CO2=55147.695, Water Usage=53914807.925
+Tasks in Queue=48125.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 900/2034 episodes, total num timesteps 11059200/25000000, FPS 449.
+Average step reward is 0.8956049084663391.
+Some episodes done, average episode reward is -1263.5296426434036.
+
+Episode 900: Avg Net Energy=232.192, Avg CO2=63048.745, Water Usage=53768916.442
+Tasks in Queue=57358.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1266.2344599042424.
+
+Episode 900: Avg Net Energy=232.817, Avg CO2=57537.574, Water Usage=151502610.171
+Tasks in Queue=73295.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 905/2034 episodes, total num timesteps 11120640/25000000, FPS 448.
+Average step reward is 0.9039443135261536.
+Some episodes done, average episode reward is -1306.9097366926019.
+
+Episode 905: Avg Net Energy=232.081, Avg CO2=62714.305, Water Usage=53673709.541
+Tasks in Queue=56540.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 910/2034 episodes, total num timesteps 11182080/25000000, FPS 449.
+Average step reward is 0.9330384135246277.
+Some episodes done, average episode reward is -1251.6183944765037.
+
+Episode 910: Avg Net Energy=231.069, Avg CO2=56648.245, Water Usage=53552608.221
+Tasks in Queue=58118.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 915/2034 episodes, total num timesteps 11243520/25000000, FPS 449.
+Average step reward is 0.909866988658905.
+Some episodes done, average episode reward is -1293.9241247592784.
+
+Episode 915: Avg Net Energy=232.556, Avg CO2=53033.560, Water Usage=53800178.550
+Tasks in Queue=61761.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 920/2034 episodes, total num timesteps 11304960/25000000, FPS 449.
+Average step reward is 0.9014086127281189.
+Some episodes done, average episode reward is -1265.2432429187947.
+
+Episode 920: Avg Net Energy=232.459, Avg CO2=61451.943, Water Usage=53778393.407
+Tasks in Queue=68430.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 925/2034 episodes, total num timesteps 11366400/25000000, FPS 449.
+Average step reward is 0.8251020312309265.
+Some episodes done, average episode reward is -1248.5307989589649.
+
+Episode 925: Avg Net Energy=234.875, Avg CO2=63657.097, Water Usage=54182730.341
+Tasks in Queue=73914.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1315.2937051705817.
+
+Episode 925: Avg Net Energy=233.030, Avg CO2=58093.632, Water Usage=151814656.452
+Tasks in Queue=57550.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 930/2034 episodes, total num timesteps 11427840/25000000, FPS 448.
+Average step reward is 0.857233464717865.
+Some episodes done, average episode reward is -1283.1166145307313.
+
+Episode 930: Avg Net Energy=233.760, Avg CO2=61449.490, Water Usage=54040764.387
+Tasks in Queue=52837.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 935/2034 episodes, total num timesteps 11489280/25000000, FPS 449.
+Average step reward is 0.8761462569236755.
+Some episodes done, average episode reward is -1307.1487201169646.
+
+Episode 935: Avg Net Energy=233.764, Avg CO2=55441.555, Water Usage=54051102.936
+Tasks in Queue=51111.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 940/2034 episodes, total num timesteps 11550720/25000000, FPS 449.
+Average step reward is 0.8816239833831787.
+Some episodes done, average episode reward is -1292.4985730052583.
+
+Episode 940: Avg Net Energy=233.291, Avg CO2=54636.328, Water Usage=53964195.348
+Tasks in Queue=48573.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 945/2034 episodes, total num timesteps 11612160/25000000, FPS 449.
+Average step reward is 0.8661179542541504.
+Some episodes done, average episode reward is -1269.3883054132093.
+
+Episode 945: Avg Net Energy=233.204, Avg CO2=63454.459, Water Usage=53876784.397
+Tasks in Queue=42710.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 950/2034 episodes, total num timesteps 11673600/25000000, FPS 449.
+Average step reward is 0.8791394829750061.
+Some episodes done, average episode reward is -1261.9770149422127.
+
+Episode 950: Avg Net Energy=232.691, Avg CO2=62438.418, Water Usage=53791819.408
+Tasks in Queue=48082.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1265.2199841214813.
+
+Episode 950: Avg Net Energy=232.559, Avg CO2=59205.225, Water Usage=151344112.804
+Tasks in Queue=33791.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 955/2034 episodes, total num timesteps 11735040/25000000, FPS 448.
+Average step reward is 0.8802861571311951.
+Some episodes done, average episode reward is -1261.0721571266927.
+
+Episode 955: Avg Net Energy=233.855, Avg CO2=55449.730, Water Usage=53971865.426
+Tasks in Queue=44154.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 960/2034 episodes, total num timesteps 11796480/25000000, FPS 449.
+Average step reward is 0.8629506230354309.
+Some episodes done, average episode reward is -1314.7151382971115.
+
+Episode 960: Avg Net Energy=234.754, Avg CO2=55035.242, Water Usage=54155331.013
+Tasks in Queue=41885.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 965/2034 episodes, total num timesteps 11857920/25000000, FPS 449.
+Average step reward is 0.8641001582145691.
+Some episodes done, average episode reward is -1271.2884088537157.
+
+Episode 965: Avg Net Energy=233.360, Avg CO2=61041.982, Water Usage=53909166.854
+Tasks in Queue=43450.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 970/2034 episodes, total num timesteps 11919360/25000000, FPS 449.
+Average step reward is 0.8359084129333496.
+Some episodes done, average episode reward is -1256.2469555387422.
+
+Episode 970: Avg Net Energy=234.825, Avg CO2=64226.152, Water Usage=54226385.111
+Tasks in Queue=43810.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 975/2034 episodes, total num timesteps 11980800/25000000, FPS 449.
+Average step reward is 0.9042067527770996.
+Some episodes done, average episode reward is -1279.818593149105.
+
+Episode 975: Avg Net Energy=231.913, Avg CO2=60915.234, Water Usage=53757973.345
+Tasks in Queue=64730.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1258.3165667109938.
+
+Episode 975: Avg Net Energy=232.536, Avg CO2=59110.007, Water Usage=151689942.906
+Tasks in Queue=70412.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 980/2034 episodes, total num timesteps 12042240/25000000, FPS 448.
+Average step reward is 0.8948414325714111.
+Some episodes done, average episode reward is -1293.1851026420193.
+
+Episode 980: Avg Net Energy=233.590, Avg CO2=56816.854, Water Usage=53961330.115
+Tasks in Queue=63664.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 985/2034 episodes, total num timesteps 12103680/25000000, FPS 448.
+Average step reward is 0.9130082726478577.
+Some episodes done, average episode reward is -1254.1421669215067.
+
+Episode 985: Avg Net Energy=233.260, Avg CO2=54080.136, Water Usage=53875325.931
+Tasks in Queue=60596.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 990/2034 episodes, total num timesteps 12165120/25000000, FPS 449.
+Average step reward is 0.8906070590019226.
+Some episodes done, average episode reward is -1261.0013317567757.
+
+Episode 990: Avg Net Energy=232.713, Avg CO2=65254.682, Water Usage=53815167.758
+Tasks in Queue=61546.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 995/2034 episodes, total num timesteps 12226560/25000000, FPS 449.
+Average step reward is 0.9062313437461853.
+Some episodes done, average episode reward is -1303.9810816669685.
+
+Episode 995: Avg Net Energy=231.871, Avg CO2=61872.792, Water Usage=53809826.194
+Tasks in Queue=56796.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1000/2034 episodes, total num timesteps 12288000/25000000, FPS 449.
+Average step reward is 0.9202603697776794.
+Some episodes done, average episode reward is -1274.6479012868285.
+
+Episode 1000: Avg Net Energy=231.634, Avg CO2=58922.746, Water Usage=53679632.840
+Tasks in Queue=52367.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1285.8147761863336.
+
+Episode 1000: Avg Net Energy=232.974, Avg CO2=58566.958, Water Usage=151440628.706
+Tasks in Queue=69070.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1005/2034 episodes, total num timesteps 12349440/25000000, FPS 448.
+Average step reward is 0.9083606600761414.
+Some episodes done, average episode reward is -1265.093261808512.
+
+Episode 1005: Avg Net Energy=233.155, Avg CO2=53664.644, Water Usage=53945047.400
+Tasks in Queue=51558.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1010/2034 episodes, total num timesteps 12410880/25000000, FPS 448.
+Average step reward is 0.8700198531150818.
+Some episodes done, average episode reward is -1263.1187213413605.
+
+Episode 1010: Avg Net Energy=234.226, Avg CO2=60394.252, Water Usage=54054460.185
+Tasks in Queue=41576.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1015/2034 episodes, total num timesteps 12472320/25000000, FPS 449.
+Average step reward is 0.9597771763801575.
+Some episodes done, average episode reward is -1308.859209357623.
+
+Episode 1015: Avg Net Energy=229.899, Avg CO2=61934.717, Water Usage=53545315.631
+Tasks in Queue=50405.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1020/2034 episodes, total num timesteps 12533760/25000000, FPS 449.
+Average step reward is 0.8918478488922119.
+Some episodes done, average episode reward is -1275.0135092977412.
+
+Episode 1020: Avg Net Energy=232.720, Avg CO2=61637.420, Water Usage=53784146.529
+Tasks in Queue=51945.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1025/2034 episodes, total num timesteps 12595200/25000000, FPS 449.
+Average step reward is 0.8586835861206055.
+Some episodes done, average episode reward is -1276.099327421076.
+
+Episode 1025: Avg Net Energy=235.647, Avg CO2=56102.207, Water Usage=54198825.086
+Tasks in Queue=52721.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1298.9810523639262.
+
+Episode 1025: Avg Net Energy=233.054, Avg CO2=58006.933, Water Usage=151807082.337
+Tasks in Queue=53736.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1030/2034 episodes, total num timesteps 12656640/25000000, FPS 448.
+Average step reward is 0.924464762210846.
+Some episodes done, average episode reward is -1223.4005564698366.
+
+Episode 1030: Avg Net Energy=231.781, Avg CO2=56649.520, Water Usage=53666950.068
+Tasks in Queue=37002.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1035/2034 episodes, total num timesteps 12718080/25000000, FPS 448.
+Average step reward is 0.8776066303253174.
+Some episodes done, average episode reward is -1287.730170517986.
+
+Episode 1035: Avg Net Energy=232.642, Avg CO2=63164.634, Water Usage=53819781.258
+Tasks in Queue=25663.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1040/2034 episodes, total num timesteps 12779520/25000000, FPS 449.
+Average step reward is 0.9102070927619934.
+Some episodes done, average episode reward is -1286.5884448446438.
+
+Episode 1040: Avg Net Energy=231.550, Avg CO2=61976.934, Water Usage=53703942.917
+Tasks in Queue=26102.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1045/2034 episodes, total num timesteps 12840960/25000000, FPS 449.
+Average step reward is 0.8774496912956238.
+Some episodes done, average episode reward is -1284.2709890933563.
+
+Episode 1045: Avg Net Energy=234.142, Avg CO2=56442.429, Water Usage=54087463.997
+Tasks in Queue=33683.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1050/2034 episodes, total num timesteps 12902400/25000000, FPS 449.
+Average step reward is 0.9128779768943787.
+Some episodes done, average episode reward is -1266.1756857415096.
+
+Episode 1050: Avg Net Energy=232.877, Avg CO2=52708.575, Water Usage=53817814.572
+Tasks in Queue=37424.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1213.6383111745517.
+
+Episode 1050: Avg Net Energy=231.991, Avg CO2=57634.235, Water Usage=151108127.087
+Tasks in Queue=19736.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1055/2034 episodes, total num timesteps 12963840/25000000, FPS 448.
+Average step reward is 0.8924481868743896.
+Some episodes done, average episode reward is -1262.3181149487898.
+
+Episode 1055: Avg Net Energy=232.616, Avg CO2=58795.135, Water Usage=53854934.844
+Tasks in Queue=43824.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1060/2034 episodes, total num timesteps 13025280/25000000, FPS 448.
+Average step reward is 0.8625747561454773.
+Some episodes done, average episode reward is -1273.6593321549904.
+
+Episode 1060: Avg Net Energy=233.150, Avg CO2=62319.078, Water Usage=53932083.098
+Tasks in Queue=56644.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1065/2034 episodes, total num timesteps 13086720/25000000, FPS 449.
+Average step reward is 0.8458130359649658.
+Some episodes done, average episode reward is -1291.6832711468753.
+
+Episode 1065: Avg Net Energy=234.758, Avg CO2=61037.160, Water Usage=54223741.853
+Tasks in Queue=61922.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1070/2034 episodes, total num timesteps 13148160/25000000, FPS 449.
+Average step reward is 0.8591842651367188.
+Some episodes done, average episode reward is -1273.0676123171336.
+
+Episode 1070: Avg Net Energy=235.317, Avg CO2=56455.767, Water Usage=54123041.373
+Tasks in Queue=79963.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1075/2034 episodes, total num timesteps 13209600/25000000, FPS 449.
+Average step reward is 0.8653697371482849.
+Some episodes done, average episode reward is -1267.5612155725482.
+
+Episode 1075: Avg Net Energy=234.668, Avg CO2=55406.804, Water Usage=54049461.160
+Tasks in Queue=72766.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1235.6871151282785.
+
+Episode 1075: Avg Net Energy=231.975, Avg CO2=59451.792, Water Usage=151301674.071
+Tasks in Queue=67898.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1080/2034 episodes, total num timesteps 13271040/25000000, FPS 448.
+Average step reward is 0.8637502789497375.
+Some episodes done, average episode reward is -1269.0535931494624.
+
+Episode 1080: Avg Net Energy=233.403, Avg CO2=63518.669, Water Usage=53984485.923
+Tasks in Queue=53330.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1085/2034 episodes, total num timesteps 13332480/25000000, FPS 448.
+Average step reward is 0.8615162968635559.
+Some episodes done, average episode reward is -1271.9851318960114.
+
+Episode 1085: Avg Net Energy=233.471, Avg CO2=62422.976, Water Usage=53981364.603
+Tasks in Queue=53059.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1090/2034 episodes, total num timesteps 13393920/25000000, FPS 449.
+Average step reward is 0.8903540968894958.
+Some episodes done, average episode reward is -1254.4349331076016.
+
+Episode 1090: Avg Net Energy=233.220, Avg CO2=57070.539, Water Usage=53918103.695
+Tasks in Queue=52513.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1095/2034 episodes, total num timesteps 13455360/25000000, FPS 449.
+Average step reward is 0.9309363961219788.
+Some episodes done, average episode reward is -1289.4537651197663.
+
+Episode 1095: Avg Net Energy=231.609, Avg CO2=50970.562, Water Usage=53712946.087
+Tasks in Queue=55149.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1100/2034 episodes, total num timesteps 13516800/25000000, FPS 449.
+Average step reward is 0.8974840044975281.
+Some episodes done, average episode reward is -1256.4062612808386.
+
+Episode 1100: Avg Net Energy=231.969, Avg CO2=61591.573, Water Usage=53777649.428
+Tasks in Queue=56063.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1292.6573985963705.
+
+Episode 1100: Avg Net Energy=232.453, Avg CO2=58525.974, Water Usage=151558314.701
+Tasks in Queue=47779.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1105/2034 episodes, total num timesteps 13578240/25000000, FPS 448.
+Average step reward is 0.839446485042572.
+Some episodes done, average episode reward is -1293.823380072042.
+
+Episode 1105: Avg Net Energy=234.392, Avg CO2=63990.808, Water Usage=54152356.719
+Tasks in Queue=59565.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1110/2034 episodes, total num timesteps 13639680/25000000, FPS 448.
+Average step reward is 0.8659398555755615.
+Some episodes done, average episode reward is -1283.479978466192.
+
+Episode 1110: Avg Net Energy=233.482, Avg CO2=61363.301, Water Usage=53954010.556
+Tasks in Queue=53726.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1115/2034 episodes, total num timesteps 13701120/25000000, FPS 449.
+Average step reward is 0.89070725440979.
+Some episodes done, average episode reward is -1248.28764791216.
+
+Episode 1115: Avg Net Energy=233.848, Avg CO2=51408.227, Water Usage=54069075.213
+Tasks in Queue=49273.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1120/2034 episodes, total num timesteps 13762560/25000000, FPS 449.
+Average step reward is 0.9603765606880188.
+Some episodes done, average episode reward is -1256.4559369835822.
+
+Episode 1120: Avg Net Energy=230.860, Avg CO2=53447.860, Water Usage=53537255.004
+Tasks in Queue=35658.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1125/2034 episodes, total num timesteps 13824000/25000000, FPS 449.
+Average step reward is 0.8977041244506836.
+Some episodes done, average episode reward is -1285.7354153502222.
+
+Episode 1125: Avg Net Energy=232.217, Avg CO2=63324.925, Water Usage=53732856.269
+Tasks in Queue=39376.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1295.276937279212.
+
+Episode 1125: Avg Net Energy=232.644, Avg CO2=57850.996, Water Usage=151589474.785
+Tasks in Queue=13367.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1130/2034 episodes, total num timesteps 13885440/25000000, FPS 448.
+Average step reward is 0.8623906970024109.
+Some episodes done, average episode reward is -1200.4647340051097.
+
+Episode 1130: Avg Net Energy=233.239, Avg CO2=62232.022, Water Usage=53775221.430
+Tasks in Queue=44633.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1135/2034 episodes, total num timesteps 13946880/25000000, FPS 449.
+Average step reward is 0.9760098457336426.
+Some episodes done, average episode reward is -1287.959147799892.
+
+Episode 1135: Avg Net Energy=230.251, Avg CO2=55458.476, Water Usage=53376620.863
+Tasks in Queue=51684.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1140/2034 episodes, total num timesteps 14008320/25000000, FPS 449.
+Average step reward is 0.8676390647888184.
+Some episodes done, average episode reward is -1225.463217478161.
+
+Episode 1140: Avg Net Energy=235.463, Avg CO2=52521.021, Water Usage=54116957.481
+Tasks in Queue=51500.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1145/2034 episodes, total num timesteps 14069760/25000000, FPS 449.
+Average step reward is 0.9134104251861572.
+Some episodes done, average episode reward is -1267.337033471603.
+
+Episode 1145: Avg Net Energy=232.189, Avg CO2=59144.119, Water Usage=53790103.786
+Tasks in Queue=48638.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1150/2034 episodes, total num timesteps 14131200/25000000, FPS 449.
+Average step reward is 0.8901400566101074.
+Some episodes done, average episode reward is -1257.7284328900435.
+
+Episode 1150: Avg Net Energy=232.642, Avg CO2=62781.655, Water Usage=53865579.946
+Tasks in Queue=43806.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1245.268400644653.
+
+Episode 1150: Avg Net Energy=231.927, Avg CO2=58895.527, Water Usage=151500893.177
+Tasks in Queue=14922.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1155/2034 episodes, total num timesteps 14192640/25000000, FPS 448.
+Average step reward is 0.8662042021751404.
+Some episodes done, average episode reward is -1282.012690394217.
+
+Episode 1155: Avg Net Energy=233.618, Avg CO2=62275.290, Water Usage=53990426.454
+Tasks in Queue=53166.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1160/2034 episodes, total num timesteps 14254080/25000000, FPS 449.
+Average step reward is 0.8724989295005798.
+Some episodes done, average episode reward is -1264.3768292819336.
+
+Episode 1160: Avg Net Energy=235.222, Avg CO2=54283.971, Water Usage=54266138.306
+Tasks in Queue=59043.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1165/2034 episodes, total num timesteps 14315520/25000000, FPS 449.
+Average step reward is 0.8917602896690369.
+Some episodes done, average episode reward is -1233.6676538250613.
+
+Episode 1165: Avg Net Energy=233.980, Avg CO2=54126.800, Water Usage=53958401.408
+Tasks in Queue=59352.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1170/2034 episodes, total num timesteps 14376960/25000000, FPS 449.
+Average step reward is 0.8963838219642639.
+Some episodes done, average episode reward is -1251.7338067832677.
+
+Episode 1170: Avg Net Energy=232.055, Avg CO2=63896.806, Water Usage=53818899.816
+Tasks in Queue=59651.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1175/2034 episodes, total num timesteps 14438400/25000000, FPS 449.
+Average step reward is 0.9078876376152039.
+Some episodes done, average episode reward is -1299.271164293971.
+
+Episode 1175: Avg Net Energy=231.941, Avg CO2=62375.361, Water Usage=53807976.053
+Tasks in Queue=50472.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1312.2093212313239.
+
+Episode 1175: Avg Net Energy=233.105, Avg CO2=57878.259, Water Usage=151396770.549
+Tasks in Queue=49032.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1180/2034 episodes, total num timesteps 14499840/25000000, FPS 448.
+Average step reward is 0.9421145915985107.
+Some episodes done, average episode reward is -1244.9909956748852.
+
+Episode 1180: Avg Net Energy=230.713, Avg CO2=57564.105, Water Usage=53603551.242
+Tasks in Queue=50282.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1185/2034 episodes, total num timesteps 14561280/25000000, FPS 449.
+Average step reward is 0.8784802556037903.
+Some episodes done, average episode reward is -1267.3834177591723.
+
+Episode 1185: Avg Net Energy=234.104, Avg CO2=53233.963, Water Usage=53997974.850
+Tasks in Queue=45940.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1190/2034 episodes, total num timesteps 14622720/25000000, FPS 449.
+Average step reward is 0.8631072044372559.
+Some episodes done, average episode reward is -1300.9868276472598.
+
+Episode 1190: Avg Net Energy=233.825, Avg CO2=59560.905, Water Usage=53980786.529
+Tasks in Queue=33602.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1195/2034 episodes, total num timesteps 14684160/25000000, FPS 449.
+Average step reward is 0.8656160235404968.
+Some episodes done, average episode reward is -1265.7765044170978.
+
+Episode 1195: Avg Net Energy=233.708, Avg CO2=62980.550, Water Usage=54057362.262
+Tasks in Queue=33599.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1200/2034 episodes, total num timesteps 14745600/25000000, FPS 449.
+Average step reward is 0.9253940582275391.
+Some episodes done, average episode reward is -1226.760017016045.
+
+Episode 1200: Avg Net Energy=231.479, Avg CO2=60632.571, Water Usage=53658000.389
+Tasks in Queue=29050.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1240.8270765217262.
+
+Episode 1200: Avg Net Energy=232.131, Avg CO2=59454.595, Water Usage=151507870.904
+Tasks in Queue=10579.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1205/2034 episodes, total num timesteps 14807040/25000000, FPS 448.
+Average step reward is 0.9149911403656006.
+Some episodes done, average episode reward is -1303.3130741154957.
+
+Episode 1205: Avg Net Energy=233.067, Avg CO2=55042.260, Water Usage=53980202.185
+Tasks in Queue=40840.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1210/2034 episodes, total num timesteps 14868480/25000000, FPS 449.
+Average step reward is 0.8881890177726746.
+Some episodes done, average episode reward is -1244.9605542560123.
+
+Episode 1210: Avg Net Energy=234.023, Avg CO2=57385.805, Water Usage=53964221.720
+Tasks in Queue=45954.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1215/2034 episodes, total num timesteps 14929920/25000000, FPS 449.
+Average step reward is 0.8702264428138733.
+Some episodes done, average episode reward is -1243.070944875855.
+
+Episode 1215: Avg Net Energy=233.072, Avg CO2=63274.003, Water Usage=53868705.407
+Tasks in Queue=43553.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1220/2034 episodes, total num timesteps 14991360/25000000, FPS 449.
+Average step reward is 0.8666472434997559.
+Some episodes done, average episode reward is -1311.223729980794.
+
+Episode 1220: Avg Net Energy=233.726, Avg CO2=62832.436, Water Usage=53982371.413
+Tasks in Queue=49293.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1225/2034 episodes, total num timesteps 15052800/25000000, FPS 449.
+Average step reward is 0.894869863986969.
+Some episodes done, average episode reward is -1283.070560135109.
+
+Episode 1225: Avg Net Energy=233.484, Avg CO2=60061.661, Water Usage=53933853.799
+Tasks in Queue=55069.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1297.0409749618195.
+
+Episode 1225: Avg Net Energy=232.695, Avg CO2=59254.224, Water Usage=151752034.211
+Tasks in Queue=80309.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1230/2034 episodes, total num timesteps 15114240/25000000, FPS 448.
+Average step reward is 0.8976123332977295.
+Some episodes done, average episode reward is -1253.3753704023432.
+
+Episode 1230: Avg Net Energy=234.024, Avg CO2=52638.363, Water Usage=53956558.035
+Tasks in Queue=55033.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1235/2034 episodes, total num timesteps 15175680/25000000, FPS 449.
+Average step reward is 0.8750903010368347.
+Some episodes done, average episode reward is -1277.612096163835.
+
+Episode 1235: Avg Net Energy=233.862, Avg CO2=60761.896, Water Usage=53989565.587
+Tasks in Queue=52346.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1240/2034 episodes, total num timesteps 15237120/25000000, FPS 449.
+Average step reward is 0.9393593668937683.
+Some episodes done, average episode reward is -1263.249114855825.
+
+Episode 1240: Avg Net Energy=230.680, Avg CO2=62060.718, Water Usage=53639500.699
+Tasks in Queue=60405.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1245/2034 episodes, total num timesteps 15298560/25000000, FPS 449.
+Average step reward is 0.8865475654602051.
+Some episodes done, average episode reward is -1292.351055018317.
+
+Episode 1245: Avg Net Energy=233.688, Avg CO2=60599.416, Water Usage=53950248.718
+Tasks in Queue=48453.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1250/2034 episodes, total num timesteps 15360000/25000000, FPS 449.
+Average step reward is 0.8706486821174622.
+Some episodes done, average episode reward is -1239.2337258028049.
+
+Episode 1250: Avg Net Energy=234.592, Avg CO2=57670.585, Water Usage=54097417.460
+Tasks in Queue=44330.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1289.1819288235445.
+
+Episode 1250: Avg Net Energy=232.619, Avg CO2=59067.274, Water Usage=151574581.294
+Tasks in Queue=27559.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1255/2034 episodes, total num timesteps 15421440/25000000, FPS 448.
+Average step reward is 0.8380967974662781.
+Some episodes done, average episode reward is -1288.2200785673474.
+
+Episode 1255: Avg Net Energy=234.412, Avg CO2=56755.252, Water Usage=54036041.352
+Tasks in Queue=48298.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1260/2034 episodes, total num timesteps 15482880/25000000, FPS 449.
+Average step reward is 0.9307215809822083.
+Some episodes done, average episode reward is -1251.8406153412827.
+
+Episode 1260: Avg Net Energy=231.090, Avg CO2=63753.107, Water Usage=53596097.045
+Tasks in Queue=58935.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1265/2034 episodes, total num timesteps 15544320/25000000, FPS 449.
+Average step reward is 0.8915281295776367.
+Some episodes done, average episode reward is -1290.0571977303944.
+
+Episode 1265: Avg Net Energy=232.098, Avg CO2=62109.231, Water Usage=53726360.213
+Tasks in Queue=51975.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1270/2034 episodes, total num timesteps 15605760/25000000, FPS 449.
+Average step reward is 0.9189826846122742.
+Some episodes done, average episode reward is -1288.6214763167961.
+
+Episode 1270: Avg Net Energy=231.820, Avg CO2=58556.874, Water Usage=53770800.111
+Tasks in Queue=37837.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1275/2034 episodes, total num timesteps 15667200/25000000, FPS 449.
+Average step reward is 0.9378840327262878.
+Some episodes done, average episode reward is -1268.059145111266.
+
+Episode 1275: Avg Net Energy=231.570, Avg CO2=50179.587, Water Usage=53727772.079
+Tasks in Queue=38530.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1264.5090676597736.
+
+Episode 1275: Avg Net Energy=232.418, Avg CO2=58480.839, Water Usage=151313546.159
+Tasks in Queue=27038.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1280/2034 episodes, total num timesteps 15728640/25000000, FPS 449.
+Average step reward is 0.9077582955360413.
+Some episodes done, average episode reward is -1257.1004111927175.
+
+Episode 1280: Avg Net Energy=231.836, Avg CO2=59318.237, Water Usage=53762997.554
+Tasks in Queue=46037.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1285/2034 episodes, total num timesteps 15790080/25000000, FPS 449.
+Average step reward is 0.8742685317993164.
+Some episodes done, average episode reward is -1278.6546848327828.
+
+Episode 1285: Avg Net Energy=232.940, Avg CO2=63565.509, Water Usage=53895577.425
+Tasks in Queue=51112.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1290/2034 episodes, total num timesteps 15851520/25000000, FPS 449.
+Average step reward is 0.8840810656547546.
+Some episodes done, average episode reward is -1265.211567630654.
+
+Episode 1290: Avg Net Energy=232.928, Avg CO2=61017.810, Water Usage=53985885.095
+Tasks in Queue=58455.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1295/2034 episodes, total num timesteps 15912960/25000000, FPS 449.
+Average step reward is 0.8886420130729675.
+Some episodes done, average episode reward is -1267.4082639599337.
+
+Episode 1295: Avg Net Energy=233.549, Avg CO2=55198.763, Water Usage=53953748.845
+Tasks in Queue=47161.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1300/2034 episodes, total num timesteps 15974400/25000000, FPS 449.
+Average step reward is 0.902057945728302.
+Some episodes done, average episode reward is -1282.520177880472.
+
+Episode 1300: Avg Net Energy=232.940, Avg CO2=57170.277, Water Usage=53908291.137
+Tasks in Queue=36769.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1257.194289562577.
+
+Episode 1300: Avg Net Energy=232.331, Avg CO2=58285.410, Water Usage=151527013.581
+Tasks in Queue=30115.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1305/2034 episodes, total num timesteps 16035840/25000000, FPS 449.
+Average step reward is 0.859429121017456.
+Some episodes done, average episode reward is -1282.364592090887.
+
+Episode 1305: Avg Net Energy=233.577, Avg CO2=64228.262, Water Usage=54107462.544
+Tasks in Queue=37915.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1310/2034 episodes, total num timesteps 16097280/25000000, FPS 449.
+Average step reward is 0.8682153820991516.
+Some episodes done, average episode reward is -1248.941113229461.
+
+Episode 1310: Avg Net Energy=233.508, Avg CO2=62844.887, Water Usage=53919997.000
+Tasks in Queue=40082.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1315/2034 episodes, total num timesteps 16158720/25000000, FPS 449.
+Average step reward is 0.8704503178596497.
+Some episodes done, average episode reward is -1265.6472100182682.
+
+Episode 1315: Avg Net Energy=235.633, Avg CO2=53022.488, Water Usage=54187821.287
+Tasks in Queue=46722.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1320/2034 episodes, total num timesteps 16220160/25000000, FPS 449.
+Average step reward is 0.9116687178611755.
+Some episodes done, average episode reward is -1279.1610411104837.
+
+Episode 1320: Avg Net Energy=233.595, Avg CO2=52633.029, Water Usage=53929725.427
+Tasks in Queue=44013.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1325/2034 episodes, total num timesteps 16281600/25000000, FPS 449.
+Average step reward is 0.938086211681366.
+Some episodes done, average episode reward is -1233.4053133709942.
+
+Episode 1325: Avg Net Energy=230.548, Avg CO2=61248.574, Water Usage=53574121.516
+Tasks in Queue=33241.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1248.9381656118514.
+
+Episode 1325: Avg Net Energy=232.119, Avg CO2=58938.742, Water Usage=151467512.234
+Tasks in Queue=19694.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1330/2034 episodes, total num timesteps 16343040/25000000, FPS 448.
+Average step reward is 0.7945473790168762.
+Some episodes done, average episode reward is -1239.532939980035.
+
+Episode 1330: Avg Net Energy=236.276, Avg CO2=64936.829, Water Usage=54344020.401
+Tasks in Queue=43018.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1335/2034 episodes, total num timesteps 16404480/25000000, FPS 449.
+Average step reward is 0.888028085231781.
+Some episodes done, average episode reward is -1272.5213278996125.
+
+Episode 1335: Avg Net Energy=232.435, Avg CO2=62221.930, Water Usage=53799710.423
+Tasks in Queue=54089.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1340/2034 episodes, total num timesteps 16465920/25000000, FPS 449.
+Average step reward is 0.9102287292480469.
+Some episodes done, average episode reward is -1283.420959140981.
+
+Episode 1340: Avg Net Energy=232.795, Avg CO2=54410.378, Water Usage=53936680.871
+Tasks in Queue=47390.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1345/2034 episodes, total num timesteps 16527360/25000000, FPS 449.
+Average step reward is 0.9438053965568542.
+Some episodes done, average episode reward is -1258.114154889712.
+
+Episode 1345: Avg Net Energy=231.273, Avg CO2=55369.761, Water Usage=53609200.624
+Tasks in Queue=35565.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1350/2034 episodes, total num timesteps 16588800/25000000, FPS 449.
+Average step reward is 0.8675644397735596.
+Some episodes done, average episode reward is -1279.0327327636198.
+
+Episode 1350: Avg Net Energy=233.101, Avg CO2=63797.401, Water Usage=53945143.594
+Tasks in Queue=39184.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1276.4755083703872.
+
+Episode 1350: Avg Net Energy=232.571, Avg CO2=58695.416, Water Usage=151563674.378
+Tasks in Queue=27827.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1355/2034 episodes, total num timesteps 16650240/25000000, FPS 449.
+Average step reward is 0.865700900554657.
+Some episodes done, average episode reward is -1255.6448934264195.
+
+Episode 1355: Avg Net Energy=232.777, Avg CO2=61652.201, Water Usage=53896086.738
+Tasks in Queue=33840.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1360/2034 episodes, total num timesteps 16711680/25000000, FPS 449.
+Average step reward is 0.9065077900886536.
+Some episodes done, average episode reward is -1266.5127539118928.
+
+Episode 1360: Avg Net Energy=232.444, Avg CO2=55306.225, Water Usage=53902784.491
+Tasks in Queue=40144.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1365/2034 episodes, total num timesteps 16773120/25000000, FPS 449.
+Average step reward is 0.8670714497566223.
+Some episodes done, average episode reward is -1308.2222861640441.
+
+Episode 1365: Avg Net Energy=234.556, Avg CO2=51737.035, Water Usage=54123985.407
+Tasks in Queue=46340.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1370/2034 episodes, total num timesteps 16834560/25000000, FPS 449.
+Average step reward is 0.9249866008758545.
+Some episodes done, average episode reward is -1258.6607080145654.
+
+Episode 1370: Avg Net Energy=230.911, Avg CO2=59332.809, Water Usage=53661456.672
+Tasks in Queue=31864.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1375/2034 episodes, total num timesteps 16896000/25000000, FPS 449.
+Average step reward is 0.8754226565361023.
+Some episodes done, average episode reward is -1275.9960728039325.
+
+Episode 1375: Avg Net Energy=232.282, Avg CO2=62344.779, Water Usage=53854453.659
+Tasks in Queue=29487.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1280.3880860839288.
+
+Episode 1375: Avg Net Energy=232.432, Avg CO2=58520.449, Water Usage=151579191.745
+Tasks in Queue=26361.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1380/2034 episodes, total num timesteps 16957440/25000000, FPS 449.
+Average step reward is 0.888270378112793.
+Some episodes done, average episode reward is -1293.084670801352.
+
+Episode 1380: Avg Net Energy=232.157, Avg CO2=60936.399, Water Usage=53820586.293
+Tasks in Queue=29049.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1385/2034 episodes, total num timesteps 17018880/25000000, FPS 449.
+Average step reward is 0.865648090839386.
+Some episodes done, average episode reward is -1272.731919617018.
+
+Episode 1385: Avg Net Energy=234.430, Avg CO2=56150.525, Water Usage=54058655.745
+Tasks in Queue=23788.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1390/2034 episodes, total num timesteps 17080320/25000000, FPS 449.
+Average step reward is 0.8958665728569031.
+Some episodes done, average episode reward is -1260.3662678442327.
+
+Episode 1390: Avg Net Energy=232.529, Avg CO2=56153.119, Water Usage=53834785.578
+Tasks in Queue=34500.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1395/2034 episodes, total num timesteps 17141760/25000000, FPS 449.
+Average step reward is 0.8767364025115967.
+Some episodes done, average episode reward is -1288.7372858727065.
+
+Episode 1395: Avg Net Energy=232.799, Avg CO2=63850.979, Water Usage=53890797.745
+Tasks in Queue=57591.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1400/2034 episodes, total num timesteps 17203200/25000000, FPS 449.
+Average step reward is 0.8633617758750916.
+Some episodes done, average episode reward is -1248.6362217050164.
+
+Episode 1400: Avg Net Energy=233.229, Avg CO2=61981.453, Water Usage=53998174.232
+Tasks in Queue=53341.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1315.625505956269.
+
+Episode 1400: Avg Net Energy=232.837, Avg CO2=58631.744, Water Usage=151710036.539
+Tasks in Queue=42502.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1405/2034 episodes, total num timesteps 17264640/25000000, FPS 449.
+Average step reward is 0.90252286195755.
+Some episodes done, average episode reward is -1253.0893757478336.
+
+Episode 1405: Avg Net Energy=232.541, Avg CO2=56029.270, Water Usage=53822903.817
+Tasks in Queue=59666.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1410/2034 episodes, total num timesteps 17326080/25000000, FPS 449.
+Average step reward is 0.9529682993888855.
+Some episodes done, average episode reward is -1280.6963478009795.
+
+Episode 1410: Avg Net Energy=230.591, Avg CO2=51952.547, Water Usage=53615809.164
+Tasks in Queue=66614.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1415/2034 episodes, total num timesteps 17387520/25000000, FPS 449.
+Average step reward is 0.8579638004302979.
+Some episodes done, average episode reward is -1282.6863158610927.
+
+Episode 1415: Avg Net Energy=233.772, Avg CO2=59943.496, Water Usage=54054480.154
+Tasks in Queue=87007.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1420/2034 episodes, total num timesteps 17448960/25000000, FPS 449.
+Average step reward is 0.9028427004814148.
+Some episodes done, average episode reward is -1267.1869518811786.
+
+Episode 1420: Avg Net Energy=231.899, Avg CO2=62782.128, Water Usage=53776466.965
+Tasks in Queue=72348.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1425/2034 episodes, total num timesteps 17510400/25000000, FPS 449.
+Average step reward is 0.866221010684967.
+Some episodes done, average episode reward is -1276.996862654223.
+
+Episode 1425: Avg Net Energy=233.934, Avg CO2=58365.220, Water Usage=53978778.255
+Tasks in Queue=62927.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1313.870956465561.
+
+Episode 1425: Avg Net Energy=232.898, Avg CO2=58997.571, Water Usage=151741149.271
+Tasks in Queue=64830.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1430/2034 episodes, total num timesteps 17571840/25000000, FPS 449.
+Average step reward is 0.8860911726951599.
+Some episodes done, average episode reward is -1259.1359709732562.
+
+Episode 1430: Avg Net Energy=233.363, Avg CO2=55884.078, Water Usage=53957453.725
+Tasks in Queue=40890.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1435/2034 episodes, total num timesteps 17633280/25000000, FPS 449.
+Average step reward is 0.8737122416496277.
+Some episodes done, average episode reward is -1301.6578398697993.
+
+Episode 1435: Avg Net Energy=233.508, Avg CO2=54830.100, Water Usage=54006947.673
+Tasks in Queue=35939.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1440/2034 episodes, total num timesteps 17694720/25000000, FPS 449.
+Average step reward is 0.8681811690330505.
+Some episodes done, average episode reward is -1282.0394084235998.
+
+Episode 1440: Avg Net Energy=233.254, Avg CO2=64346.422, Water Usage=53908575.441
+Tasks in Queue=44621.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1445/2034 episodes, total num timesteps 17756160/25000000, FPS 449.
+Average step reward is 0.9465963244438171.
+Some episodes done, average episode reward is -1282.8408800561926.
+
+Episode 1445: Avg Net Energy=230.015, Avg CO2=61549.430, Water Usage=53440952.081
+Tasks in Queue=52888.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1450/2034 episodes, total num timesteps 17817600/25000000, FPS 449.
+Average step reward is 0.8833692073822021.
+Some episodes done, average episode reward is -1256.0168934191233.
+
+Episode 1450: Avg Net Energy=233.105, Avg CO2=58998.923, Water Usage=53979243.387
+Tasks in Queue=25296.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1290.9076660906217.
+
+Episode 1450: Avg Net Energy=232.852, Avg CO2=59063.255, Water Usage=151688294.173
+Tasks in Queue=14884.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1455/2034 episodes, total num timesteps 17879040/25000000, FPS 449.
+Average step reward is 0.8931896686553955.
+Some episodes done, average episode reward is -1275.8603673903424.
+
+Episode 1455: Avg Net Energy=233.494, Avg CO2=51970.235, Water Usage=53916573.002
+Tasks in Queue=23996.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1460/2034 episodes, total num timesteps 17940480/25000000, FPS 449.
+Average step reward is 0.8776701092720032.
+Some episodes done, average episode reward is -1267.5322238669069.
+
+Episode 1460: Avg Net Energy=233.610, Avg CO2=60650.729, Water Usage=54014105.393
+Tasks in Queue=33909.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1465/2034 episodes, total num timesteps 18001920/25000000, FPS 449.
+Average step reward is 0.8845289349555969.
+Some episodes done, average episode reward is -1316.7794835022548.
+
+Episode 1465: Avg Net Energy=232.285, Avg CO2=62353.256, Water Usage=53727752.274
+Tasks in Queue=34209.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1470/2034 episodes, total num timesteps 18063360/25000000, FPS 449.
+Average step reward is 0.8674483299255371.
+Some episodes done, average episode reward is -1269.2593648085074.
+
+Episode 1470: Avg Net Energy=232.912, Avg CO2=61099.881, Water Usage=53901745.947
+Tasks in Queue=34687.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1475/2034 episodes, total num timesteps 18124800/25000000, FPS 449.
+Average step reward is 0.9355666637420654.
+Some episodes done, average episode reward is -1258.2586886445786.
+
+Episode 1475: Avg Net Energy=230.973, Avg CO2=53779.634, Water Usage=53597550.480
+Tasks in Queue=30846.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1205.860331449342.
+
+Episode 1475: Avg Net Energy=232.064, Avg CO2=57680.189, Water Usage=151327416.535
+Tasks in Queue=28999.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1480/2034 episodes, total num timesteps 18186240/25000000, FPS 449.
+Average step reward is 0.8498630523681641.
+Some episodes done, average episode reward is -1317.1965552750714.
+
+Episode 1480: Avg Net Energy=234.776, Avg CO2=56551.143, Water Usage=54197929.629
+Tasks in Queue=46281.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1485/2034 episodes, total num timesteps 18247680/25000000, FPS 449.
+Average step reward is 0.8739597201347351.
+Some episodes done, average episode reward is -1274.2076033879414.
+
+Episode 1485: Avg Net Energy=232.774, Avg CO2=63438.117, Water Usage=53979591.024
+Tasks in Queue=59000.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1490/2034 episodes, total num timesteps 18309120/25000000, FPS 449.
+Average step reward is 0.8870219588279724.
+Some episodes done, average episode reward is -1254.138876949177.
+
+Episode 1490: Avg Net Energy=232.203, Avg CO2=62085.222, Water Usage=53871035.953
+Tasks in Queue=55884.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1495/2034 episodes, total num timesteps 18370560/25000000, FPS 449.
+Average step reward is 0.8888706564903259.
+Some episodes done, average episode reward is -1268.3172104521948.
+
+Episode 1495: Avg Net Energy=232.759, Avg CO2=58712.097, Water Usage=53923150.086
+Tasks in Queue=53189.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1500/2034 episodes, total num timesteps 18432000/25000000, FPS 449.
+Average step reward is 0.9032266139984131.
+Some episodes done, average episode reward is -1280.3627523756877.
+
+Episode 1500: Avg Net Energy=232.056, Avg CO2=54214.051, Water Usage=53820007.812
+Tasks in Queue=52415.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1300.6517754723925.
+
+Episode 1500: Avg Net Energy=232.945, Avg CO2=58295.167, Water Usage=151607055.232
+Tasks in Queue=74915.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1505/2034 episodes, total num timesteps 18493440/25000000, FPS 449.
+Average step reward is 0.8258479237556458.
+Some episodes done, average episode reward is -1299.509825399352.
+
+Episode 1505: Avg Net Energy=236.080, Avg CO2=59433.004, Water Usage=54328429.782
+Tasks in Queue=58184.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1510/2034 episodes, total num timesteps 18554880/25000000, FPS 449.
+Average step reward is 0.9108002781867981.
+Some episodes done, average episode reward is -1311.3974260471407.
+
+Episode 1510: Avg Net Energy=231.912, Avg CO2=62832.462, Water Usage=53887841.843
+Tasks in Queue=59343.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1515/2034 episodes, total num timesteps 18616320/25000000, FPS 449.
+Average step reward is 0.9119992256164551.
+Some episodes done, average episode reward is -1251.5348561027477.
+
+Episode 1515: Avg Net Energy=231.622, Avg CO2=60023.036, Water Usage=53693397.447
+Tasks in Queue=61786.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1520/2034 episodes, total num timesteps 18677760/25000000, FPS 449.
+Average step reward is 0.8864408135414124.
+Some episodes done, average episode reward is -1289.95970919824.
+
+Episode 1520: Avg Net Energy=233.402, Avg CO2=55307.475, Water Usage=53916706.245
+Tasks in Queue=72247.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1525/2034 episodes, total num timesteps 18739200/25000000, FPS 449.
+Average step reward is 0.9693958163261414.
+Some episodes done, average episode reward is -1248.4685216770476.
+
+Episode 1525: Avg Net Energy=229.982, Avg CO2=54542.498, Water Usage=53549527.654
+Tasks in Queue=57457.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1242.8359251227223.
+
+Episode 1525: Avg Net Energy=232.148, Avg CO2=58737.510, Water Usage=151265715.489
+Tasks in Queue=103604.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1530/2034 episodes, total num timesteps 18800640/25000000, FPS 449.
+Average step reward is 0.8848626017570496.
+Some episodes done, average episode reward is -1286.3995116965334.
+
+Episode 1530: Avg Net Energy=232.169, Avg CO2=63680.472, Water Usage=53781273.525
+Tasks in Queue=47345.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1535/2034 episodes, total num timesteps 18862080/25000000, FPS 449.
+Average step reward is 0.8580912947654724.
+Some episodes done, average episode reward is -1260.4932518470855.
+
+Episode 1535: Avg Net Energy=233.253, Avg CO2=62642.572, Water Usage=53972676.173
+Tasks in Queue=61736.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1540/2034 episodes, total num timesteps 18923520/25000000, FPS 449.
+Average step reward is 0.8955378532409668.
+Some episodes done, average episode reward is -1283.1211903777214.
+
+Episode 1540: Avg Net Energy=232.531, Avg CO2=57300.907, Water Usage=53877913.830
+Tasks in Queue=62166.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1545/2034 episodes, total num timesteps 18984960/25000000, FPS 449.
+Average step reward is 0.9302088618278503.
+Some episodes done, average episode reward is -1268.1844582928152.
+
+Episode 1545: Avg Net Energy=231.613, Avg CO2=52890.477, Water Usage=53660605.444
+Tasks in Queue=56556.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1550/2034 episodes, total num timesteps 19046400/25000000, FPS 449.
+Average step reward is 0.8482609391212463.
+Some episodes done, average episode reward is -1269.506711594388.
+
+Episode 1550: Avg Net Energy=234.709, Avg CO2=60699.765, Water Usage=54208938.329
+Tasks in Queue=57187.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1336.9755486569645.
+
+Episode 1550: Avg Net Energy=233.343, Avg CO2=59959.733, Water Usage=151993280.646
+Tasks in Queue=73569.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1555/2034 episodes, total num timesteps 19107840/25000000, FPS 449.
+Average step reward is 0.9049383997917175.
+Some episodes done, average episode reward is -1307.1970784454688.
+
+Episode 1555: Avg Net Energy=231.352, Avg CO2=62468.333, Water Usage=53701355.423
+Tasks in Queue=36438.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1560/2034 episodes, total num timesteps 19169280/25000000, FPS 449.
+Average step reward is 0.807377278804779.
+Some episodes done, average episode reward is -1274.9419236344465.
+
+Episode 1560: Avg Net Energy=235.600, Avg CO2=60975.867, Water Usage=54266416.123
+Tasks in Queue=32896.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1565/2034 episodes, total num timesteps 19230720/25000000, FPS 449.
+Average step reward is 0.8757303357124329.
+Some episodes done, average episode reward is -1239.769758878925.
+
+Episode 1565: Avg Net Energy=233.735, Avg CO2=52997.902, Water Usage=54015887.672
+Tasks in Queue=34975.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1570/2034 episodes, total num timesteps 19292160/25000000, FPS 449.
+Average step reward is 0.8669223785400391.
+Some episodes done, average episode reward is -1313.1408283319568.
+
+Episode 1570: Avg Net Energy=233.803, Avg CO2=55338.918, Water Usage=54006661.258
+Tasks in Queue=34880.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1575/2034 episodes, total num timesteps 19353600/25000000, FPS 449.
+Average step reward is 0.8471580147743225.
+Some episodes done, average episode reward is -1289.7740520089844.
+
+Episode 1575: Avg Net Energy=234.380, Avg CO2=64677.290, Water Usage=54062413.756
+Tasks in Queue=33852.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1243.504439473446.
+
+Episode 1575: Avg Net Energy=232.204, Avg CO2=58588.919, Water Usage=151405890.075
+Tasks in Queue=33660.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1580/2034 episodes, total num timesteps 19415040/25000000, FPS 449.
+Average step reward is 0.9316276907920837.
+Some episodes done, average episode reward is -1262.9514387767665.
+
+Episode 1580: Avg Net Energy=230.459, Avg CO2=61297.283, Water Usage=53555238.643
+Tasks in Queue=33780.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1585/2034 episodes, total num timesteps 19476480/25000000, FPS 449.
+Average step reward is 0.8812436461448669.
+Some episodes done, average episode reward is -1253.054441400331.
+
+Episode 1585: Avg Net Energy=233.520, Avg CO2=57112.260, Water Usage=53911330.653
+Tasks in Queue=41146.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1590/2034 episodes, total num timesteps 19537920/25000000, FPS 449.
+Average step reward is 0.8773515224456787.
+Some episodes done, average episode reward is -1280.7217813637633.
+
+Episode 1590: Avg Net Energy=234.640, Avg CO2=52222.100, Water Usage=54238997.339
+Tasks in Queue=50295.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1595/2034 episodes, total num timesteps 19599360/25000000, FPS 449.
+Average step reward is 0.8878877758979797.
+Some episodes done, average episode reward is -1296.5191563901126.
+
+Episode 1595: Avg Net Energy=233.508, Avg CO2=58361.888, Water Usage=54015513.739
+Tasks in Queue=50335.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1600/2034 episodes, total num timesteps 19660800/25000000, FPS 449.
+Average step reward is 0.8748588562011719.
+Some episodes done, average episode reward is -1266.4616969783044.
+
+Episode 1600: Avg Net Energy=233.344, Avg CO2=63475.585, Water Usage=53941013.319
+Tasks in Queue=59075.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1233.713388226834.
+
+Episode 1600: Avg Net Energy=232.358, Avg CO2=58082.051, Water Usage=151488271.514
+Tasks in Queue=85651.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1605/2034 episodes, total num timesteps 19722240/25000000, FPS 449.
+Average step reward is 0.8383001685142517.
+Some episodes done, average episode reward is -1217.6618950442698.
+
+Episode 1605: Avg Net Energy=234.814, Avg CO2=62558.734, Water Usage=54186490.895
+Tasks in Queue=60160.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1610/2034 episodes, total num timesteps 19783680/25000000, FPS 449.
+Average step reward is 0.8999874591827393.
+Some episodes done, average episode reward is -1283.2619774537372.
+
+Episode 1610: Avg Net Energy=233.956, Avg CO2=56780.135, Water Usage=53943882.679
+Tasks in Queue=56254.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1615/2034 episodes, total num timesteps 19845120/25000000, FPS 449.
+Average step reward is 0.9209395051002502.
+Some episodes done, average episode reward is -1246.1488844935232.
+
+Episode 1615: Avg Net Energy=232.921, Avg CO2=57440.859, Water Usage=53919959.645
+Tasks in Queue=55905.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1620/2034 episodes, total num timesteps 19906560/25000000, FPS 449.
+Average step reward is 0.8551840782165527.
+Some episodes done, average episode reward is -1271.8403045512277.
+
+Episode 1620: Avg Net Energy=235.152, Avg CO2=65739.461, Water Usage=54049511.217
+Tasks in Queue=62749.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1625/2034 episodes, total num timesteps 19968000/25000000, FPS 449.
+Average step reward is 0.9358232617378235.
+Some episodes done, average episode reward is -1208.5533198736405.
+
+Episode 1625: Avg Net Energy=231.299, Avg CO2=61842.021, Water Usage=53622489.969
+Tasks in Queue=49624.000, Tasks Dropped=0.000
+Evaluation average episode reward is -2313.4011666384035.
+
+Episode 1625: Avg Net Energy=252.237, Avg CO2=62311.183, Water Usage=155613933.622
+Tasks in Queue=58189.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1630/2034 episodes, total num timesteps 20029440/25000000, FPS 449.
+Average step reward is 0.8673591613769531.
+Some episodes done, average episode reward is -1216.8497203655722.
+
+Episode 1630: Avg Net Energy=236.046, Avg CO2=56990.019, Water Usage=54337245.137
+Tasks in Queue=49076.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1635/2034 episodes, total num timesteps 20090880/25000000, FPS 449.
+Average step reward is 0.923238217830658.
+Some episodes done, average episode reward is -1264.8771566738853.
+
+Episode 1635: Avg Net Energy=233.769, Avg CO2=50825.443, Water Usage=53930104.623
+Tasks in Queue=51657.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1640/2034 episodes, total num timesteps 20152320/25000000, FPS 449.
+Average step reward is 0.8564372658729553.
+Some episodes done, average episode reward is -1234.6818087038962.
+
+Episode 1640: Avg Net Energy=234.583, Avg CO2=60797.804, Water Usage=54096552.003
+Tasks in Queue=46147.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1645/2034 episodes, total num timesteps 20213760/25000000, FPS 449.
+Average step reward is 0.9250522255897522.
+Some episodes done, average episode reward is -1274.9993710636525.
+
+Episode 1645: Avg Net Energy=231.391, Avg CO2=62394.747, Water Usage=53737468.855
+Tasks in Queue=34953.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1650/2034 episodes, total num timesteps 20275200/25000000, FPS 449.
+Average step reward is 0.9062291979789734.
+Some episodes done, average episode reward is -1244.8879452546414.
+
+Episode 1650: Avg Net Energy=232.091, Avg CO2=61628.274, Water Usage=53712653.907
+Tasks in Queue=38381.000, Tasks Dropped=0.000
+Evaluation average episode reward is -927.3114900812756.
+
+Episode 1650: Avg Net Energy=233.041, Avg CO2=59335.278, Water Usage=151730062.770
+Tasks in Queue=45993.000, Tasks Dropped=0.000
+We are saving model weights at episode 1650 with average episode reward -927.3114900812756
+
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1655/2034 episodes, total num timesteps 20336640/25000000, FPS 449.
+Average step reward is 0.9576132297515869.
+Some episodes done, average episode reward is -1281.809873426703.
+
+Episode 1655: Avg Net Energy=232.360, Avg CO2=52695.139, Water Usage=53679676.485
+Tasks in Queue=33269.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1660/2034 episodes, total num timesteps 20398080/25000000, FPS 449.
+Average step reward is 0.9326780438423157.
+Some episodes done, average episode reward is -1238.218519772777.
+
+Episode 1660: Avg Net Energy=232.735, Avg CO2=55721.746, Water Usage=53857160.908
+Tasks in Queue=33342.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1665/2034 episodes, total num timesteps 20459520/25000000, FPS 449.
+Average step reward is 0.8944262862205505.
+Some episodes done, average episode reward is -1248.3696554124463.
+
+Episode 1665: Avg Net Energy=232.824, Avg CO2=63786.463, Water Usage=53798359.989
+Tasks in Queue=33236.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1670/2034 episodes, total num timesteps 20520960/25000000, FPS 449.
+Average step reward is 0.8473049998283386.
+Some episodes done, average episode reward is -1222.6302759756693.
+
+Episode 1670: Avg Net Energy=234.560, Avg CO2=62549.496, Water Usage=54055390.004
+Tasks in Queue=31412.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1675/2034 episodes, total num timesteps 20582400/25000000, FPS 449.
+Average step reward is 0.9610264301300049.
+Some episodes done, average episode reward is -1283.417980134445.
+
+Episode 1675: Avg Net Energy=231.185, Avg CO2=60258.976, Water Usage=53695475.097
+Tasks in Queue=24746.000, Tasks Dropped=0.000
+Evaluation average episode reward is -885.6324147257077.
+
+Episode 1675: Avg Net Energy=232.154, Avg CO2=58296.874, Water Usage=151523899.741
+Tasks in Queue=35648.000, Tasks Dropped=0.000
+We are saving model weights at episode 1675 with average episode reward -885.6324147257077
+
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1680/2034 episodes, total num timesteps 20643840/25000000, FPS 449.
+Average step reward is 0.9019181132316589.
+Some episodes done, average episode reward is -1202.549182128729.
+
+Episode 1680: Avg Net Energy=234.249, Avg CO2=53530.809, Water Usage=53927082.731
+Tasks in Queue=31035.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1685/2034 episodes, total num timesteps 20705280/25000000, FPS 449.
+Average step reward is 0.864194393157959.
+Some episodes done, average episode reward is -1244.4068538356532.
+
+Episode 1685: Avg Net Energy=236.337, Avg CO2=62185.040, Water Usage=54287899.753
+Tasks in Queue=32923.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1690/2034 episodes, total num timesteps 20766720/25000000, FPS 449.
+Average step reward is 0.903283417224884.
+Some episodes done, average episode reward is -1288.1303554179333.
+
+Episode 1690: Avg Net Energy=233.147, Avg CO2=63769.166, Water Usage=53854088.124
+Tasks in Queue=36677.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1695/2034 episodes, total num timesteps 20828160/25000000, FPS 449.
+Average step reward is 0.8177908062934875.
+Some episodes done, average episode reward is -1205.1373326452474.
+
+Episode 1695: Avg Net Energy=235.992, Avg CO2=63781.260, Water Usage=54288153.878
+Tasks in Queue=40720.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1700/2034 episodes, total num timesteps 20889600/25000000, FPS 449.
+Average step reward is 0.9227144718170166.
+Some episodes done, average episode reward is -1228.4033258286165.
+
+Episode 1700: Avg Net Energy=233.575, Avg CO2=52248.026, Water Usage=53829013.944
+Tasks in Queue=37186.000, Tasks Dropped=0.000
+Evaluation average episode reward is -948.1621186238704.
+
+Episode 1700: Avg Net Energy=232.493, Avg CO2=59346.832, Water Usage=151552675.163
+Tasks in Queue=47400.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1705/2034 episodes, total num timesteps 20951040/25000000, FPS 449.
+Average step reward is 0.8989431858062744.
+Some episodes done, average episode reward is -1280.189300774332.
+
+Episode 1705: Avg Net Energy=234.656, Avg CO2=54670.032, Water Usage=53998548.890
+Tasks in Queue=46475.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1710/2034 episodes, total num timesteps 21012480/25000000, FPS 449.
+Average step reward is 0.8891680836677551.
+Some episodes done, average episode reward is -1226.9053139748912.
+
+Episode 1710: Avg Net Energy=233.524, Avg CO2=64855.179, Water Usage=53956069.387
+Tasks in Queue=61168.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1715/2034 episodes, total num timesteps 21073920/25000000, FPS 449.
+Average step reward is 0.9302685856819153.
+Some episodes done, average episode reward is -1260.6256776853045.
+
+Episode 1715: Avg Net Energy=231.429, Avg CO2=61210.531, Water Usage=53561349.421
+Tasks in Queue=48900.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1720/2034 episodes, total num timesteps 21135360/25000000, FPS 449.
+Average step reward is 0.8679383397102356.
+Some episodes done, average episode reward is -1233.9981721011766.
+
+Episode 1720: Avg Net Energy=235.981, Avg CO2=56036.422, Water Usage=54209583.701
+Tasks in Queue=50933.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1725/2034 episodes, total num timesteps 21196800/25000000, FPS 449.
+Average step reward is 0.8914291262626648.
+Some episodes done, average episode reward is -1257.2924426147788.
+
+Episode 1725: Avg Net Energy=235.094, Avg CO2=51992.714, Water Usage=53939820.593
+Tasks in Queue=48119.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1240.0040280925355.
+
+Episode 1725: Avg Net Energy=232.639, Avg CO2=57282.720, Water Usage=151526032.039
+Tasks in Queue=60497.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1730/2034 episodes, total num timesteps 21258240/25000000, FPS 449.
+Average step reward is 0.9217529892921448.
+Some episodes done, average episode reward is -1219.0135128146726.
+
+Episode 1730: Avg Net Energy=230.959, Avg CO2=58901.410, Water Usage=53625934.557
+Tasks in Queue=41258.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1735/2034 episodes, total num timesteps 21319680/25000000, FPS 449.
+Average step reward is 0.8557435870170593.
+Some episodes done, average episode reward is -1232.3661638564326.
+
+Episode 1735: Avg Net Energy=234.091, Avg CO2=63492.443, Water Usage=53954498.244
+Tasks in Queue=37073.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1740/2034 episodes, total num timesteps 21381120/25000000, FPS 449.
+Average step reward is 0.8558440208435059.
+Some episodes done, average episode reward is -1262.7768899689227.
+
+Episode 1740: Avg Net Energy=234.898, Avg CO2=61452.850, Water Usage=54204494.824
+Tasks in Queue=31664.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1745/2034 episodes, total num timesteps 21442560/25000000, FPS 449.
+Average step reward is 0.8857980370521545.
+Some episodes done, average episode reward is -1228.951366290589.
+
+Episode 1745: Avg Net Energy=234.780, Avg CO2=53226.999, Water Usage=54100190.443
+Tasks in Queue=28495.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1750/2034 episodes, total num timesteps 21504000/25000000, FPS 449.
+Average step reward is 0.930507481098175.
+Some episodes done, average episode reward is -1259.7077148330782.
+
+Episode 1750: Avg Net Energy=232.691, Avg CO2=54459.052, Water Usage=53868139.799
+Tasks in Queue=22913.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1299.932611884386.
+
+Episode 1750: Avg Net Energy=232.778, Avg CO2=59834.150, Water Usage=151976896.709
+Tasks in Queue=19670.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1755/2034 episodes, total num timesteps 21565440/25000000, FPS 448.
+Average step reward is 0.8775497078895569.
+Some episodes done, average episode reward is -1257.307391774738.
+
+Episode 1755: Avg Net Energy=233.318, Avg CO2=64213.305, Water Usage=53840461.964
+Tasks in Queue=26052.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1760/2034 episodes, total num timesteps 21626880/25000000, FPS 449.
+Average step reward is 0.9137846827507019.
+Some episodes done, average episode reward is -1276.7399723405827.
+
+Episode 1760: Avg Net Energy=231.891, Avg CO2=62328.346, Water Usage=53801426.256
+Tasks in Queue=22784.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1765/2034 episodes, total num timesteps 21688320/25000000, FPS 449.
+Average step reward is 0.9581730961799622.
+Some episodes done, average episode reward is -1255.9844797572698.
+
+Episode 1765: Avg Net Energy=230.447, Avg CO2=56749.169, Water Usage=53510101.863
+Tasks in Queue=19548.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1770/2034 episodes, total num timesteps 21749760/25000000, FPS 449.
+Average step reward is 0.9352466464042664.
+Some episodes done, average episode reward is -1220.4829996855626.
+
+Episode 1770: Avg Net Energy=232.020, Avg CO2=54089.453, Water Usage=53737209.612
+Tasks in Queue=21884.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1775/2034 episodes, total num timesteps 21811200/25000000, FPS 449.
+Average step reward is 0.9098955988883972.
+Some episodes done, average episode reward is -1277.7260954004093.
+
+Episode 1775: Avg Net Energy=231.806, Avg CO2=60308.016, Water Usage=53760785.667
+Tasks in Queue=18541.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1244.1906346375429.
+
+Episode 1775: Avg Net Energy=232.215, Avg CO2=59638.753, Water Usage=151145956.843
+Tasks in Queue=6569.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1780/2034 episodes, total num timesteps 21872640/25000000, FPS 448.
+Average step reward is 0.916038990020752.
+Some episodes done, average episode reward is -1302.3034640250264.
+
+Episode 1780: Avg Net Energy=231.452, Avg CO2=62208.898, Water Usage=53741096.882
+Tasks in Queue=19812.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1785/2034 episodes, total num timesteps 21934080/25000000, FPS 449.
+Average step reward is 0.8503098487854004.
+Some episodes done, average episode reward is -1280.316614736513.
+
+Episode 1785: Avg Net Energy=235.032, Avg CO2=60637.033, Water Usage=54121560.157
+Tasks in Queue=32710.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1790/2034 episodes, total num timesteps 21995520/25000000, FPS 449.
+Average step reward is 0.9038527607917786.
+Some episodes done, average episode reward is -1246.740714478108.
+
+Episode 1790: Avg Net Energy=233.250, Avg CO2=56531.789, Water Usage=53868889.830
+Tasks in Queue=30037.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1795/2034 episodes, total num timesteps 22056960/25000000, FPS 449.
+Average step reward is 0.9013801217079163.
+Some episodes done, average episode reward is -1258.4679315023734.
+
+Episode 1795: Avg Net Energy=232.771, Avg CO2=57557.600, Water Usage=53856171.441
+Tasks in Queue=34039.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1800/2034 episodes, total num timesteps 22118400/25000000, FPS 449.
+Average step reward is 0.907059907913208.
+Some episodes done, average episode reward is -1243.7676824911748.
+
+Episode 1800: Avg Net Energy=231.727, Avg CO2=63143.610, Water Usage=53737861.441
+Tasks in Queue=30556.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1275.908578267707.
+
+Episode 1800: Avg Net Energy=232.548, Avg CO2=58532.988, Water Usage=151501610.081
+Tasks in Queue=15452.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1805/2034 episodes, total num timesteps 22179840/25000000, FPS 448.
+Average step reward is 0.8783681988716125.
+Some episodes done, average episode reward is -1314.7651515976809.
+
+Episode 1805: Avg Net Energy=232.909, Avg CO2=62485.959, Water Usage=53888880.243
+Tasks in Queue=25629.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1810/2034 episodes, total num timesteps 22241280/25000000, FPS 449.
+Average step reward is 0.9145635962486267.
+Some episodes done, average episode reward is -1260.0179574248104.
+
+Episode 1810: Avg Net Energy=232.896, Avg CO2=53447.035, Water Usage=53898757.775
+Tasks in Queue=24082.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1815/2034 episodes, total num timesteps 22302720/25000000, FPS 449.
+Average step reward is 0.9135996699333191.
+Some episodes done, average episode reward is -1272.0458184365607.
+
+Episode 1815: Avg Net Energy=232.511, Avg CO2=54084.335, Water Usage=53850032.176
+Tasks in Queue=20140.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1820/2034 episodes, total num timesteps 22364160/25000000, FPS 449.
+Average step reward is 0.8668621182441711.
+Some episodes done, average episode reward is -1283.2498277119246.
+
+Episode 1820: Avg Net Energy=233.626, Avg CO2=62115.981, Water Usage=54022752.867
+Tasks in Queue=16764.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1825/2034 episodes, total num timesteps 22425600/25000000, FPS 449.
+Average step reward is 0.8571273684501648.
+Some episodes done, average episode reward is -1280.2645296418734.
+
+Episode 1825: Avg Net Energy=233.375, Avg CO2=62740.364, Water Usage=54017085.348
+Tasks in Queue=27500.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1271.2581247611342.
+
+Episode 1825: Avg Net Energy=232.773, Avg CO2=58415.640, Water Usage=151372225.003
+Tasks in Queue=16505.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1830/2034 episodes, total num timesteps 22487040/25000000, FPS 448.
+Average step reward is 0.9151947498321533.
+Some episodes done, average episode reward is -1250.8363405577832.
+
+Episode 1830: Avg Net Energy=231.482, Avg CO2=61099.625, Water Usage=53633668.501
+Tasks in Queue=31935.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1835/2034 episodes, total num timesteps 22548480/25000000, FPS 448.
+Average step reward is 0.8502777218818665.
+Some episodes done, average episode reward is -1301.1350126424384.
+
+Episode 1835: Avg Net Energy=235.235, Avg CO2=56919.215, Water Usage=54253921.046
+Tasks in Queue=31160.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1840/2034 episodes, total num timesteps 22609920/25000000, FPS 449.
+Average step reward is 0.9033109545707703.
+Some episodes done, average episode reward is -1256.1364876406235.
+
+Episode 1840: Avg Net Energy=232.663, Avg CO2=55979.205, Water Usage=53743039.930
+Tasks in Queue=38613.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1845/2034 episodes, total num timesteps 22671360/25000000, FPS 449.
+Average step reward is 0.9547088742256165.
+Some episodes done, average episode reward is -1258.0020042243698.
+
+Episode 1845: Avg Net Energy=230.675, Avg CO2=63576.051, Water Usage=53528229.553
+Tasks in Queue=36244.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1850/2034 episodes, total num timesteps 22732800/25000000, FPS 449.
+Average step reward is 0.9179530143737793.
+Some episodes done, average episode reward is -1312.9069813558144.
+
+Episode 1850: Avg Net Energy=231.529, Avg CO2=61262.289, Water Usage=53796186.853
+Tasks in Queue=30230.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1249.3920307416172.
+
+Episode 1850: Avg Net Energy=232.322, Avg CO2=59329.237, Water Usage=151368375.779
+Tasks in Queue=31398.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1855/2034 episodes, total num timesteps 22794240/25000000, FPS 448.
+Average step reward is 0.9083979725837708.
+Some episodes done, average episode reward is -1250.6852179062305.
+
+Episode 1855: Avg Net Energy=232.778, Avg CO2=57664.518, Water Usage=53811190.797
+Tasks in Queue=39549.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1860/2034 episodes, total num timesteps 22855680/25000000, FPS 448.
+Average step reward is 0.90206378698349.
+Some episodes done, average episode reward is -1278.0134751965224.
+
+Episode 1860: Avg Net Energy=233.831, Avg CO2=52341.765, Water Usage=53910404.060
+Tasks in Queue=52022.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1865/2034 episodes, total num timesteps 22917120/25000000, FPS 449.
+Average step reward is 0.8575141429901123.
+Some episodes done, average episode reward is -1235.3725996180676.
+
+Episode 1865: Avg Net Energy=234.345, Avg CO2=59970.118, Water Usage=54092308.021
+Tasks in Queue=54831.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1870/2034 episodes, total num timesteps 22978560/25000000, FPS 449.
+Average step reward is 0.9202208518981934.
+Some episodes done, average episode reward is -1298.311157929189.
+
+Episode 1870: Avg Net Energy=231.496, Avg CO2=62693.977, Water Usage=53723582.415
+Tasks in Queue=51411.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1875/2034 episodes, total num timesteps 23040000/25000000, FPS 449.
+Average step reward is 0.825191080570221.
+Some episodes done, average episode reward is -1252.0706571693365.
+
+Episode 1875: Avg Net Energy=235.300, Avg CO2=61560.942, Water Usage=54237129.302
+Tasks in Queue=46434.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1277.953427987128.
+
+Episode 1875: Avg Net Energy=232.395, Avg CO2=59737.915, Water Usage=151600025.443
+Tasks in Queue=40265.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1880/2034 episodes, total num timesteps 23101440/25000000, FPS 448.
+Average step reward is 0.8413147926330566.
+Some episodes done, average episode reward is -1254.3501770862129.
+
+Episode 1880: Avg Net Energy=235.849, Avg CO2=55736.926, Water Usage=54378876.543
+Tasks in Queue=37748.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1885/2034 episodes, total num timesteps 23162880/25000000, FPS 448.
+Average step reward is 0.8672128319740295.
+Some episodes done, average episode reward is -1283.3871604938572.
+
+Episode 1885: Avg Net Energy=233.701, Avg CO2=56959.470, Water Usage=54022664.626
+Tasks in Queue=29809.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1890/2034 episodes, total num timesteps 23224320/25000000, FPS 449.
+Average step reward is 0.9383746981620789.
+Some episodes done, average episode reward is -1243.7207631422464.
+
+Episode 1890: Avg Net Energy=230.545, Avg CO2=63699.712, Water Usage=53581869.836
+Tasks in Queue=21184.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1895/2034 episodes, total num timesteps 23285760/25000000, FPS 449.
+Average step reward is 0.9034528732299805.
+Some episodes done, average episode reward is -1318.905301590111.
+
+Episode 1895: Avg Net Energy=231.476, Avg CO2=61818.950, Water Usage=53729332.098
+Tasks in Queue=19113.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1900/2034 episodes, total num timesteps 23347200/25000000, FPS 449.
+Average step reward is 0.89652019739151.
+Some episodes done, average episode reward is -1278.20078146344.
+
+Episode 1900: Avg Net Energy=232.956, Avg CO2=59661.776, Water Usage=53956501.174
+Tasks in Queue=21823.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1275.3025805805364.
+
+Episode 1900: Avg Net Energy=232.194, Avg CO2=58798.442, Water Usage=151740913.958
+Tasks in Queue=10253.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1905/2034 episodes, total num timesteps 23408640/25000000, FPS 448.
+Average step reward is 0.8926217555999756.
+Some episodes done, average episode reward is -1254.5070161347808.
+
+Episode 1905: Avg Net Energy=233.540, Avg CO2=51711.394, Water Usage=53941528.334
+Tasks in Queue=25936.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1910/2034 episodes, total num timesteps 23470080/25000000, FPS 448.
+Average step reward is 0.882077693939209.
+Some episodes done, average episode reward is -1304.3892524741557.
+
+Episode 1910: Avg Net Energy=232.190, Avg CO2=59583.157, Water Usage=53836561.939
+Tasks in Queue=30028.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1915/2034 episodes, total num timesteps 23531520/25000000, FPS 449.
+Average step reward is 0.8477029800415039.
+Some episodes done, average episode reward is -1261.5631731879455.
+
+Episode 1915: Avg Net Energy=234.438, Avg CO2=64007.147, Water Usage=54149102.931
+Tasks in Queue=49809.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1920/2034 episodes, total num timesteps 23592960/25000000, FPS 449.
+Average step reward is 0.8566067218780518.
+Some episodes done, average episode reward is -1244.5287560628733.
+
+Episode 1920: Avg Net Energy=233.600, Avg CO2=61474.216, Water Usage=53980017.325
+Tasks in Queue=55772.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1925/2034 episodes, total num timesteps 23654400/25000000, FPS 449.
+Average step reward is 0.9112858176231384.
+Some episodes done, average episode reward is -1295.5955216842103.
+
+Episode 1925: Avg Net Energy=232.903, Avg CO2=52793.397, Water Usage=53801704.809
+Tasks in Queue=55586.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1275.504808424593.
+
+Episode 1925: Avg Net Energy=232.258, Avg CO2=57655.886, Water Usage=151303576.720
+Tasks in Queue=70745.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1930/2034 episodes, total num timesteps 23715840/25000000, FPS 448.
+Average step reward is 0.8806880116462708.
+Some episodes done, average episode reward is -1273.948194354475.
+
+Episode 1930: Avg Net Energy=233.251, Avg CO2=56672.670, Water Usage=53976452.119
+Tasks in Queue=53643.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1935/2034 episodes, total num timesteps 23777280/25000000, FPS 448.
+Average step reward is 0.9323486685752869.
+Some episodes done, average episode reward is -1281.0771239242147.
+
+Episode 1935: Avg Net Energy=230.869, Avg CO2=62991.521, Water Usage=53766671.854
+Tasks in Queue=82255.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1940/2034 episodes, total num timesteps 23838720/25000000, FPS 448.
+Average step reward is 0.8902572989463806.
+Some episodes done, average episode reward is -1255.328100605224.
+
+Episode 1940: Avg Net Energy=232.780, Avg CO2=62655.040, Water Usage=53840596.768
+Tasks in Queue=69190.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1945/2034 episodes, total num timesteps 23900160/25000000, FPS 449.
+Average step reward is 0.9069033265113831.
+Some episodes done, average episode reward is -1287.6086375374598.
+
+Episode 1945: Avg Net Energy=232.870, Avg CO2=57011.867, Water Usage=53897329.433
+Tasks in Queue=61474.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1950/2034 episodes, total num timesteps 23961600/25000000, FPS 449.
+Average step reward is 0.8980226516723633.
+Some episodes done, average episode reward is -1240.3146752249754.
+
+Episode 1950: Avg Net Energy=234.151, Avg CO2=49843.324, Water Usage=54022596.816
+Tasks in Queue=53825.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1323.5513301784054.
+
+Episode 1950: Avg Net Energy=232.817, Avg CO2=59360.392, Water Usage=151540593.242
+Tasks in Queue=50121.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1955/2034 episodes, total num timesteps 24023040/25000000, FPS 448.
+Average step reward is 0.8842287659645081.
+Some episodes done, average episode reward is -1246.064579975977.
+
+Episode 1955: Avg Net Energy=232.911, Avg CO2=58805.691, Water Usage=53841676.925
+Tasks in Queue=44886.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1960/2034 episodes, total num timesteps 24084480/25000000, FPS 448.
+Average step reward is 0.8834075927734375.
+Some episodes done, average episode reward is -1290.6284004444067.
+
+Episode 1960: Avg Net Energy=232.552, Avg CO2=63037.431, Water Usage=53765440.470
+Tasks in Queue=40140.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1965/2034 episodes, total num timesteps 24145920/25000000, FPS 448.
+Average step reward is 0.8615603446960449.
+Some episodes done, average episode reward is -1256.7620436999462.
+
+Episode 1965: Avg Net Energy=234.248, Avg CO2=60242.816, Water Usage=54101405.398
+Tasks in Queue=34241.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1970/2034 episodes, total num timesteps 24207360/25000000, FPS 449.
+Average step reward is 0.8870121836662292.
+Some episodes done, average episode reward is -1246.8808725273436.
+
+Episode 1970: Avg Net Energy=234.701, Avg CO2=53693.167, Water Usage=54081588.477
+Tasks in Queue=35065.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1975/2034 episodes, total num timesteps 24268800/25000000, FPS 449.
+Average step reward is 0.8446106314659119.
+Some episodes done, average episode reward is -1264.309991972336.
+
+Episode 1975: Avg Net Energy=234.551, Avg CO2=57550.533, Water Usage=54094504.520
+Tasks in Queue=33555.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1244.7514883055474.
+
+Episode 1975: Avg Net Energy=232.139, Avg CO2=58322.935, Water Usage=151047531.064
+Tasks in Queue=19694.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1980/2034 episodes, total num timesteps 24330240/25000000, FPS 448.
+Average step reward is 0.8856308460235596.
+Some episodes done, average episode reward is -1267.3527326444403.
+
+Episode 1980: Avg Net Energy=232.892, Avg CO2=64878.840, Water Usage=53993322.421
+Tasks in Queue=35086.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1985/2034 episodes, total num timesteps 24391680/25000000, FPS 448.
+Average step reward is 0.902941882610321.
+Some episodes done, average episode reward is -1269.4238687292104.
+
+Episode 1985: Avg Net Energy=231.905, Avg CO2=61789.030, Water Usage=53802155.783
+Tasks in Queue=38387.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1990/2034 episodes, total num timesteps 24453120/25000000, FPS 448.
+Average step reward is 0.8706696033477783.
+Some episodes done, average episode reward is -1294.6803447191944.
+
+Episode 1990: Avg Net Energy=234.661, Avg CO2=58913.985, Water Usage=54191913.482
+Tasks in Queue=39170.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 1995/2034 episodes, total num timesteps 24514560/25000000, FPS 449.
+Average step reward is 0.9281468987464905.
+Some episodes done, average episode reward is -1284.6348957574191.
+
+Episode 1995: Avg Net Energy=232.275, Avg CO2=55602.413, Water Usage=53804195.229
+Tasks in Queue=38074.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2000/2034 episodes, total num timesteps 24576000/25000000, FPS 449.
+Average step reward is 0.8752376437187195.
+Some episodes done, average episode reward is -1251.738933362839.
+
+Episode 2000: Avg Net Energy=235.010, Avg CO2=60781.477, Water Usage=54073148.803
+Tasks in Queue=38003.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1240.6073571630054.
+
+Episode 2000: Avg Net Energy=232.027, Avg CO2=58207.467, Water Usage=151329500.873
+Tasks in Queue=36749.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2005/2034 episodes, total num timesteps 24637440/25000000, FPS 448.
+Average step reward is 0.9036992192268372.
+Some episodes done, average episode reward is -1269.639263232065.
+
+Episode 2005: Avg Net Energy=233.144, Avg CO2=63471.166, Water Usage=53945164.131
+Tasks in Queue=38075.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2010/2034 episodes, total num timesteps 24698880/25000000, FPS 448.
+Average step reward is 0.8953496813774109.
+Some episodes done, average episode reward is -1238.686181170824.
+
+Episode 2010: Avg Net Energy=233.674, Avg CO2=60223.458, Water Usage=53986744.173
+Tasks in Queue=43833.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2015/2034 episodes, total num timesteps 24760320/25000000, FPS 448.
+Average step reward is 0.8587270379066467.
+Some episodes done, average episode reward is -1255.9217702119388.
+
+Episode 2015: Avg Net Energy=236.441, Avg CO2=54715.947, Water Usage=54361967.520
+Tasks in Queue=75596.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2020/2034 episodes, total num timesteps 24821760/25000000, FPS 449.
+Average step reward is 0.9520284533500671.
+Some episodes done, average episode reward is -1234.3630921842705.
+
+Episode 2020: Avg Net Energy=233.185, Avg CO2=54176.126, Water Usage=53845604.338
+Tasks in Queue=64971.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2025/2034 episodes, total num timesteps 24883200/25000000, FPS 449.
+Average step reward is 0.8966473937034607.
+Some episodes done, average episode reward is -1267.6023020984655.
+
+Episode 2025: Avg Net Energy=233.150, Avg CO2=65051.023, Water Usage=53932980.646
+Tasks in Queue=52551.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1255.5662744867789.
+
+Episode 2025: Avg Net Energy=232.240, Avg CO2=58270.753, Water Usage=151404219.284
+Tasks in Queue=99261.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo mappo Exp mappo_rtask_25M updates 2030/2034 episodes, total num timesteps 24944640/25000000, FPS 448.
+Average step reward is 0.8712601661682129.
+Some episodes done, average episode reward is -1253.2911656964739.
+
+Episode 2030: Avg Net Energy=233.765, Avg CO2=62537.343, Water Usage=53970299.595
+Tasks in Queue=52250.000, Tasks Dropped=0.000
+End: Mon May  4 07:55:32 EEST 2026

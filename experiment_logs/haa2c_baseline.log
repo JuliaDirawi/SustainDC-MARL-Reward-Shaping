@@ -1,0 +1,2801 @@
+choose to use cpu...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...WARNING, using default values for chiller sizing...
+
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+WARNING, using default values for chiller sizing...
+share_observation_space:  [Box(-2.0, 2.0, (29,), float32), Box(-2.0, 2.0, (29,), float32), Box(-2.0, 2.0, (29,), float32)]
+observation_space:  [Box(-2.0, 2.0, (26,), float32), Box(-2.0, 2.0, (26,), float32), Box(-2.0, 2.0, (26,), float32)]
+action_space:  [Discrete(3), Discrete(3), Discrete(3)]
+Start Training
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 5/2034 episodes, total num timesteps 61440/25000000, FPS 385.
+Average step reward is 0.17138509452342987.
+Some episodes done, average episode reward is 246.77817410907542.
+
+Episode 5: Avg Net Energy=352.318, Avg CO2=94230.267, Water Usage=15858590.127
+Tasks in Queue=3094236.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 10/2034 episodes, total num timesteps 122880/25000000, FPS 376.
+Average step reward is 0.27474990487098694.
+Some episodes done, average episode reward is 460.77339789138523.
+
+Episode 10: Avg Net Energy=339.038, Avg CO2=87157.100, Water Usage=16181046.640
+Tasks in Queue=3896604.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 15/2034 episodes, total num timesteps 184320/25000000, FPS 360.
+Average step reward is 0.1616293042898178.
+Some episodes done, average episode reward is 559.2518214268483.
+
+Episode 15: Avg Net Energy=332.878, Avg CO2=77556.911, Water Usage=16394312.288
+Tasks in Queue=4104240.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 20/2034 episodes, total num timesteps 245760/25000000, FPS 363.
+Average step reward is 0.10378142446279526.
+Some episodes done, average episode reward is 328.5330929715556.
+
+Episode 20: Avg Net Energy=327.096, Avg CO2=86026.981, Water Usage=16379490.752
+Tasks in Queue=4601330.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 25/2034 episodes, total num timesteps 307200/25000000, FPS 384.
+Average step reward is -0.09347152709960938.
+Some episodes done, average episode reward is 19.59033057937405.
+
+Episode 25: Avg Net Energy=326.243, Avg CO2=88561.346, Water Usage=16438235.106
+Tasks in Queue=5390733.000, Tasks Dropped=0.000
+Evaluation average episode reward is -779.7202496185396.
+
+Episode 25: Avg Net Energy=320.870, Avg CO2=80260.138, Water Usage=46423334.564
+Tasks in Queue=27039110.000, Tasks Dropped=19542.000
+We are saving model weights at episode 25 with average episode reward -779.7202496185396
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 30/2034 episodes, total num timesteps 368640/25000000, FPS 376.
+Average step reward is -0.07788347452878952.
+Some episodes done, average episode reward is 2.256205339317051.
+
+Episode 30: Avg Net Energy=326.700, Avg CO2=85243.166, Water Usage=16360487.846
+Tasks in Queue=5198723.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 35/2034 episodes, total num timesteps 430080/25000000, FPS 389.
+Average step reward is 0.007968765683472157.
+Some episodes done, average episode reward is 47.791474464447845.
+
+Episode 35: Avg Net Energy=326.126, Avg CO2=79797.443, Water Usage=16388488.341
+Tasks in Queue=4522121.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 40/2034 episodes, total num timesteps 491520/25000000, FPS 399.
+Average step reward is 0.060600027441978455.
+Some episodes done, average episode reward is 47.91544316882061.
+
+Episode 40: Avg Net Energy=323.861, Avg CO2=78638.139, Water Usage=16409467.860
+Tasks in Queue=4235346.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 45/2034 episodes, total num timesteps 552960/25000000, FPS 408.
+Average step reward is 0.18924100697040558.
+Some episodes done, average episode reward is 23.28738472003532.
+
+Episode 45: Avg Net Energy=318.973, Avg CO2=87574.706, Water Usage=16186861.851
+Tasks in Queue=3751046.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 50/2034 episodes, total num timesteps 614400/25000000, FPS 415.
+Average step reward is 0.07566552609205246.
+Some episodes done, average episode reward is 142.3558387393693.
+
+Episode 50: Avg Net Energy=323.524, Avg CO2=86755.944, Water Usage=16328476.882
+Tasks in Queue=3407782.000, Tasks Dropped=0.000
+Evaluation average episode reward is -161.57476398106817.
+
+Episode 50: Avg Net Energy=320.239, Avg CO2=81358.762, Water Usage=46460052.496
+Tasks in Queue=11966478.000, Tasks Dropped=0.000
+We are saving model weights at episode 50 with average episode reward -161.57476398106817
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 55/2034 episodes, total num timesteps 675840/25000000, FPS 407.
+Average step reward is 0.13218487799167633.
+Some episodes done, average episode reward is 99.56757921486265.
+
+Episode 55: Avg Net Energy=321.737, Avg CO2=83067.843, Water Usage=16342784.265
+Tasks in Queue=2982286.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 60/2034 episodes, total num timesteps 737280/25000000, FPS 413.
+Average step reward is 0.19809581339359283.
+Some episodes done, average episode reward is 149.05749276455424.
+
+Episode 60: Avg Net Energy=322.672, Avg CO2=74336.456, Water Usage=16350968.031
+Tasks in Queue=2084017.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 65/2034 episodes, total num timesteps 798720/25000000, FPS 418.
+Average step reward is 0.15029427409172058.
+Some episodes done, average episode reward is 154.44046864603203.
+
+Episode 65: Avg Net Energy=322.484, Avg CO2=83179.813, Water Usage=16397657.295
+Tasks in Queue=2026351.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 70/2034 episodes, total num timesteps 860160/25000000, FPS 423.
+Average step reward is 0.17344526946544647.
+Some episodes done, average episode reward is 121.00945760248622.
+
+Episode 70: Avg Net Energy=322.145, Avg CO2=87096.035, Water Usage=16369732.162
+Tasks in Queue=1541533.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 75/2034 episodes, total num timesteps 921600/25000000, FPS 428.
+Average step reward is 0.2401394098997116.
+Some episodes done, average episode reward is 94.23007005739301.
+
+Episode 75: Avg Net Energy=323.282, Avg CO2=85550.079, Water Usage=16394250.791
+Tasks in Queue=650441.000, Tasks Dropped=0.000
+Evaluation average episode reward is 58.20300409004935.
+
+Episode 75: Avg Net Energy=322.586, Avg CO2=81441.982, Water Usage=46310517.490
+Tasks in Queue=819159.000, Tasks Dropped=0.000
+We are saving model weights at episode 75 with average episode reward 58.20300409004935
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 80/2034 episodes, total num timesteps 983040/25000000, FPS 421.
+Average step reward is 0.11021315306425095.
+Some episodes done, average episode reward is 211.54545444121285.
+
+Episode 80: Avg Net Energy=326.689, Avg CO2=77552.121, Water Usage=16541438.683
+Tasks in Queue=1378921.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 85/2034 episodes, total num timesteps 1044480/25000000, FPS 424.
+Average step reward is 0.1876363605260849.
+Some episodes done, average episode reward is 135.29210653450386.
+
+Episode 85: Avg Net Energy=320.387, Avg CO2=75415.050, Water Usage=16429951.639
+Tasks in Queue=1646180.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 90/2034 episodes, total num timesteps 1105920/25000000, FPS 428.
+Average step reward is 0.0636247768998146.
+Some episodes done, average episode reward is 2.4839016440903947.
+
+Episode 90: Avg Net Energy=322.607, Avg CO2=88975.769, Water Usage=16404815.831
+Tasks in Queue=2493327.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 95/2034 episodes, total num timesteps 1167360/25000000, FPS 431.
+Average step reward is 0.07725828140974045.
+Some episodes done, average episode reward is -96.30089270506096.
+
+Episode 95: Avg Net Energy=322.507, Avg CO2=86238.825, Water Usage=16496315.345
+Tasks in Queue=2350710.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 100/2034 episodes, total num timesteps 1228800/25000000, FPS 435.
+Average step reward is 0.1414254903793335.
+Some episodes done, average episode reward is 85.69540496011696.
+
+Episode 100: Avg Net Energy=323.822, Avg CO2=77690.506, Water Usage=16428643.961
+Tasks in Queue=1960496.000, Tasks Dropped=0.000
+Evaluation average episode reward is -107.22547420097204.
+
+Episode 100: Avg Net Energy=320.929, Avg CO2=81033.641, Water Usage=46346780.873
+Tasks in Queue=8770451.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 105/2034 episodes, total num timesteps 1290240/25000000, FPS 428.
+Average step reward is 0.1812567263841629.
+Some episodes done, average episode reward is 98.24960065878645.
+
+Episode 105: Avg Net Energy=323.665, Avg CO2=70788.493, Water Usage=16472767.574
+Tasks in Queue=1783168.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 110/2034 episodes, total num timesteps 1351680/25000000, FPS 431.
+Average step reward is 0.04102923348546028.
+Some episodes done, average episode reward is 123.7979351639305.
+
+Episode 110: Avg Net Energy=328.480, Avg CO2=85942.725, Water Usage=16589805.263
+Tasks in Queue=2114744.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 115/2034 episodes, total num timesteps 1413120/25000000, FPS 433.
+Average step reward is 0.08929282426834106.
+Some episodes done, average episode reward is 47.38069785446951.
+
+Episode 115: Avg Net Energy=325.198, Avg CO2=88339.698, Water Usage=16478831.541
+Tasks in Queue=1812400.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 120/2034 episodes, total num timesteps 1474560/25000000, FPS 436.
+Average step reward is 0.18110056221485138.
+Some episodes done, average episode reward is 233.79198786679436.
+
+Episode 120: Avg Net Energy=320.338, Avg CO2=83652.182, Water Usage=16341355.946
+Tasks in Queue=1970075.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 125/2034 episodes, total num timesteps 1536000/25000000, FPS 438.
+Average step reward is 0.1026356890797615.
+Some episodes done, average episode reward is 61.26856921263545.
+
+Episode 125: Avg Net Energy=324.467, Avg CO2=74938.702, Water Usage=16503935.641
+Tasks in Queue=2223093.000, Tasks Dropped=0.000
+Evaluation average episode reward is -145.1115836455185.
+
+Episode 125: Avg Net Energy=321.324, Avg CO2=80808.063, Water Usage=46411855.875
+Tasks in Queue=10094959.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 130/2034 episodes, total num timesteps 1597440/25000000, FPS 433.
+Average step reward is 0.17119045555591583.
+Some episodes done, average episode reward is 119.04413891444098.
+
+Episode 130: Avg Net Energy=323.097, Avg CO2=76629.217, Water Usage=16325792.250
+Tasks in Queue=1375870.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 135/2034 episodes, total num timesteps 1658880/25000000, FPS 435.
+Average step reward is 0.17222493886947632.
+Some episodes done, average episode reward is 140.5812247955088.
+
+Episode 135: Avg Net Energy=322.650, Avg CO2=87708.336, Water Usage=16482911.084
+Tasks in Queue=1294354.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 140/2034 episodes, total num timesteps 1720320/25000000, FPS 435.
+Average step reward is 0.22450895607471466.
+Some episodes done, average episode reward is 90.88910496411654.
+
+Episode 140: Avg Net Energy=321.106, Avg CO2=85240.791, Water Usage=16375311.954
+Tasks in Queue=961184.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 145/2034 episodes, total num timesteps 1781760/25000000, FPS 435.
+Average step reward is 0.2544703185558319.
+Some episodes done, average episode reward is 219.77245879901184.
+
+Episode 145: Avg Net Energy=319.165, Avg CO2=76609.791, Water Usage=16245435.457
+Tasks in Queue=1268503.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 150/2034 episodes, total num timesteps 1843200/25000000, FPS 437.
+Average step reward is 0.16574344038963318.
+Some episodes done, average episode reward is 133.64248209757787.
+
+Episode 150: Avg Net Energy=322.081, Avg CO2=72849.913, Water Usage=16429841.100
+Tasks in Queue=1614951.000, Tasks Dropped=0.000
+Evaluation average episode reward is -69.71741012839982.
+
+Episode 150: Avg Net Energy=321.106, Avg CO2=81906.124, Water Usage=46169755.849
+Tasks in Queue=7519142.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 155/2034 episodes, total num timesteps 1904640/25000000, FPS 431.
+Average step reward is 0.2333989292383194.
+Some episodes done, average episode reward is 174.71054554162683.
+
+Episode 155: Avg Net Energy=317.390, Avg CO2=81348.186, Water Usage=16292658.391
+Tasks in Queue=1928448.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 160/2034 episodes, total num timesteps 1966080/25000000, FPS 433.
+Average step reward is 0.018985675647854805.
+Some episodes done, average episode reward is 94.00216226918906.
+
+Episode 160: Avg Net Energy=323.434, Avg CO2=88499.412, Water Usage=16518543.868
+Tasks in Queue=2641595.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 165/2034 episodes, total num timesteps 2027520/25000000, FPS 434.
+Average step reward is -0.10118066519498825.
+Some episodes done, average episode reward is 19.220029063839007.
+
+Episode 165: Avg Net Energy=327.858, Avg CO2=88448.310, Water Usage=16607610.801
+Tasks in Queue=3013046.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 170/2034 episodes, total num timesteps 2088960/25000000, FPS 434.
+Average step reward is 0.0362253300845623.
+Some episodes done, average episode reward is 69.87514618505146.
+
+Episode 170: Avg Net Energy=328.815, Avg CO2=79046.421, Water Usage=16630414.745
+Tasks in Queue=2328753.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 175/2034 episodes, total num timesteps 2150400/25000000, FPS 434.
+Average step reward is 0.2394685298204422.
+Some episodes done, average episode reward is 197.05720408975722.
+
+Episode 175: Avg Net Energy=321.695, Avg CO2=77146.076, Water Usage=16366240.607
+Tasks in Queue=1758057.000, Tasks Dropped=0.000
+Evaluation average episode reward is -168.79795290626078.
+
+Episode 175: Avg Net Energy=321.943, Avg CO2=80030.348, Water Usage=46417658.133
+Tasks in Queue=9512162.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 180/2034 episodes, total num timesteps 2211840/25000000, FPS 428.
+Average step reward is 0.20360223948955536.
+Some episodes done, average episode reward is 178.66759270947827.
+
+Episode 180: Avg Net Energy=322.915, Avg CO2=88599.643, Water Usage=16459188.135
+Tasks in Queue=1564497.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 185/2034 episodes, total num timesteps 2273280/25000000, FPS 429.
+Average step reward is 0.2534620761871338.
+Some episodes done, average episode reward is 246.5802740542488.
+
+Episode 185: Avg Net Energy=321.125, Avg CO2=85645.522, Water Usage=16299874.465
+Tasks in Queue=1261366.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 190/2034 episodes, total num timesteps 2334720/25000000, FPS 431.
+Average step reward is 0.09593256562948227.
+Some episodes done, average episode reward is 274.415923958493.
+
+Episode 190: Avg Net Energy=325.820, Avg CO2=82891.398, Water Usage=16518524.771
+Tasks in Queue=2107316.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 195/2034 episodes, total num timesteps 2396160/25000000, FPS 432.
+Average step reward is 0.26072990894317627.
+Some episodes done, average episode reward is 173.87124520692916.
+
+Episode 195: Avg Net Energy=321.970, Avg CO2=72306.753, Water Usage=16528440.650
+Tasks in Queue=1889022.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 200/2034 episodes, total num timesteps 2457600/25000000, FPS 433.
+Average step reward is 0.24847929179668427.
+Some episodes done, average episode reward is 233.62542729005193.
+
+Episode 200: Avg Net Energy=320.775, Avg CO2=80371.866, Water Usage=16398280.243
+Tasks in Queue=2020879.000, Tasks Dropped=0.000
+Evaluation average episode reward is -180.11282989420033.
+
+Episode 200: Avg Net Energy=321.802, Avg CO2=80716.636, Water Usage=46109959.793
+Tasks in Queue=10010591.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 205/2034 episodes, total num timesteps 2519040/25000000, FPS 429.
+Average step reward is 0.10115442425012589.
+Some episodes done, average episode reward is 344.8391128730903.
+
+Episode 205: Avg Net Energy=324.575, Avg CO2=88710.164, Water Usage=16628094.935
+Tasks in Queue=2232333.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 210/2034 episodes, total num timesteps 2580480/25000000, FPS 430.
+Average step reward is 0.07063645869493484.
+Some episodes done, average episode reward is 213.3969789107759.
+
+Episode 210: Avg Net Energy=326.659, Avg CO2=85465.070, Water Usage=16592801.291
+Tasks in Queue=1898700.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 215/2034 episodes, total num timesteps 2641920/25000000, FPS 430.
+Average step reward is 0.19516430795192719.
+Some episodes done, average episode reward is 155.7638855221675.
+
+Episode 215: Avg Net Energy=323.796, Avg CO2=74675.336, Water Usage=16526161.109
+Tasks in Queue=1500448.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 220/2034 episodes, total num timesteps 2703360/25000000, FPS 431.
+Average step reward is 0.2063797563314438.
+Some episodes done, average episode reward is 178.748245199244.
+
+Episode 220: Avg Net Energy=322.156, Avg CO2=77226.373, Water Usage=16316840.442
+Tasks in Queue=1421584.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 225/2034 episodes, total num timesteps 2764800/25000000, FPS 432.
+Average step reward is 0.23932187259197235.
+Some episodes done, average episode reward is 255.8868081025105.
+
+Episode 225: Avg Net Energy=320.513, Avg CO2=88121.079, Water Usage=16523422.073
+Tasks in Queue=1559966.000, Tasks Dropped=0.000
+Evaluation average episode reward is 38.593646962927096.
+
+Episode 225: Avg Net Energy=321.637, Avg CO2=81197.802, Water Usage=46338895.467
+Tasks in Queue=3982337.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 230/2034 episodes, total num timesteps 2826240/25000000, FPS 429.
+Average step reward is 0.1794055700302124.
+Some episodes done, average episode reward is 189.38190750859846.
+
+Episode 230: Avg Net Energy=320.146, Avg CO2=85964.139, Water Usage=16326194.951
+Tasks in Queue=1957474.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 235/2034 episodes, total num timesteps 2887680/25000000, FPS 430.
+Average step reward is 0.1902483105659485.
+Some episodes done, average episode reward is 173.99971284154435.
+
+Episode 235: Avg Net Energy=322.996, Avg CO2=84729.414, Water Usage=16508127.881
+Tasks in Queue=1678912.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 240/2034 episodes, total num timesteps 2949120/25000000, FPS 431.
+Average step reward is 0.24892334640026093.
+Some episodes done, average episode reward is 264.29915523267283.
+
+Episode 240: Avg Net Energy=323.331, Avg CO2=71361.402, Water Usage=16583935.988
+Tasks in Queue=1540134.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 245/2034 episodes, total num timesteps 3010560/25000000, FPS 431.
+Average step reward is 0.21816690266132355.
+Some episodes done, average episode reward is 254.1268986462031.
+
+Episode 245: Avg Net Energy=322.942, Avg CO2=83674.681, Water Usage=16411122.066
+Tasks in Queue=1960723.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 250/2034 episodes, total num timesteps 3072000/25000000, FPS 432.
+Average step reward is 0.04255615174770355.
+Some episodes done, average episode reward is 171.70576084234628.
+
+Episode 250: Avg Net Energy=323.417, Avg CO2=86766.171, Water Usage=16416403.651
+Tasks in Queue=3037136.000, Tasks Dropped=0.000
+Evaluation average episode reward is -1539.5104706026996.
+
+Episode 250: Avg Net Energy=341.871, Avg CO2=87008.888, Water Usage=45098078.721
+Tasks in Queue=12200794.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 255/2034 episodes, total num timesteps 3133440/25000000, FPS 429.
+Average step reward is 0.03464451804757118.
+Some episodes done, average episode reward is 204.2065426278938.
+
+Episode 255: Avg Net Energy=323.054, Avg CO2=84753.708, Water Usage=16612690.313
+Tasks in Queue=3705317.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 260/2034 episodes, total num timesteps 3194880/25000000, FPS 430.
+Average step reward is 0.09541740268468857.
+Some episodes done, average episode reward is 104.11791355482019.
+
+Episode 260: Avg Net Energy=325.583, Avg CO2=77260.989, Water Usage=16615261.341
+Tasks in Queue=2616562.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 265/2034 episodes, total num timesteps 3256320/25000000, FPS 431.
+Average step reward is 0.30794331431388855.
+Some episodes done, average episode reward is 236.30586303016239.
+
+Episode 265: Avg Net Energy=317.331, Avg CO2=75450.288, Water Usage=16311106.026
+Tasks in Queue=2364458.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 270/2034 episodes, total num timesteps 3317760/25000000, FPS 431.
+Average step reward is 0.10140704363584518.
+Some episodes done, average episode reward is 137.01397702658267.
+
+Episode 270: Avg Net Energy=324.138, Avg CO2=89509.572, Water Usage=16420366.173
+Tasks in Queue=2253844.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 275/2034 episodes, total num timesteps 3379200/25000000, FPS 432.
+Average step reward is 0.12760788202285767.
+Some episodes done, average episode reward is 156.72599526799482.
+
+Episode 275: Avg Net Energy=324.199, Avg CO2=87325.626, Water Usage=16575585.273
+Tasks in Queue=1866785.000, Tasks Dropped=0.000
+Evaluation average episode reward is 387.2360326781086.
+
+Episode 275: Avg Net Energy=321.520, Avg CO2=82956.828, Water Usage=46345517.372
+Tasks in Queue=6343672.000, Tasks Dropped=0.000
+We are saving model weights at episode 275 with average episode reward 387.2360326781086
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 280/2034 episodes, total num timesteps 3440640/25000000, FPS 429.
+Average step reward is 0.24907450377941132.
+Some episodes done, average episode reward is 209.87890601104823.
+
+Episode 280: Avg Net Energy=319.134, Avg CO2=83381.987, Water Usage=16366527.278
+Tasks in Queue=1972586.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 285/2034 episodes, total num timesteps 3502080/25000000, FPS 430.
+Average step reward is 0.14596132934093475.
+Some episodes done, average episode reward is 168.66443420784313.
+
+Episode 285: Avg Net Energy=327.038, Avg CO2=70148.993, Water Usage=16624565.984
+Tasks in Queue=2110469.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 290/2034 episodes, total num timesteps 3563520/25000000, FPS 430.
+Average step reward is 0.2402099370956421.
+Some episodes done, average episode reward is 156.01993934746173.
+
+Episode 290: Avg Net Energy=320.472, Avg CO2=80021.775, Water Usage=16395035.158
+Tasks in Queue=1895459.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 295/2034 episodes, total num timesteps 3624960/25000000, FPS 431.
+Average step reward is 0.18445666134357452.
+Some episodes done, average episode reward is 393.88586475534004.
+
+Episode 295: Avg Net Energy=324.872, Avg CO2=88741.553, Water Usage=16490762.525
+Tasks in Queue=2237975.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 300/2034 episodes, total num timesteps 3686400/25000000, FPS 432.
+Average step reward is 0.22231464087963104.
+Some episodes done, average episode reward is 317.2164637218375.
+
+Episode 300: Avg Net Energy=324.114, Avg CO2=84947.723, Water Usage=16472432.014
+Tasks in Queue=2303199.000, Tasks Dropped=0.000
+Evaluation average episode reward is 689.2755374969024.
+
+Episode 300: Avg Net Energy=324.182, Avg CO2=81714.101, Water Usage=46314641.770
+Tasks in Queue=8747095.000, Tasks Dropped=22.000
+We are saving model weights at episode 300 with average episode reward 689.2755374969024
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 305/2034 episodes, total num timesteps 3747840/25000000, FPS 429.
+Average step reward is 0.21319855749607086.
+Some episodes done, average episode reward is 296.0767151322798.
+
+Episode 305: Avg Net Energy=325.256, Avg CO2=77417.507, Water Usage=16409754.206
+Tasks in Queue=2644285.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 310/2034 episodes, total num timesteps 3809280/25000000, FPS 429.
+Average step reward is 0.23259009420871735.
+Some episodes done, average episode reward is 230.65851329482243.
+
+Episode 310: Avg Net Energy=323.634, Avg CO2=76011.367, Water Usage=16326607.175
+Tasks in Queue=2723283.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 315/2034 episodes, total num timesteps 3870720/25000000, FPS 430.
+Average step reward is 0.23319868743419647.
+Some episodes done, average episode reward is 316.29375134491005.
+
+Episode 315: Avg Net Energy=322.935, Avg CO2=88603.567, Water Usage=16464142.844
+Tasks in Queue=2288592.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 320/2034 episodes, total num timesteps 3932160/25000000, FPS 431.
+Average step reward is 0.1696503609418869.
+Some episodes done, average episode reward is 240.09030922482808.
+
+Episode 320: Avg Net Energy=325.637, Avg CO2=87502.790, Water Usage=16354320.362
+Tasks in Queue=2577019.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 325/2034 episodes, total num timesteps 3993600/25000000, FPS 431.
+Average step reward is 0.27285975217819214.
+Some episodes done, average episode reward is 325.61266896291374.
+
+Episode 325: Avg Net Energy=321.595, Avg CO2=80790.567, Water Usage=16536698.339
+Tasks in Queue=2590197.000, Tasks Dropped=0.000
+Evaluation average episode reward is 755.220163106369.
+
+Episode 325: Avg Net Energy=321.421, Avg CO2=80372.548, Water Usage=46464250.728
+Tasks in Queue=9190419.000, Tasks Dropped=323.000
+We are saving model weights at episode 325 with average episode reward 755.220163106369
+
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 330/2034 episodes, total num timesteps 4055040/25000000, FPS 429.
+Average step reward is 0.2914756238460541.
+Some episodes done, average episode reward is 368.77935990110126.
+
+Episode 330: Avg Net Energy=321.368, Avg CO2=73726.636, Water Usage=16487497.446
+Tasks in Queue=2235034.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 335/2034 episodes, total num timesteps 4116480/25000000, FPS 430.
+Average step reward is 0.2845417261123657.
+Some episodes done, average episode reward is 272.12607738513015.
+
+Episode 335: Avg Net Energy=320.859, Avg CO2=80967.183, Water Usage=16336413.376
+Tasks in Queue=1826109.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 340/2034 episodes, total num timesteps 4177920/25000000, FPS 430.
+Average step reward is 0.08761736750602722.
+Some episodes done, average episode reward is 322.4513751079116.
+
+Episode 340: Avg Net Energy=324.499, Avg CO2=88206.640, Water Usage=16416813.973
+Tasks in Queue=2734692.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 345/2034 episodes, total num timesteps 4239360/25000000, FPS 431.
+Average step reward is -0.007716000080108643.
+Some episodes done, average episode reward is 232.5154942828311.
+
+Episode 345: Avg Net Energy=327.284, Avg CO2=88579.790, Water Usage=16589824.854
+Tasks in Queue=2931507.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 350/2034 episodes, total num timesteps 4300800/25000000, FPS 431.
+Average step reward is 0.10964379459619522.
+Some episodes done, average episode reward is 319.73254629787453.
+
+Episode 350: Avg Net Energy=328.258, Avg CO2=79072.351, Water Usage=16593304.899
+Tasks in Queue=2345547.000, Tasks Dropped=0.000
+Evaluation average episode reward is 104.37092867481103.
+
+Episode 350: Avg Net Energy=323.237, Avg CO2=82830.331, Water Usage=46402036.078
+Tasks in Queue=9389472.000, Tasks Dropped=368.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 355/2034 episodes, total num timesteps 4362240/25000000, FPS 429.
+Average step reward is 0.1812850832939148.
+Some episodes done, average episode reward is 174.63818904510137.
+
+Episode 355: Avg Net Energy=321.140, Avg CO2=76624.755, Water Usage=16426067.156
+Tasks in Queue=2762915.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 360/2034 episodes, total num timesteps 4423680/25000000, FPS 429.
+Average step reward is 0.21062515676021576.
+Some episodes done, average episode reward is 195.90797412860448.
+
+Episode 360: Avg Net Energy=320.845, Avg CO2=88033.881, Water Usage=16450557.634
+Tasks in Queue=2350540.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 365/2034 episodes, total num timesteps 4485120/25000000, FPS 430.
+Average step reward is 0.22766119241714478.
+Some episodes done, average episode reward is 237.10165606402893.
+
+Episode 365: Avg Net Energy=320.906, Avg CO2=85576.668, Water Usage=16322802.383
+Tasks in Queue=2147295.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 370/2034 episodes, total num timesteps 4546560/25000000, FPS 430.
+Average step reward is 0.1998714804649353.
+Some episodes done, average episode reward is 268.33659897375406.
+
+Episode 370: Avg Net Energy=325.522, Avg CO2=78906.069, Water Usage=16557633.309
+Tasks in Queue=1768245.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 375/2034 episodes, total num timesteps 4608000/25000000, FPS 431.
+Average step reward is 0.35183611512184143.
+Some episodes done, average episode reward is 284.9757296160719.
+
+Episode 375: Avg Net Energy=320.055, Avg CO2=71077.348, Water Usage=16327434.905
+Tasks in Queue=1687529.000, Tasks Dropped=0.000
+Evaluation average episode reward is 188.55986325851984.
+
+Episode 375: Avg Net Energy=321.314, Avg CO2=81269.321, Water Usage=46443175.125
+Tasks in Queue=7907626.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 380/2034 episodes, total num timesteps 4669440/25000000, FPS 429.
+Average step reward is 0.16983334720134735.
+Some episodes done, average episode reward is 272.05534428005296.
+
+Episode 380: Avg Net Energy=322.024, Avg CO2=83196.023, Water Usage=16437687.399
+Tasks in Queue=2259346.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 385/2034 episodes, total num timesteps 4730880/25000000, FPS 429.
+Average step reward is 0.022205984219908714.
+Some episodes done, average episode reward is 137.26219743469088.
+
+Episode 385: Avg Net Energy=325.327, Avg CO2=87732.761, Water Usage=16618168.086
+Tasks in Queue=2942450.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 390/2034 episodes, total num timesteps 4792320/25000000, FPS 430.
+Average step reward is 0.08695217221975327.
+Some episodes done, average episode reward is 222.04714786235638.
+
+Episode 390: Avg Net Energy=321.759, Avg CO2=83278.025, Water Usage=16389672.470
+Tasks in Queue=3262579.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 395/2034 episodes, total num timesteps 4853760/25000000, FPS 430.
+Average step reward is 0.19393517076969147.
+Some episodes done, average episode reward is 120.83586271659256.
+
+Episode 395: Avg Net Energy=324.904, Avg CO2=72382.234, Water Usage=16605386.740
+Tasks in Queue=2087173.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 400/2034 episodes, total num timesteps 4915200/25000000, FPS 431.
+Average step reward is 0.21980299055576324.
+Some episodes done, average episode reward is 232.57815815032106.
+
+Episode 400: Avg Net Energy=320.796, Avg CO2=78251.162, Water Usage=16481672.503
+Tasks in Queue=2056231.000, Tasks Dropped=0.000
+Evaluation average episode reward is 184.14525632415516.
+
+Episode 400: Avg Net Energy=320.516, Avg CO2=81544.631, Water Usage=46183315.030
+Tasks in Queue=7277061.000, Tasks Dropped=1099.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 405/2034 episodes, total num timesteps 4976640/25000000, FPS 428.
+Average step reward is 0.20348137617111206.
+Some episodes done, average episode reward is 171.24586395594497.
+
+Episode 405: Avg Net Energy=320.208, Avg CO2=88480.374, Water Usage=16325641.960
+Tasks in Queue=2400753.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 410/2034 episodes, total num timesteps 5038080/25000000, FPS 429.
+Average step reward is 0.16174744069576263.
+Some episodes done, average episode reward is 172.1712706422841.
+
+Episode 410: Avg Net Energy=321.574, Avg CO2=86353.207, Water Usage=16454316.787
+Tasks in Queue=2264269.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 415/2034 episodes, total num timesteps 5099520/25000000, FPS 429.
+Average step reward is 0.2360854148864746.
+Some episodes done, average episode reward is 176.2031417493146.
+
+Episode 415: Avg Net Energy=322.281, Avg CO2=75209.496, Water Usage=16485087.336
+Tasks in Queue=1881203.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 420/2034 episodes, total num timesteps 5160960/25000000, FPS 430.
+Average step reward is 0.3056390583515167.
+Some episodes done, average episode reward is 156.44303698241774.
+
+Episode 420: Avg Net Energy=319.168, Avg CO2=71796.800, Water Usage=16385669.379
+Tasks in Queue=2245037.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 425/2034 episodes, total num timesteps 5222400/25000000, FPS 430.
+Average step reward is 0.19865937530994415.
+Some episodes done, average episode reward is 203.2080939878565.
+
+Episode 425: Avg Net Energy=322.806, Avg CO2=83500.422, Water Usage=16544891.218
+Tasks in Queue=2361280.000, Tasks Dropped=0.000
+Evaluation average episode reward is 187.8497010278168.
+
+Episode 425: Avg Net Energy=320.835, Avg CO2=81054.254, Water Usage=46176990.633
+Tasks in Queue=7570572.000, Tasks Dropped=551.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 430/2034 episodes, total num timesteps 5283840/25000000, FPS 429.
+Average step reward is 0.12304078787565231.
+Some episodes done, average episode reward is 188.59854615483843.
+
+Episode 430: Avg Net Energy=323.794, Avg CO2=86676.961, Water Usage=16553360.634
+Tasks in Queue=2392385.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 435/2034 episodes, total num timesteps 5345280/25000000, FPS 429.
+Average step reward is 0.24397063255310059.
+Some episodes done, average episode reward is 280.5906688510923.
+
+Episode 435: Avg Net Energy=322.732, Avg CO2=85451.025, Water Usage=16483541.010
+Tasks in Queue=1851324.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 440/2034 episodes, total num timesteps 5406720/25000000, FPS 429.
+Average step reward is 0.31854841113090515.
+Some episodes done, average episode reward is 283.19736176142175.
+
+Episode 440: Avg Net Energy=320.489, Avg CO2=74204.585, Water Usage=16441746.445
+Tasks in Queue=1399857.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 445/2034 episodes, total num timesteps 5468160/25000000, FPS 430.
+Average step reward is 0.15140916407108307.
+Some episodes done, average episode reward is 221.38136696356173.
+
+Episode 445: Avg Net Energy=325.909, Avg CO2=80490.042, Water Usage=16576962.766
+Tasks in Queue=1470651.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 450/2034 episodes, total num timesteps 5529600/25000000, FPS 430.
+Average step reward is 0.2073274403810501.
+Some episodes done, average episode reward is 213.4734098724382.
+
+Episode 450: Avg Net Energy=322.876, Avg CO2=90019.737, Water Usage=16492667.936
+Tasks in Queue=1588799.000, Tasks Dropped=0.000
+Evaluation average episode reward is 66.07628412432584.
+
+Episode 450: Avg Net Energy=322.123, Avg CO2=80790.413, Water Usage=46311228.187
+Tasks in Queue=4079682.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 455/2034 episodes, total num timesteps 5591040/25000000, FPS 429.
+Average step reward is 0.1106482669711113.
+Some episodes done, average episode reward is 245.74855731690482.
+
+Episode 455: Avg Net Energy=325.146, Avg CO2=87863.742, Water Usage=16516958.819
+Tasks in Queue=1964720.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 460/2034 episodes, total num timesteps 5652480/25000000, FPS 429.
+Average step reward is 0.2820873558521271.
+Some episodes done, average episode reward is 227.52240844755292.
+
+Episode 460: Avg Net Energy=322.025, Avg CO2=77973.094, Water Usage=16423403.217
+Tasks in Queue=1614768.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 465/2034 episodes, total num timesteps 5713920/25000000, FPS 430.
+Average step reward is 0.30588123202323914.
+Some episodes done, average episode reward is 255.33112757318747.
+
+Episode 465: Avg Net Energy=322.846, Avg CO2=70733.781, Water Usage=16510303.914
+Tasks in Queue=1429267.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 470/2034 episodes, total num timesteps 5775360/25000000, FPS 430.
+Average step reward is 0.2700997591018677.
+Some episodes done, average episode reward is 261.2611790768683.
+
+Episode 470: Avg Net Energy=321.362, Avg CO2=80235.902, Water Usage=16419564.277
+Tasks in Queue=1637612.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 475/2034 episodes, total num timesteps 5836800/25000000, FPS 430.
+Average step reward is 0.25276002287864685.
+Some episodes done, average episode reward is 285.86763200407887.
+
+Episode 475: Avg Net Energy=321.808, Avg CO2=86939.378, Water Usage=16451848.725
+Tasks in Queue=1999126.000, Tasks Dropped=0.000
+Evaluation average episode reward is 279.33275562133383.
+
+Episode 475: Avg Net Energy=322.307, Avg CO2=79883.544, Water Usage=46664601.458
+Tasks in Queue=7301908.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 480/2034 episodes, total num timesteps 5898240/25000000, FPS 429.
+Average step reward is 0.2620123624801636.
+Some episodes done, average episode reward is 310.1262183790438.
+
+Episode 480: Avg Net Energy=322.018, Avg CO2=82913.506, Water Usage=16565017.571
+Tasks in Queue=2107850.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 485/2034 episodes, total num timesteps 5959680/25000000, FPS 429.
+Average step reward is 0.36787962913513184.
+Some episodes done, average episode reward is 327.4865703778353.
+
+Episode 485: Avg Net Energy=320.253, Avg CO2=71038.232, Water Usage=16460214.724
+Tasks in Queue=1663609.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 490/2034 episodes, total num timesteps 6021120/25000000, FPS 430.
+Average step reward is 0.33843281865119934.
+Some episodes done, average episode reward is 330.3423352387076.
+
+Episode 490: Avg Net Energy=321.080, Avg CO2=75526.284, Water Usage=16320472.457
+Tasks in Queue=1648864.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 495/2034 episodes, total num timesteps 6082560/25000000, FPS 430.
+Average step reward is 0.2475699633359909.
+Some episodes done, average episode reward is 317.0009055528712.
+
+Episode 495: Avg Net Energy=321.154, Avg CO2=87457.189, Water Usage=16322233.879
+Tasks in Queue=2111680.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 500/2034 episodes, total num timesteps 6144000/25000000, FPS 430.
+Average step reward is 0.194011852145195.
+Some episodes done, average episode reward is 267.9756393490181.
+
+Episode 500: Avg Net Energy=321.700, Avg CO2=85578.835, Water Usage=16468726.791
+Tasks in Queue=2378757.000, Tasks Dropped=0.000
+Evaluation average episode reward is 239.34325948305752.
+
+Episode 500: Avg Net Energy=321.577, Avg CO2=82329.533, Water Usage=46048435.449
+Tasks in Queue=7660689.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 505/2034 episodes, total num timesteps 6205440/25000000, FPS 429.
+Average step reward is 0.3443334996700287.
+Some episodes done, average episode reward is 244.03614778784035.
+
+Episode 505: Avg Net Energy=317.835, Avg CO2=79163.497, Water Usage=16397237.322
+Tasks in Queue=2021508.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 510/2034 episodes, total num timesteps 6266880/25000000, FPS 429.
+Average step reward is 0.3499881327152252.
+Some episodes done, average episode reward is 375.366715704195.
+
+Episode 510: Avg Net Energy=318.500, Avg CO2=69248.057, Water Usage=16290640.813
+Tasks in Queue=1876278.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 515/2034 episodes, total num timesteps 6328320/25000000, FPS 430.
+Average step reward is 0.23055362701416016.
+Some episodes done, average episode reward is 175.52612466247174.
+
+Episode 515: Avg Net Energy=317.261, Avg CO2=83018.500, Water Usage=16366600.009
+Tasks in Queue=2752998.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 520/2034 episodes, total num timesteps 6389760/25000000, FPS 430.
+Average step reward is 0.07448229193687439.
+Some episodes done, average episode reward is 176.9177818790084.
+
+Episode 520: Avg Net Energy=321.946, Avg CO2=87210.406, Water Usage=16497771.508
+Tasks in Queue=3334389.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 525/2034 episodes, total num timesteps 6451200/25000000, FPS 430.
+Average step reward is -0.06877323985099792.
+Some episodes done, average episode reward is 109.62167567855438.
+
+Episode 525: Avg Net Energy=327.315, Avg CO2=86109.022, Water Usage=16614875.557
+Tasks in Queue=3769236.000, Tasks Dropped=0.000
+Evaluation average episode reward is 100.49604512406705.
+
+Episode 525: Avg Net Energy=320.984, Avg CO2=79308.626, Water Usage=46355373.834
+Tasks in Queue=11306133.000, Tasks Dropped=4049.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 530/2034 episodes, total num timesteps 6512640/25000000, FPS 429.
+Average step reward is 0.14280296862125397.
+Some episodes done, average episode reward is 110.84361699832466.
+
+Episode 530: Avg Net Energy=323.691, Avg CO2=70219.933, Water Usage=16565927.555
+Tasks in Queue=3165416.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 535/2034 episodes, total num timesteps 6574080/25000000, FPS 429.
+Average step reward is 0.18298132717609406.
+Some episodes done, average episode reward is 66.31881218975072.
+
+Episode 535: Avg Net Energy=320.628, Avg CO2=77221.004, Water Usage=16465714.596
+Tasks in Queue=2913526.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 540/2034 episodes, total num timesteps 6635520/25000000, FPS 429.
+Average step reward is 0.16852687299251556.
+Some episodes done, average episode reward is 186.1322499517905.
+
+Episode 540: Avg Net Energy=321.836, Avg CO2=88238.567, Water Usage=16457990.482
+Tasks in Queue=2848770.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 545/2034 episodes, total num timesteps 6696960/25000000, FPS 430.
+Average step reward is 0.20887666940689087.
+Some episodes done, average episode reward is 180.92526809247806.
+
+Episode 545: Avg Net Energy=318.935, Avg CO2=85535.086, Water Usage=16374645.072
+Tasks in Queue=2908375.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 550/2034 episodes, total num timesteps 6758400/25000000, FPS 430.
+Average step reward is 0.1161736473441124.
+Some episodes done, average episode reward is 232.87521531854102.
+
+Episode 550: Avg Net Energy=325.157, Avg CO2=80771.991, Water Usage=16548852.666
+Tasks in Queue=2878060.000, Tasks Dropped=0.000
+Evaluation average episode reward is 218.9316185627869.
+
+Episode 550: Avg Net Energy=320.381, Avg CO2=80584.131, Water Usage=46443007.367
+Tasks in Queue=10234218.000, Tasks Dropped=5537.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 555/2034 episodes, total num timesteps 6819840/25000000, FPS 429.
+Average step reward is 0.23884719610214233.
+Some episodes done, average episode reward is 133.2688673696953.
+
+Episode 555: Avg Net Energy=323.520, Avg CO2=69974.091, Water Usage=16696168.824
+Tasks in Queue=2448332.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 560/2034 episodes, total num timesteps 6881280/25000000, FPS 429.
+Average step reward is 0.19684462249279022.
+Some episodes done, average episode reward is 231.66135874173597.
+
+Episode 560: Avg Net Energy=319.511, Avg CO2=82284.676, Water Usage=16454558.094
+Tasks in Queue=3020772.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 565/2034 episodes, total num timesteps 6942720/25000000, FPS 429.
+Average step reward is 0.030785540118813515.
+Some episodes done, average episode reward is 216.96900698959533.
+
+Episode 565: Avg Net Energy=325.416, Avg CO2=88220.537, Water Usage=16672907.132
+Tasks in Queue=3273764.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 570/2034 episodes, total num timesteps 7004160/25000000, FPS 430.
+Average step reward is -0.02326010726392269.
+Some episodes done, average episode reward is 141.77702628173924.
+
+Episode 570: Avg Net Energy=328.440, Avg CO2=85943.523, Water Usage=16695983.483
+Tasks in Queue=3419356.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 575/2034 episodes, total num timesteps 7065600/25000000, FPS 430.
+Average step reward is 0.2058688849210739.
+Some episodes done, average episode reward is 141.2948745997255.
+
+Episode 575: Avg Net Energy=320.516, Avg CO2=76870.867, Water Usage=16479007.931
+Tasks in Queue=3210204.000, Tasks Dropped=0.000
+Evaluation average episode reward is 33.19098335514224.
+
+Episode 575: Avg Net Energy=321.904, Avg CO2=82994.834, Water Usage=46526190.012
+Tasks in Queue=12109986.000, Tasks Dropped=5802.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 580/2034 episodes, total num timesteps 7127040/25000000, FPS 428.
+Average step reward is 0.1420060396194458.
+Some episodes done, average episode reward is 103.10099581460442.
+
+Episode 580: Avg Net Energy=321.853, Avg CO2=77281.730, Water Usage=16417075.258
+Tasks in Queue=3450466.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 585/2034 episodes, total num timesteps 7188480/25000000, FPS 429.
+Average step reward is 0.05235802009701729.
+Some episodes done, average episode reward is 66.62665279193457.
+
+Episode 585: Avg Net Energy=321.592, Avg CO2=88504.310, Water Usage=16466230.875
+Tasks in Queue=4521442.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 590/2034 episodes, total num timesteps 7249920/25000000, FPS 429.
+Average step reward is 0.03500403091311455.
+Some episodes done, average episode reward is -13.763890686108816.
+
+Episode 590: Avg Net Energy=322.231, Avg CO2=87075.805, Water Usage=16326065.484
+Tasks in Queue=4233300.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 595/2034 episodes, total num timesteps 7311360/25000000, FPS 430.
+Average step reward is 0.1402575522661209.
+Some episodes done, average episode reward is 53.64004434715588.
+
+Episode 595: Avg Net Energy=322.605, Avg CO2=80317.144, Water Usage=16535775.170
+Tasks in Queue=3398606.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 600/2034 episodes, total num timesteps 7372800/25000000, FPS 430.
+Average step reward is 0.33734941482543945.
+Some episodes done, average episode reward is 90.81098366957428.
+
+Episode 600: Avg Net Energy=315.788, Avg CO2=74381.211, Water Usage=16305862.861
+Tasks in Queue=2580751.000, Tasks Dropped=0.000
+Evaluation average episode reward is 123.98212902942451.
+
+Episode 600: Avg Net Energy=321.334, Avg CO2=80814.252, Water Usage=46519076.220
+Tasks in Queue=9708929.000, Tasks Dropped=178.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 605/2034 episodes, total num timesteps 7434240/25000000, FPS 428.
+Average step reward is 0.188141331076622.
+Some episodes done, average episode reward is 204.9086145195184.
+
+Episode 605: Avg Net Energy=319.843, Avg CO2=80463.122, Water Usage=16354357.900
+Tasks in Queue=3092098.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 610/2034 episodes, total num timesteps 7495680/25000000, FPS 429.
+Average step reward is 0.0017483433475717902.
+Some episodes done, average episode reward is 123.37649503664238.
+
+Episode 610: Avg Net Energy=325.068, Avg CO2=88828.505, Water Usage=16722262.552
+Tasks in Queue=3768936.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 615/2034 episodes, total num timesteps 7557120/25000000, FPS 429.
+Average step reward is 0.10687174648046494.
+Some episodes done, average episode reward is 40.942814457570506.
+
+Episode 615: Avg Net Energy=321.482, Avg CO2=86385.367, Water Usage=16474191.887
+Tasks in Queue=3692838.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 620/2034 episodes, total num timesteps 7618560/25000000, FPS 429.
+Average step reward is 0.1877409964799881.
+Some episodes done, average episode reward is 148.99997875101917.
+
+Episode 620: Avg Net Energy=324.860, Avg CO2=75602.590, Water Usage=16601294.627
+Tasks in Queue=2769357.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 625/2034 episodes, total num timesteps 7680000/25000000, FPS 430.
+Average step reward is 0.12481195479631424.
+Some episodes done, average episode reward is 178.09691874424098.
+
+Episode 625: Avg Net Energy=326.050, Avg CO2=79174.795, Water Usage=16524693.523
+Tasks in Queue=2532431.000, Tasks Dropped=0.000
+Evaluation average episode reward is 380.01952405666077.
+
+Episode 625: Avg Net Energy=321.680, Avg CO2=78761.819, Water Usage=46242689.201
+Tasks in Queue=8788212.000, Tasks Dropped=430.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 630/2034 episodes, total num timesteps 7741440/25000000, FPS 428.
+Average step reward is 0.16949248313903809.
+Some episodes done, average episode reward is 250.1623840375953.
+
+Episode 630: Avg Net Energy=323.173, Avg CO2=88798.017, Water Usage=16501030.340
+Tasks in Queue=2900162.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 635/2034 episodes, total num timesteps 7802880/25000000, FPS 429.
+Average step reward is 0.23021633923053741.
+Some episodes done, average episode reward is 283.93681260448415.
+
+Episode 635: Avg Net Energy=320.122, Avg CO2=85829.613, Water Usage=16379280.686
+Tasks in Queue=2981492.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 640/2034 episodes, total num timesteps 7864320/25000000, FPS 429.
+Average step reward is 0.26446637511253357.
+Some episodes done, average episode reward is 181.85321035327794.
+
+Episode 640: Avg Net Energy=318.965, Avg CO2=84305.756, Water Usage=16382620.082
+Tasks in Queue=2893910.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 645/2034 episodes, total num timesteps 7925760/25000000, FPS 429.
+Average step reward is 0.21797983348369598.
+Some episodes done, average episode reward is 264.263687361991.
+
+Episode 645: Avg Net Energy=326.165, Avg CO2=73588.067, Water Usage=16473524.157
+Tasks in Queue=2234568.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 650/2034 episodes, total num timesteps 7987200/25000000, FPS 430.
+Average step reward is 0.275343656539917.
+Some episodes done, average episode reward is 284.2635559241259.
+
+Episode 650: Avg Net Energy=320.146, Avg CO2=81863.133, Water Usage=16316432.911
+Tasks in Queue=2250312.000, Tasks Dropped=0.000
+Evaluation average episode reward is 342.6046995872203.
+
+Episode 650: Avg Net Energy=322.049, Avg CO2=81305.536, Water Usage=46330741.703
+Tasks in Queue=9054439.000, Tasks Dropped=655.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 655/2034 episodes, total num timesteps 8048640/25000000, FPS 429.
+Average step reward is 0.0498691089451313.
+Some episodes done, average episode reward is 317.4674167841438.
+
+Episode 655: Avg Net Energy=327.471, Avg CO2=88985.109, Water Usage=16544300.323
+Tasks in Queue=2851383.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 660/2034 episodes, total num timesteps 8110080/25000000, FPS 429.
+Average step reward is 0.1829233020544052.
+Some episodes done, average episode reward is 236.9785514273358.
+
+Episode 660: Avg Net Energy=319.939, Avg CO2=83567.394, Water Usage=16278190.682
+Tasks in Queue=3351571.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 665/2034 episodes, total num timesteps 8171520/25000000, FPS 429.
+Average step reward is 0.12514352798461914.
+Some episodes done, average episode reward is 61.77198622888367.
+
+Episode 665: Avg Net Energy=325.858, Avg CO2=74561.689, Water Usage=16538304.423
+Tasks in Queue=3418530.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 670/2034 episodes, total num timesteps 8232960/25000000, FPS 429.
+Average step reward is 0.17413131892681122.
+Some episodes done, average episode reward is 208.3890130127364.
+
+Episode 670: Avg Net Energy=323.027, Avg CO2=80020.415, Water Usage=16451723.422
+Tasks in Queue=2899704.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 675/2034 episodes, total num timesteps 8294400/25000000, FPS 430.
+Average step reward is 0.1765081286430359.
+Some episodes done, average episode reward is 181.92115801895633.
+
+Episode 675: Avg Net Energy=321.456, Avg CO2=86946.208, Water Usage=16366747.593
+Tasks in Queue=2949931.000, Tasks Dropped=0.000
+Evaluation average episode reward is 170.81464435121208.
+
+Episode 675: Avg Net Energy=321.714, Avg CO2=82796.333, Water Usage=46170540.620
+Tasks in Queue=11673808.000, Tasks Dropped=2898.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 680/2034 episodes, total num timesteps 8355840/25000000, FPS 428.
+Average step reward is 0.18042711913585663.
+Some episodes done, average episode reward is 181.9398086001669.
+
+Episode 680: Avg Net Energy=322.283, Avg CO2=85819.339, Water Usage=16436625.629
+Tasks in Queue=2677635.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 685/2034 episodes, total num timesteps 8417280/25000000, FPS 429.
+Average step reward is 0.17999790608882904.
+Some episodes done, average episode reward is 194.05585910724588.
+
+Episode 685: Avg Net Energy=325.621, Avg CO2=82001.601, Water Usage=16509076.372
+Tasks in Queue=2241934.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 690/2034 episodes, total num timesteps 8478720/25000000, FPS 429.
+Average step reward is 0.1944693922996521.
+Some episodes done, average episode reward is 233.31194605113.
+
+Episode 690: Avg Net Energy=326.610, Avg CO2=72787.409, Water Usage=16664672.300
+Tasks in Queue=2082656.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 695/2034 episodes, total num timesteps 8540160/25000000, FPS 429.
+Average step reward is 0.25385311245918274.
+Some episodes done, average episode reward is 281.73076178314597.
+
+Episode 695: Avg Net Energy=321.815, Avg CO2=84773.737, Water Usage=16414531.655
+Tasks in Queue=2038318.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 700/2034 episodes, total num timesteps 8601600/25000000, FPS 430.
+Average step reward is 0.19655346870422363.
+Some episodes done, average episode reward is 204.791318132539.
+
+Episode 700: Avg Net Energy=322.948, Avg CO2=87480.226, Water Usage=16530055.314
+Tasks in Queue=2058087.000, Tasks Dropped=0.000
+Evaluation average episode reward is 218.7964787452145.
+
+Episode 700: Avg Net Energy=322.260, Avg CO2=81260.949, Water Usage=46201161.325
+Tasks in Queue=7742203.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 705/2034 episodes, total num timesteps 8663040/25000000, FPS 428.
+Average step reward is 0.18520431220531464.
+Some episodes done, average episode reward is 235.5936028444722.
+
+Episode 705: Avg Net Energy=323.938, Avg CO2=82920.625, Water Usage=16442729.236
+Tasks in Queue=2253922.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 710/2034 episodes, total num timesteps 8724480/25000000, FPS 429.
+Average step reward is 0.2897486388683319.
+Some episodes done, average episode reward is 207.9017856261393.
+
+Episode 710: Avg Net Energy=322.637, Avg CO2=70527.375, Water Usage=16418504.021
+Tasks in Queue=1821373.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 715/2034 episodes, total num timesteps 8785920/25000000, FPS 429.
+Average step reward is 0.3362460136413574.
+Some episodes done, average episode reward is 249.94561805497673.
+
+Episode 715: Avg Net Energy=320.278, Avg CO2=74582.710, Water Usage=16536009.620
+Tasks in Queue=1402896.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 720/2034 episodes, total num timesteps 8847360/25000000, FPS 429.
+Average step reward is 0.24919408559799194.
+Some episodes done, average episode reward is 274.90472471449976.
+
+Episode 720: Avg Net Energy=321.420, Avg CO2=88296.676, Water Usage=16567174.686
+Tasks in Queue=1616265.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 725/2034 episodes, total num timesteps 8908800/25000000, FPS 430.
+Average step reward is 0.23988127708435059.
+Some episodes done, average episode reward is 169.01839500221064.
+
+Episode 725: Avg Net Energy=320.194, Avg CO2=85846.087, Water Usage=16430889.875
+Tasks in Queue=1929319.000, Tasks Dropped=0.000
+Evaluation average episode reward is 183.96361323679332.
+
+Episode 725: Avg Net Energy=322.018, Avg CO2=81623.446, Water Usage=46640987.549
+Tasks in Queue=5440741.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 730/2034 episodes, total num timesteps 8970240/25000000, FPS 429.
+Average step reward is 0.2565382719039917.
+Some episodes done, average episode reward is 266.37948339394023.
+
+Episode 730: Avg Net Energy=320.611, Avg CO2=78706.583, Water Usage=16433244.636
+Tasks in Queue=2087735.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 735/2034 episodes, total num timesteps 9031680/25000000, FPS 429.
+Average step reward is 0.35060563683509827.
+Some episodes done, average episode reward is 219.08941124810363.
+
+Episode 735: Avg Net Energy=317.409, Avg CO2=70178.542, Water Usage=16193195.028
+Tasks in Queue=1771835.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 740/2034 episodes, total num timesteps 9093120/25000000, FPS 429.
+Average step reward is 0.3508668839931488.
+Some episodes done, average episode reward is 203.7729031717926.
+
+Episode 740: Avg Net Energy=314.551, Avg CO2=82999.606, Water Usage=16306856.265
+Tasks in Queue=1832877.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 745/2034 episodes, total num timesteps 9154560/25000000, FPS 429.
+Average step reward is 0.1697937399148941.
+Some episodes done, average episode reward is 198.7713479739315.
+
+Episode 745: Avg Net Energy=323.101, Avg CO2=87596.215, Water Usage=16561865.922
+Tasks in Queue=1807778.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 750/2034 episodes, total num timesteps 9216000/25000000, FPS 430.
+Average step reward is 0.24504558742046356.
+Some episodes done, average episode reward is 165.8326744239968.
+
+Episode 750: Avg Net Energy=321.439, Avg CO2=83348.965, Water Usage=16380781.810
+Tasks in Queue=1488191.000, Tasks Dropped=0.000
+Evaluation average episode reward is 264.6240280047434.
+
+Episode 750: Avg Net Energy=320.788, Avg CO2=81259.125, Water Usage=46343321.673
+Tasks in Queue=2959118.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 755/2034 episodes, total num timesteps 9277440/25000000, FPS 429.
+Average step reward is 0.3177812993526459.
+Some episodes done, average episode reward is 196.41102070026122.
+
+Episode 755: Avg Net Energy=320.430, Avg CO2=78051.042, Water Usage=16445339.335
+Tasks in Queue=1166657.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 760/2034 episodes, total num timesteps 9338880/25000000, FPS 429.
+Average step reward is 0.276999831199646.
+Some episodes done, average episode reward is 239.65355290749986.
+
+Episode 760: Avg Net Energy=320.614, Avg CO2=75444.415, Water Usage=16411123.296
+Tasks in Queue=874691.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 765/2034 episodes, total num timesteps 9400320/25000000, FPS 429.
+Average step reward is 0.2260645180940628.
+Some episodes done, average episode reward is 252.13600245297872.
+
+Episode 765: Avg Net Energy=322.413, Avg CO2=88161.591, Water Usage=16571759.727
+Tasks in Queue=1455387.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 770/2034 episodes, total num timesteps 9461760/25000000, FPS 429.
+Average step reward is 0.12309261411428452.
+Some episodes done, average episode reward is 202.75484440489598.
+
+Episode 770: Avg Net Energy=325.055, Avg CO2=87013.908, Water Usage=16619859.764
+Tasks in Queue=1926466.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 775/2034 episodes, total num timesteps 9523200/25000000, FPS 430.
+Average step reward is 0.3671497404575348.
+Some episodes done, average episode reward is 216.81346503072973.
+
+Episode 775: Avg Net Energy=317.731, Avg CO2=77194.291, Water Usage=16387610.225
+Tasks in Queue=1794150.000, Tasks Dropped=0.000
+Evaluation average episode reward is 197.27336124182182.
+
+Episode 775: Avg Net Energy=322.439, Avg CO2=80342.965, Water Usage=46418307.038
+Tasks in Queue=5733692.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 780/2034 episodes, total num timesteps 9584640/25000000, FPS 429.
+Average step reward is 0.17183466255664825.
+Some episodes done, average episode reward is 315.7344464050562.
+
+Episode 780: Avg Net Energy=327.710, Avg CO2=74569.047, Water Usage=16609518.372
+Tasks in Queue=1532020.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 785/2034 episodes, total num timesteps 9646080/25000000, FPS 429.
+Average step reward is 0.26482483744621277.
+Some episodes done, average episode reward is 180.23255695786779.
+
+Episode 785: Avg Net Energy=320.294, Avg CO2=80840.523, Water Usage=16453658.494
+Tasks in Queue=1730029.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 790/2034 episodes, total num timesteps 9707520/25000000, FPS 429.
+Average step reward is 0.23863033950328827.
+Some episodes done, average episode reward is 266.0858938771203.
+
+Episode 790: Avg Net Energy=319.796, Avg CO2=86938.124, Water Usage=16357932.606
+Tasks in Queue=2312582.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 795/2034 episodes, total num timesteps 9768960/25000000, FPS 429.
+Average step reward is 0.11236276477575302.
+Some episodes done, average episode reward is 228.1153420879618.
+
+Episode 795: Avg Net Energy=325.342, Avg CO2=84619.696, Water Usage=16548954.048
+Tasks in Queue=2271631.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 800/2034 episodes, total num timesteps 9830400/25000000, FPS 430.
+Average step reward is 0.2462700605392456.
+Some episodes done, average episode reward is 269.9598123453574.
+
+Episode 800: Avg Net Energy=323.467, Avg CO2=73014.983, Water Usage=16443019.216
+Tasks in Queue=1746023.000, Tasks Dropped=0.000
+Evaluation average episode reward is 367.44293770785845.
+
+Episode 800: Avg Net Energy=320.052, Avg CO2=82265.338, Water Usage=46331103.813
+Tasks in Queue=6479820.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 805/2034 episodes, total num timesteps 9891840/25000000, FPS 429.
+Average step reward is 0.17224864661693573.
+Some episodes done, average episode reward is 174.57198645102946.
+
+Episode 805: Avg Net Energy=325.979, Avg CO2=79360.307, Water Usage=16524828.710
+Tasks in Queue=1913695.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 810/2034 episodes, total num timesteps 9953280/25000000, FPS 429.
+Average step reward is 0.20532536506652832.
+Some episodes done, average episode reward is 310.56440288593024.
+
+Episode 810: Avg Net Energy=322.150, Avg CO2=87289.430, Water Usage=16512430.002
+Tasks in Queue=2344933.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 815/2034 episodes, total num timesteps 10014720/25000000, FPS 429.
+Average step reward is 0.2773984372615814.
+Some episodes done, average episode reward is 347.22459315291184.
+
+Episode 815: Avg Net Energy=318.983, Avg CO2=85354.095, Water Usage=16337984.948
+Tasks in Queue=2430121.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 820/2034 episodes, total num timesteps 10076160/25000000, FPS 429.
+Average step reward is 0.22059321403503418.
+Some episodes done, average episode reward is 257.3509602600221.
+
+Episode 820: Avg Net Energy=323.451, Avg CO2=79888.855, Water Usage=16561190.433
+Tasks in Queue=2516864.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 825/2034 episodes, total num timesteps 10137600/25000000, FPS 429.
+Average step reward is 0.26538312435150146.
+Some episodes done, average episode reward is 204.44895679166086.
+
+Episode 825: Avg Net Energy=321.276, Avg CO2=69489.135, Water Usage=16391549.871
+Tasks in Queue=2723307.000, Tasks Dropped=0.000
+Evaluation average episode reward is 165.50881479578575.
+
+Episode 825: Avg Net Energy=320.903, Avg CO2=81005.309, Water Usage=46441592.430
+Tasks in Queue=11894588.000, Tasks Dropped=4710.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 830/2034 episodes, total num timesteps 10199040/25000000, FPS 428.
+Average step reward is 0.1953691989183426.
+Some episodes done, average episode reward is 212.1822031699459.
+
+Episode 830: Avg Net Energy=318.607, Avg CO2=82091.948, Water Usage=16409394.143
+Tasks in Queue=3156791.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 835/2034 episodes, total num timesteps 10260480/25000000, FPS 429.
+Average step reward is 0.1763589233160019.
+Some episodes done, average episode reward is 100.00083824309836.
+
+Episode 835: Avg Net Energy=320.994, Avg CO2=87509.540, Water Usage=16349909.129
+Tasks in Queue=3029101.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 840/2034 episodes, total num timesteps 10321920/25000000, FPS 429.
+Average step reward is 0.17351877689361572.
+Some episodes done, average episode reward is 123.20977193152787.
+
+Episode 840: Avg Net Energy=321.190, Avg CO2=82345.262, Water Usage=16450790.663
+Tasks in Queue=3221801.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 845/2034 episodes, total num timesteps 10383360/25000000, FPS 429.
+Average step reward is 0.1881943941116333.
+Some episodes done, average episode reward is 120.65391150551461.
+
+Episode 845: Avg Net Energy=322.092, Avg CO2=72268.567, Water Usage=16373872.141
+Tasks in Queue=3390110.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 850/2034 episodes, total num timesteps 10444800/25000000, FPS 429.
+Average step reward is 0.2543530762195587.
+Some episodes done, average episode reward is 120.76912022302135.
+
+Episode 850: Avg Net Energy=318.777, Avg CO2=78595.552, Water Usage=16437429.909
+Tasks in Queue=3283056.000, Tasks Dropped=0.000
+Evaluation average episode reward is 185.0446901215011.
+
+Episode 850: Avg Net Energy=321.170, Avg CO2=82719.461, Water Usage=46289716.359
+Tasks in Queue=12581707.000, Tasks Dropped=7873.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 855/2034 episodes, total num timesteps 10506240/25000000, FPS 428.
+Average step reward is 0.2187158316373825.
+Some episodes done, average episode reward is 219.53404842932835.
+
+Episode 855: Avg Net Energy=319.656, Avg CO2=86882.121, Water Usage=16421294.825
+Tasks in Queue=3238697.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 860/2034 episodes, total num timesteps 10567680/25000000, FPS 429.
+Average step reward is 0.16581003367900848.
+Some episodes done, average episode reward is 141.0544052658701.
+
+Episode 860: Avg Net Energy=321.705, Avg CO2=86258.884, Water Usage=16381263.040
+Tasks in Queue=3224857.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 865/2034 episodes, total num timesteps 10629120/25000000, FPS 429.
+Average step reward is 0.12216397374868393.
+Some episodes done, average episode reward is 146.44458183109535.
+
+Episode 865: Avg Net Energy=325.102, Avg CO2=82607.162, Water Usage=16410772.133
+Tasks in Queue=3300345.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 870/2034 episodes, total num timesteps 10690560/25000000, FPS 429.
+Average step reward is 0.228077694773674.
+Some episodes done, average episode reward is 153.25708785676161.
+
+Episode 870: Avg Net Energy=323.381, Avg CO2=71100.869, Water Usage=16365849.878
+Tasks in Queue=2965299.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 875/2034 episodes, total num timesteps 10752000/25000000, FPS 429.
+Average step reward is 0.241162970662117.
+Some episodes done, average episode reward is 181.64989015376923.
+
+Episode 875: Avg Net Energy=321.259, Avg CO2=81807.544, Water Usage=16415262.933
+Tasks in Queue=2924311.000, Tasks Dropped=0.000
+Evaluation average episode reward is 189.22950320456414.
+
+Episode 875: Avg Net Energy=320.356, Avg CO2=83984.311, Water Usage=46390035.686
+Tasks in Queue=12511545.000, Tasks Dropped=942.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 880/2034 episodes, total num timesteps 10813440/25000000, FPS 428.
+Average step reward is 0.09577181190252304.
+Some episodes done, average episode reward is 277.9347626768567.
+
+Episode 880: Avg Net Energy=326.236, Avg CO2=87989.242, Water Usage=16478822.512
+Tasks in Queue=3276445.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 885/2034 episodes, total num timesteps 10874880/25000000, FPS 429.
+Average step reward is 0.02791578508913517.
+Some episodes done, average episode reward is 146.31130345763805.
+
+Episode 885: Avg Net Energy=328.756, Avg CO2=84484.254, Water Usage=16786265.457
+Tasks in Queue=3767192.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 890/2034 episodes, total num timesteps 10936320/25000000, FPS 429.
+Average step reward is 0.19312642514705658.
+Some episodes done, average episode reward is 223.0130835702415.
+
+Episode 890: Avg Net Energy=323.002, Avg CO2=75845.584, Water Usage=16463782.945
+Tasks in Queue=3541736.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 895/2034 episodes, total num timesteps 10997760/25000000, FPS 429.
+Average step reward is 0.20138758420944214.
+Some episodes done, average episode reward is 119.22842184524534.
+
+Episode 895: Avg Net Energy=320.899, Avg CO2=74779.987, Water Usage=16386909.872
+Tasks in Queue=3499511.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 900/2034 episodes, total num timesteps 11059200/25000000, FPS 429.
+Average step reward is 0.1115587055683136.
+Some episodes done, average episode reward is 117.04790121759648.
+
+Episode 900: Avg Net Energy=324.185, Avg CO2=88419.361, Water Usage=16521636.973
+Tasks in Queue=3746852.000, Tasks Dropped=0.000
+Evaluation average episode reward is 136.948094324598.
+
+Episode 900: Avg Net Energy=321.282, Avg CO2=81004.877, Water Usage=46190148.182
+Tasks in Queue=11863114.000, Tasks Dropped=372.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 905/2034 episodes, total num timesteps 11120640/25000000, FPS 428.
+Average step reward is 0.1857295036315918.
+Some episodes done, average episode reward is 178.7735174238002.
+
+Episode 905: Avg Net Energy=322.486, Avg CO2=86624.867, Water Usage=16371982.138
+Tasks in Queue=3122017.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 910/2034 episodes, total num timesteps 11182080/25000000, FPS 429.
+Average step reward is 0.2642863988876343.
+Some episodes done, average episode reward is 191.37968491406443.
+
+Episode 910: Avg Net Energy=321.746, Avg CO2=77880.883, Water Usage=16362209.243
+Tasks in Queue=2721929.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 915/2034 episodes, total num timesteps 11243520/25000000, FPS 429.
+Average step reward is 0.2810101807117462.
+Some episodes done, average episode reward is 198.56857327700496.
+
+Episode 915: Avg Net Energy=322.528, Avg CO2=72072.693, Water Usage=16350549.326
+Tasks in Queue=2474917.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 920/2034 episodes, total num timesteps 11304960/25000000, FPS 429.
+Average step reward is 0.27772000432014465.
+Some episodes done, average episode reward is 216.1270116808905.
+
+Episode 920: Avg Net Energy=319.399, Avg CO2=82184.155, Water Usage=16307840.954
+Tasks in Queue=2711338.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 925/2034 episodes, total num timesteps 11366400/25000000, FPS 429.
+Average step reward is 0.2383306473493576.
+Some episodes done, average episode reward is 189.77824079279344.
+
+Episode 925: Avg Net Energy=320.786, Avg CO2=86245.278, Water Usage=16411281.951
+Tasks in Queue=2862018.000, Tasks Dropped=0.000
+Evaluation average episode reward is 322.286363870186.
+
+Episode 925: Avg Net Energy=321.749, Avg CO2=79529.439, Water Usage=46476152.746
+Tasks in Queue=8962175.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 930/2034 episodes, total num timesteps 11427840/25000000, FPS 428.
+Average step reward is 0.14636506140232086.
+Some episodes done, average episode reward is 217.4582214889194.
+
+Episode 930: Avg Net Energy=326.125, Avg CO2=84117.919, Water Usage=16630382.279
+Tasks in Queue=2831624.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 935/2034 episodes, total num timesteps 11489280/25000000, FPS 429.
+Average step reward is 0.3254435956478119.
+Some episodes done, average episode reward is 305.3051123717633.
+
+Episode 935: Avg Net Energy=319.632, Avg CO2=73445.093, Water Usage=16439155.449
+Tasks in Queue=2626546.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 940/2034 episodes, total num timesteps 11550720/25000000, FPS 429.
+Average step reward is 0.2814430296421051.
+Some episodes done, average episode reward is 241.3424489508095.
+
+Episode 940: Avg Net Energy=322.008, Avg CO2=74817.781, Water Usage=16511318.503
+Tasks in Queue=2726462.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 945/2034 episodes, total num timesteps 11612160/25000000, FPS 429.
+Average step reward is 0.17747615277767181.
+Some episodes done, average episode reward is 252.8872018256828.
+
+Episode 945: Avg Net Energy=321.875, Avg CO2=87192.822, Water Usage=16377756.044
+Tasks in Queue=3168539.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 950/2034 episodes, total num timesteps 11673600/25000000, FPS 429.
+Average step reward is 0.05465786159038544.
+Some episodes done, average episode reward is 242.84667595378144.
+
+Episode 950: Avg Net Energy=324.480, Avg CO2=86552.287, Water Usage=16475283.021
+Tasks in Queue=3663711.000, Tasks Dropped=0.000
+Evaluation average episode reward is 92.70735480635238.
+
+Episode 950: Avg Net Energy=322.257, Avg CO2=80543.056, Water Usage=46135640.029
+Tasks in Queue=12854475.000, Tasks Dropped=2680.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 955/2034 episodes, total num timesteps 11735040/25000000, FPS 428.
+Average step reward is 0.20629650354385376.
+Some episodes done, average episode reward is 144.45084120265267.
+
+Episode 955: Avg Net Energy=321.129, Avg CO2=81024.321, Water Usage=16386651.976
+Tasks in Queue=3275561.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 960/2034 episodes, total num timesteps 11796480/25000000, FPS 429.
+Average step reward is 0.29075589776039124.
+Some episodes done, average episode reward is 159.56816661297634.
+
+Episode 960: Avg Net Energy=320.518, Avg CO2=69021.080, Water Usage=16436120.284
+Tasks in Queue=2907064.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 965/2034 episodes, total num timesteps 11857920/25000000, FPS 429.
+Average step reward is 0.25828275084495544.
+Some episodes done, average episode reward is 192.8059745091664.
+
+Episode 965: Avg Net Energy=318.984, Avg CO2=81852.346, Water Usage=16337762.745
+Tasks in Queue=3142892.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 970/2034 episodes, total num timesteps 11919360/25000000, FPS 429.
+Average step reward is 0.15027858316898346.
+Some episodes done, average episode reward is 232.8466300164594.
+
+Episode 970: Avg Net Energy=324.094, Avg CO2=88305.404, Water Usage=16650566.819
+Tasks in Queue=3107604.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 975/2034 episodes, total num timesteps 11980800/25000000, FPS 429.
+Average step reward is 0.24590341746807098.
+Some episodes done, average episode reward is 187.71064407779681.
+
+Episode 975: Avg Net Energy=320.257, Avg CO2=83303.375, Water Usage=16417207.985
+Tasks in Queue=3023615.000, Tasks Dropped=0.000
+Evaluation average episode reward is 268.1574217167384.
+
+Episode 975: Avg Net Energy=320.702, Avg CO2=81414.833, Water Usage=46518278.774
+Tasks in Queue=11739254.000, Tasks Dropped=5467.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 980/2034 episodes, total num timesteps 12042240/25000000, FPS 428.
+Average step reward is 0.26044532656669617.
+Some episodes done, average episode reward is 226.10610159395415.
+
+Episode 980: Avg Net Energy=321.153, Avg CO2=75612.988, Water Usage=16406834.188
+Tasks in Queue=2885768.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 985/2034 episodes, total num timesteps 12103680/25000000, FPS 429.
+Average step reward is 0.18985486030578613.
+Some episodes done, average episode reward is 180.45229160533438.
+
+Episode 985: Avg Net Energy=323.101, Avg CO2=78082.343, Water Usage=16399262.440
+Tasks in Queue=2945792.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 990/2034 episodes, total num timesteps 12165120/25000000, FPS 429.
+Average step reward is 0.1366928517818451.
+Some episodes done, average episode reward is 170.15499659779627.
+
+Episode 990: Avg Net Energy=323.955, Avg CO2=88613.339, Water Usage=16484849.750
+Tasks in Queue=3106298.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 995/2034 episodes, total num timesteps 12226560/25000000, FPS 429.
+Average step reward is 0.22981154918670654.
+Some episodes done, average episode reward is 239.87930683299635.
+
+Episode 995: Avg Net Energy=320.354, Avg CO2=85172.835, Water Usage=16539548.246
+Tasks in Queue=2839451.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1000/2034 episodes, total num timesteps 12288000/25000000, FPS 429.
+Average step reward is 0.18934224545955658.
+Some episodes done, average episode reward is 244.22886250048154.
+
+Episode 1000: Avg Net Energy=324.030, Avg CO2=77798.012, Water Usage=16481572.024
+Tasks in Queue=2812546.000, Tasks Dropped=0.000
+Evaluation average episode reward is 161.79504603393778.
+
+Episode 1000: Avg Net Energy=322.223, Avg CO2=81899.071, Water Usage=46130576.566
+Tasks in Queue=11084915.000, Tasks Dropped=820.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1005/2034 episodes, total num timesteps 12349440/25000000, FPS 428.
+Average step reward is 0.2780921757221222.
+Some episodes done, average episode reward is 228.41884208275306.
+
+Episode 1005: Avg Net Energy=320.054, Avg CO2=72553.799, Water Usage=16507992.088
+Tasks in Queue=2910549.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1010/2034 episodes, total num timesteps 12410880/25000000, FPS 429.
+Average step reward is 0.1496341973543167.
+Some episodes done, average episode reward is 172.47960164966287.
+
+Episode 1010: Avg Net Energy=322.503, Avg CO2=81052.430, Water Usage=16508635.661
+Tasks in Queue=3440207.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1015/2034 episodes, total num timesteps 12472320/25000000, FPS 429.
+Average step reward is 0.13377463817596436.
+Some episodes done, average episode reward is 73.66401554285538.
+
+Episode 1015: Avg Net Energy=321.668, Avg CO2=86331.209, Water Usage=16538253.067
+Tasks in Queue=3506259.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1020/2034 episodes, total num timesteps 12533760/25000000, FPS 429.
+Average step reward is 0.1985655277967453.
+Some episodes done, average episode reward is 234.65224699383506.
+
+Episode 1020: Avg Net Energy=321.622, Avg CO2=84143.916, Water Usage=16399685.710
+Tasks in Queue=3161023.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1025/2034 episodes, total num timesteps 12595200/25000000, FPS 429.
+Average step reward is 0.1614147424697876.
+Some episodes done, average episode reward is 110.41624104320711.
+
+Episode 1025: Avg Net Energy=325.345, Avg CO2=77621.479, Water Usage=16546681.253
+Tasks in Queue=3370170.000, Tasks Dropped=0.000
+Evaluation average episode reward is 243.1975782810265.
+
+Episode 1025: Avg Net Energy=321.585, Avg CO2=81724.476, Water Usage=46508350.956
+Tasks in Queue=12065858.000, Tasks Dropped=747.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1030/2034 episodes, total num timesteps 12656640/25000000, FPS 428.
+Average step reward is 0.09367410093545914.
+Some episodes done, average episode reward is 149.2097947268782.
+
+Episode 1030: Avg Net Energy=327.049, Avg CO2=76776.883, Water Usage=16594250.374
+Tasks in Queue=3232929.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1035/2034 episodes, total num timesteps 12718080/25000000, FPS 429.
+Average step reward is 0.02003002166748047.
+Some episodes done, average episode reward is 160.10022741881133.
+
+Episode 1035: Avg Net Energy=327.148, Avg CO2=88758.121, Water Usage=16630114.373
+Tasks in Queue=3563786.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1040/2034 episodes, total num timesteps 12779520/25000000, FPS 429.
+Average step reward is 0.30636027455329895.
+Some episodes done, average episode reward is 220.26615947080668.
+
+Episode 1040: Avg Net Energy=316.790, Avg CO2=85250.406, Water Usage=16286443.053
+Tasks in Queue=3049766.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1045/2034 episodes, total num timesteps 12840960/25000000, FPS 429.
+Average step reward is 0.22199660539627075.
+Some episodes done, average episode reward is 221.01020168192738.
+
+Episode 1045: Avg Net Energy=322.732, Avg CO2=76994.812, Water Usage=16530902.771
+Tasks in Queue=2771891.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1050/2034 episodes, total num timesteps 12902400/25000000, FPS 429.
+Average step reward is 0.22603587806224823.
+Some episodes done, average episode reward is 133.10064013369927.
+
+Episode 1050: Avg Net Energy=322.639, Avg CO2=74729.144, Water Usage=16417915.190
+Tasks in Queue=2591569.000, Tasks Dropped=0.000
+Evaluation average episode reward is 145.91593912878122.
+
+Episode 1050: Avg Net Energy=322.664, Avg CO2=83452.394, Water Usage=46269168.486
+Tasks in Queue=11131817.000, Tasks Dropped=1146.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1055/2034 episodes, total num timesteps 12963840/25000000, FPS 428.
+Average step reward is 0.23450326919555664.
+Some episodes done, average episode reward is 178.06780288240643.
+
+Episode 1055: Avg Net Energy=322.406, Avg CO2=82487.750, Water Usage=16488507.846
+Tasks in Queue=2635512.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1060/2034 episodes, total num timesteps 13025280/25000000, FPS 429.
+Average step reward is 0.25254297256469727.
+Some episodes done, average episode reward is 244.76225438901847.
+
+Episode 1060: Avg Net Energy=319.554, Avg CO2=85875.570, Water Usage=16420100.070
+Tasks in Queue=2752917.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1065/2034 episodes, total num timesteps 13086720/25000000, FPS 429.
+Average step reward is 0.13719744980335236.
+Some episodes done, average episode reward is 176.13595215737382.
+
+Episode 1065: Avg Net Energy=324.239, Avg CO2=85998.259, Water Usage=16645422.366
+Tasks in Queue=2851133.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1070/2034 episodes, total num timesteps 13148160/25000000, FPS 429.
+Average step reward is 0.21013419330120087.
+Some episodes done, average episode reward is 233.77152931630795.
+
+Episode 1070: Avg Net Energy=323.528, Avg CO2=74488.140, Water Usage=16450992.398
+Tasks in Queue=2496295.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1075/2034 episodes, total num timesteps 13209600/25000000, FPS 429.
+Average step reward is 0.3006664514541626.
+Some episodes done, average episode reward is 169.24633264577398.
+
+Episode 1075: Avg Net Energy=319.369, Avg CO2=74262.807, Water Usage=16380694.424
+Tasks in Queue=2409063.000, Tasks Dropped=0.000
+Evaluation average episode reward is 166.42242356428596.
+
+Episode 1075: Avg Net Energy=321.272, Avg CO2=81525.691, Water Usage=46335844.669
+Tasks in Queue=11262145.000, Tasks Dropped=1066.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1080/2034 episodes, total num timesteps 13271040/25000000, FPS 428.
+Average step reward is 0.18445761501789093.
+Some episodes done, average episode reward is 146.6787561409981.
+
+Episode 1080: Avg Net Energy=321.410, Avg CO2=88259.062, Water Usage=16509101.018
+Tasks in Queue=2841190.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1085/2034 episodes, total num timesteps 13332480/25000000, FPS 429.
+Average step reward is 0.20815409719944.
+Some episodes done, average episode reward is 142.8570669716781.
+
+Episode 1085: Avg Net Energy=320.303, Avg CO2=85584.818, Water Usage=16419405.585
+Tasks in Queue=2620445.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1090/2034 episodes, total num timesteps 13393920/25000000, FPS 429.
+Average step reward is 0.28993287682533264.
+Some episodes done, average episode reward is 206.60142720721228.
+
+Episode 1090: Avg Net Energy=318.878, Avg CO2=77840.812, Water Usage=16323816.553
+Tasks in Queue=2609454.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1095/2034 episodes, total num timesteps 13455360/25000000, FPS 429.
+Average step reward is 0.16690899431705475.
+Some episodes done, average episode reward is 199.9553188802579.
+
+Episode 1095: Avg Net Energy=326.245, Avg CO2=71387.668, Water Usage=16587188.943
+Tasks in Queue=2839173.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1100/2034 episodes, total num timesteps 13516800/25000000, FPS 429.
+Average step reward is 0.1730838268995285.
+Some episodes done, average episode reward is 135.54020744858644.
+
+Episode 1100: Avg Net Energy=323.481, Avg CO2=83109.969, Water Usage=16573012.688
+Tasks in Queue=3026554.000, Tasks Dropped=0.000
+Evaluation average episode reward is 219.79949561107085.
+
+Episode 1100: Avg Net Energy=320.872, Avg CO2=82648.554, Water Usage=46360763.582
+Tasks in Queue=12036260.000, Tasks Dropped=3520.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1105/2034 episodes, total num timesteps 13578240/25000000, FPS 428.
+Average step reward is 0.16919469833374023.
+Some episodes done, average episode reward is 190.09919216982655.
+
+Episode 1105: Avg Net Energy=322.513, Avg CO2=86876.875, Water Usage=16525945.901
+Tasks in Queue=3019249.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1110/2034 episodes, total num timesteps 13639680/25000000, FPS 429.
+Average step reward is 0.26269081234931946.
+Some episodes done, average episode reward is 243.11619383623756.
+
+Episode 1110: Avg Net Energy=319.712, Avg CO2=83152.304, Water Usage=16366968.201
+Tasks in Queue=2969435.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1115/2034 episodes, total num timesteps 13701120/25000000, FPS 429.
+Average step reward is 0.27014145255088806.
+Some episodes done, average episode reward is 178.9998271938703.
+
+Episode 1115: Avg Net Energy=322.596, Avg CO2=74731.316, Water Usage=16597082.602
+Tasks in Queue=2741440.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1120/2034 episodes, total num timesteps 13762560/25000000, FPS 429.
+Average step reward is 0.26354098320007324.
+Some episodes done, average episode reward is 274.2914489198829.
+
+Episode 1120: Avg Net Energy=321.512, Avg CO2=77547.780, Water Usage=16445257.698
+Tasks in Queue=2729322.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1125/2034 episodes, total num timesteps 13824000/25000000, FPS 429.
+Average step reward is 0.16145934164524078.
+Some episodes done, average episode reward is 272.74601045347345.
+
+Episode 1125: Avg Net Energy=321.974, Avg CO2=86763.371, Water Usage=16361571.720
+Tasks in Queue=3150393.000, Tasks Dropped=0.000
+Evaluation average episode reward is 396.80043236894994.
+
+Episode 1125: Avg Net Energy=321.721, Avg CO2=82006.249, Water Usage=46470174.432
+Tasks in Queue=10401101.000, Tasks Dropped=271.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1130/2034 episodes, total num timesteps 13885440/25000000, FPS 428.
+Average step reward is 0.19844944775104523.
+Some episodes done, average episode reward is 299.8101637421858.
+
+Episode 1130: Avg Net Energy=320.557, Avg CO2=85813.646, Water Usage=16212537.775
+Tasks in Queue=2869775.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1135/2034 episodes, total num timesteps 13946880/25000000, FPS 429.
+Average step reward is 0.26625457406044006.
+Some episodes done, average episode reward is 189.3520312049906.
+
+Episode 1135: Avg Net Energy=320.494, Avg CO2=79896.684, Water Usage=16298180.200
+Tasks in Queue=2702370.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1140/2034 episodes, total num timesteps 14008320/25000000, FPS 429.
+Average step reward is 0.21108292043209076.
+Some episodes done, average episode reward is 160.55924730855358.
+
+Episode 1140: Avg Net Energy=325.171, Avg CO2=72641.382, Water Usage=16545411.496
+Tasks in Queue=2764040.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1145/2034 episodes, total num timesteps 14069760/25000000, FPS 429.
+Average step reward is 0.1703597754240036.
+Some episodes done, average episode reward is 228.42818701219161.
+
+Episode 1145: Avg Net Energy=324.444, Avg CO2=81670.282, Water Usage=16577664.708
+Tasks in Queue=2879756.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1150/2034 episodes, total num timesteps 14131200/25000000, FPS 429.
+Average step reward is 0.19222985208034515.
+Some episodes done, average episode reward is 200.85528129693932.
+
+Episode 1150: Avg Net Energy=321.329, Avg CO2=86842.236, Water Usage=16440141.809
+Tasks in Queue=3159554.000, Tasks Dropped=0.000
+Evaluation average episode reward is 235.21069780256343.
+
+Episode 1150: Avg Net Energy=320.936, Avg CO2=80954.733, Water Usage=46536935.376
+Tasks in Queue=12296337.000, Tasks Dropped=5662.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1155/2034 episodes, total num timesteps 14192640/25000000, FPS 428.
+Average step reward is 0.11502411216497421.
+Some episodes done, average episode reward is 217.4747586807488.
+
+Episode 1155: Avg Net Energy=326.147, Avg CO2=82607.330, Water Usage=16618007.477
+Tasks in Queue=3323626.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1160/2034 episodes, total num timesteps 14254080/25000000, FPS 429.
+Average step reward is 0.1642482727766037.
+Some episodes done, average episode reward is 192.22913280207808.
+
+Episode 1160: Avg Net Energy=325.253, Avg CO2=75259.469, Water Usage=16632956.923
+Tasks in Queue=3224799.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1165/2034 episodes, total num timesteps 14315520/25000000, FPS 429.
+Average step reward is 0.3018130362033844.
+Some episodes done, average episode reward is 197.35962498411456.
+
+Episode 1165: Avg Net Energy=318.862, Avg CO2=74360.555, Water Usage=16325884.323
+Tasks in Queue=3164903.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1170/2034 episodes, total num timesteps 14376960/25000000, FPS 429.
+Average step reward is 0.2052992433309555.
+Some episodes done, average episode reward is 155.27254301054128.
+
+Episode 1170: Avg Net Energy=321.235, Avg CO2=89877.132, Water Usage=16505185.317
+Tasks in Queue=3386260.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1175/2034 episodes, total num timesteps 14438400/25000000, FPS 429.
+Average step reward is 0.2752799689769745.
+Some episodes done, average episode reward is 253.45394575437948.
+
+Episode 1175: Avg Net Energy=317.800, Avg CO2=85015.581, Water Usage=16366125.766
+Tasks in Queue=3256724.000, Tasks Dropped=0.000
+Evaluation average episode reward is 125.85898646067348.
+
+Episode 1175: Avg Net Energy=322.941, Avg CO2=80523.751, Water Usage=46079634.343
+Tasks in Queue=12385039.000, Tasks Dropped=6977.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1180/2034 episodes, total num timesteps 14499840/25000000, FPS 429.
+Average step reward is 0.2608881890773773.
+Some episodes done, average episode reward is 235.94011750525578.
+
+Episode 1180: Avg Net Energy=321.605, Avg CO2=79287.210, Water Usage=16467901.262
+Tasks in Queue=2775080.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1185/2034 episodes, total num timesteps 14561280/25000000, FPS 429.
+Average step reward is 0.3170476257801056.
+Some episodes done, average episode reward is 229.69215977004274.
+
+Episode 1185: Avg Net Energy=319.667, Avg CO2=69193.082, Water Usage=16310082.625
+Tasks in Queue=2675512.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1190/2034 episodes, total num timesteps 14622720/25000000, FPS 429.
+Average step reward is 0.2847333550453186.
+Some episodes done, average episode reward is 309.88709119910504.
+
+Episode 1190: Avg Net Energy=320.620, Avg CO2=83741.347, Water Usage=16426690.222
+Tasks in Queue=2654717.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1195/2034 episodes, total num timesteps 14684160/25000000, FPS 429.
+Average step reward is 0.1655244678258896.
+Some episodes done, average episode reward is 250.66217884340207.
+
+Episode 1195: Avg Net Energy=323.389, Avg CO2=87572.007, Water Usage=16576422.523
+Tasks in Queue=2868221.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1200/2034 episodes, total num timesteps 14745600/25000000, FPS 429.
+Average step reward is 0.1926737278699875.
+Some episodes done, average episode reward is 270.17733603042444.
+
+Episode 1200: Avg Net Energy=321.925, Avg CO2=85007.039, Water Usage=16400584.701
+Tasks in Queue=2529294.000, Tasks Dropped=0.000
+Evaluation average episode reward is 298.42419700807284.
+
+Episode 1200: Avg Net Energy=321.503, Avg CO2=79487.215, Water Usage=46447493.492
+Tasks in Queue=10230112.000, Tasks Dropped=2394.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1205/2034 episodes, total num timesteps 14807040/25000000, FPS 429.
+Average step reward is 0.29679203033447266.
+Some episodes done, average episode reward is 139.32416729555658.
+
+Episode 1205: Avg Net Energy=320.417, Avg CO2=76302.519, Water Usage=16479723.578
+Tasks in Queue=2602339.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1210/2034 episodes, total num timesteps 14868480/25000000, FPS 429.
+Average step reward is 0.345257043838501.
+Some episodes done, average episode reward is 260.347684537504.
+
+Episode 1210: Avg Net Energy=318.078, Avg CO2=72577.373, Water Usage=16368503.677
+Tasks in Queue=2948517.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1215/2034 episodes, total num timesteps 14929920/25000000, FPS 429.
+Average step reward is 0.11396283656358719.
+Some episodes done, average episode reward is 127.16043110922499.
+
+Episode 1215: Avg Net Energy=322.315, Avg CO2=89251.808, Water Usage=16517611.037
+Tasks in Queue=3543091.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1220/2034 episodes, total num timesteps 14991360/25000000, FPS 429.
+Average step reward is 0.1868208795785904.
+Some episodes done, average episode reward is 221.47918019993895.
+
+Episode 1220: Avg Net Energy=320.384, Avg CO2=85955.700, Water Usage=16441770.214
+Tasks in Queue=3214410.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1225/2034 episodes, total num timesteps 15052800/25000000, FPS 429.
+Average step reward is 0.2807627022266388.
+Some episodes done, average episode reward is 210.56355639141586.
+
+Episode 1225: Avg Net Energy=318.415, Avg CO2=77383.569, Water Usage=16365675.044
+Tasks in Queue=3001270.000, Tasks Dropped=0.000
+Evaluation average episode reward is 264.25863176055645.
+
+Episode 1225: Avg Net Energy=320.441, Avg CO2=80093.211, Water Usage=46460249.959
+Tasks in Queue=12289207.000, Tasks Dropped=1655.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1230/2034 episodes, total num timesteps 15114240/25000000, FPS 429.
+Average step reward is 0.2083570510149002.
+Some episodes done, average episode reward is 164.0982115298412.
+
+Episode 1230: Avg Net Energy=322.768, Avg CO2=75532.397, Water Usage=16494007.000
+Tasks in Queue=2687382.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1235/2034 episodes, total num timesteps 15175680/25000000, FPS 429.
+Average step reward is 0.19741736352443695.
+Some episodes done, average episode reward is 175.53950124432492.
+
+Episode 1235: Avg Net Energy=323.506, Avg CO2=84658.005, Water Usage=16569366.237
+Tasks in Queue=2630738.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1240/2034 episodes, total num timesteps 15237120/25000000, FPS 429.
+Average step reward is 0.26305052638053894.
+Some episodes done, average episode reward is 142.3452515550512.
+
+Episode 1240: Avg Net Energy=318.899, Avg CO2=86242.501, Water Usage=16459764.366
+Tasks in Queue=2368150.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1245/2034 episodes, total num timesteps 15298560/25000000, FPS 429.
+Average step reward is 0.17607395350933075.
+Some episodes done, average episode reward is 140.21954903735264.
+
+Episode 1245: Avg Net Energy=324.401, Avg CO2=81557.302, Water Usage=16519906.252
+Tasks in Queue=2385702.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1250/2034 episodes, total num timesteps 15360000/25000000, FPS 429.
+Average step reward is 0.1669940948486328.
+Some episodes done, average episode reward is 204.0401760342709.
+
+Episode 1250: Avg Net Energy=325.352, Avg CO2=76119.173, Water Usage=16601830.485
+Tasks in Queue=2545747.000, Tasks Dropped=0.000
+Evaluation average episode reward is 107.57144121015209.
+
+Episode 1250: Avg Net Energy=321.939, Avg CO2=81723.884, Water Usage=46414502.037
+Tasks in Queue=10864745.000, Tasks Dropped=1404.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1255/2034 episodes, total num timesteps 15421440/25000000, FPS 429.
+Average step reward is 0.14145131409168243.
+Some episodes done, average episode reward is 153.0668224916874.
+
+Episode 1255: Avg Net Energy=321.683, Avg CO2=78194.994, Water Usage=16422079.789
+Tasks in Queue=2968150.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1260/2034 episodes, total num timesteps 15482880/25000000, FPS 429.
+Average step reward is 0.14775528013706207.
+Some episodes done, average episode reward is 106.68458965548744.
+
+Episode 1260: Avg Net Energy=322.605, Avg CO2=88733.112, Water Usage=16401959.736
+Tasks in Queue=3176051.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1265/2034 episodes, total num timesteps 15544320/25000000, FPS 429.
+Average step reward is 0.11259304732084274.
+Some episodes done, average episode reward is 236.27903062170796.
+
+Episode 1265: Avg Net Energy=323.140, Avg CO2=86967.755, Water Usage=16458275.002
+Tasks in Queue=3210612.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1270/2034 episodes, total num timesteps 15605760/25000000, FPS 429.
+Average step reward is 0.197645366191864.
+Some episodes done, average episode reward is 139.28189226002195.
+
+Episode 1270: Avg Net Energy=323.567, Avg CO2=72024.885, Water Usage=16541447.937
+Tasks in Queue=2897599.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1275/2034 episodes, total num timesteps 15667200/25000000, FPS 429.
+Average step reward is 0.29300034046173096.
+Some episodes done, average episode reward is 107.84372568783465.
+
+Episode 1275: Avg Net Energy=319.742, Avg CO2=70781.341, Water Usage=16407380.713
+Tasks in Queue=2678262.000, Tasks Dropped=0.000
+Evaluation average episode reward is 128.89193899194586.
+
+Episode 1275: Avg Net Energy=321.572, Avg CO2=80493.877, Water Usage=46143321.708
+Tasks in Queue=11615799.000, Tasks Dropped=457.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1280/2034 episodes, total num timesteps 15728640/25000000, FPS 429.
+Average step reward is 0.22977401316165924.
+Some episodes done, average episode reward is 210.17463031615293.
+
+Episode 1280: Avg Net Energy=318.752, Avg CO2=82465.660, Water Usage=16370372.715
+Tasks in Queue=2940044.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1285/2034 episodes, total num timesteps 15790080/25000000, FPS 429.
+Average step reward is -0.022641479969024658.
+Some episodes done, average episode reward is 166.3876684325306.
+
+Episode 1285: Avg Net Energy=327.498, Avg CO2=88389.057, Water Usage=16665991.325
+Tasks in Queue=3532975.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1290/2034 episodes, total num timesteps 15851520/25000000, FPS 429.
+Average step reward is 0.2510598599910736.
+Some episodes done, average episode reward is 163.53884249345083.
+
+Episode 1290: Avg Net Energy=317.856, Avg CO2=84697.958, Water Usage=16404657.619
+Tasks in Queue=2902081.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1295/2034 episodes, total num timesteps 15912960/25000000, FPS 429.
+Average step reward is 0.16260455548763275.
+Some episodes done, average episode reward is 102.73001369598023.
+
+Episode 1295: Avg Net Energy=325.085, Avg CO2=73393.684, Water Usage=16558162.438
+Tasks in Queue=3000871.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1300/2034 episodes, total num timesteps 15974400/25000000, FPS 429.
+Average step reward is 0.14618384838104248.
+Some episodes done, average episode reward is 186.63204591229257.
+
+Episode 1300: Avg Net Energy=322.735, Avg CO2=81110.154, Water Usage=16416879.711
+Tasks in Queue=2991981.000, Tasks Dropped=0.000
+Evaluation average episode reward is 122.80931009319958.
+
+Episode 1300: Avg Net Energy=321.787, Avg CO2=80207.408, Water Usage=46467813.265
+Tasks in Queue=11638612.000, Tasks Dropped=2668.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1305/2034 episodes, total num timesteps 16035840/25000000, FPS 429.
+Average step reward is 0.21763117611408234.
+Some episodes done, average episode reward is 165.51380180304045.
+
+Episode 1305: Avg Net Energy=319.781, Avg CO2=86902.317, Water Usage=16500932.588
+Tasks in Queue=3167018.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1310/2034 episodes, total num timesteps 16097280/25000000, FPS 429.
+Average step reward is 0.1294870227575302.
+Some episodes done, average episode reward is 85.42178607578136.
+
+Episode 1310: Avg Net Energy=323.305, Avg CO2=86751.363, Water Usage=16459441.758
+Tasks in Queue=3404708.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1315/2034 episodes, total num timesteps 16158720/25000000, FPS 429.
+Average step reward is 0.22130441665649414.
+Some episodes done, average episode reward is 132.74853944600414.
+
+Episode 1315: Avg Net Energy=322.417, Avg CO2=75817.907, Water Usage=16479613.451
+Tasks in Queue=3339728.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1320/2034 episodes, total num timesteps 16220160/25000000, FPS 429.
+Average step reward is 0.3124602735042572.
+Some episodes done, average episode reward is 216.4765509337376.
+
+Episode 1320: Avg Net Energy=319.659, Avg CO2=70621.936, Water Usage=16409509.723
+Tasks in Queue=3033049.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1325/2034 episodes, total num timesteps 16281600/25000000, FPS 429.
+Average step reward is 0.18973921239376068.
+Some episodes done, average episode reward is 211.42730878893715.
+
+Episode 1325: Avg Net Energy=321.215, Avg CO2=81619.398, Water Usage=16385101.930
+Tasks in Queue=3197855.000, Tasks Dropped=0.000
+Evaluation average episode reward is 342.6619223091768.
+
+Episode 1325: Avg Net Energy=321.910, Avg CO2=79959.778, Water Usage=46531581.498
+Tasks in Queue=11258975.000, Tasks Dropped=2364.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1330/2034 episodes, total num timesteps 16343040/25000000, FPS 429.
+Average step reward is 0.19612525403499603.
+Some episodes done, average episode reward is 212.6848419601073.
+
+Episode 1330: Avg Net Energy=321.564, Avg CO2=86405.894, Water Usage=16445452.179
+Tasks in Queue=3021566.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1335/2034 episodes, total num timesteps 16404480/25000000, FPS 429.
+Average step reward is 0.1826939582824707.
+Some episodes done, average episode reward is 215.55920383313182.
+
+Episode 1335: Avg Net Energy=325.373, Avg CO2=81011.212, Water Usage=16546344.774
+Tasks in Queue=3203846.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1340/2034 episodes, total num timesteps 16465920/25000000, FPS 429.
+Average step reward is 0.2969188690185547.
+Some episodes done, average episode reward is 208.77248098400196.
+
+Episode 1340: Avg Net Energy=318.907, Avg CO2=70050.515, Water Usage=16475832.741
+Tasks in Queue=3439382.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1345/2034 episodes, total num timesteps 16527360/25000000, FPS 429.
+Average step reward is 0.24922096729278564.
+Some episodes done, average episode reward is 166.1313227705118.
+
+Episode 1345: Avg Net Energy=321.238, Avg CO2=75309.363, Water Usage=16380399.136
+Tasks in Queue=3692422.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1350/2034 episodes, total num timesteps 16588800/25000000, FPS 430.
+Average step reward is 0.055679578334093094.
+Some episodes done, average episode reward is 123.74737141354676.
+
+Episode 1350: Avg Net Energy=321.806, Avg CO2=88016.717, Water Usage=16460065.558
+Tasks in Queue=4541496.000, Tasks Dropped=0.000
+Evaluation average episode reward is 48.97138061749207.
+
+Episode 1350: Avg Net Energy=322.265, Avg CO2=80177.658, Water Usage=46419054.606
+Tasks in Queue=15173241.000, Tasks Dropped=7346.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1355/2034 episodes, total num timesteps 16650240/25000000, FPS 429.
+Average step reward is 0.08327531069517136.
+Some episodes done, average episode reward is -0.48895310394832325.
+
+Episode 1355: Avg Net Energy=320.292, Avg CO2=86182.787, Water Usage=16380571.151
+Tasks in Queue=4486213.000, Tasks Dropped=32.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1360/2034 episodes, total num timesteps 16711680/25000000, FPS 429.
+Average step reward is 0.21093712747097015.
+Some episodes done, average episode reward is 165.23282673135816.
+
+Episode 1360: Avg Net Energy=321.421, Avg CO2=75797.355, Water Usage=16540378.048
+Tasks in Queue=3461815.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1365/2034 episodes, total num timesteps 16773120/25000000, FPS 429.
+Average step reward is 0.3319603502750397.
+Some episodes done, average episode reward is 177.2720881073336.
+
+Episode 1365: Avg Net Energy=317.369, Avg CO2=73645.883, Water Usage=16281832.805
+Tasks in Queue=2908494.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1370/2034 episodes, total num timesteps 16834560/25000000, FPS 429.
+Average step reward is 0.20158147811889648.
+Some episodes done, average episode reward is 193.0285339141227.
+
+Episode 1370: Avg Net Energy=323.499, Avg CO2=82039.731, Water Usage=16541513.921
+Tasks in Queue=2776388.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1375/2034 episodes, total num timesteps 16896000/25000000, FPS 430.
+Average step reward is 0.17242349684238434.
+Some episodes done, average episode reward is 215.25403909865938.
+
+Episode 1375: Avg Net Energy=324.429, Avg CO2=87899.859, Water Usage=16585317.390
+Tasks in Queue=2733251.000, Tasks Dropped=0.000
+Evaluation average episode reward is 585.5571453538846.
+
+Episode 1375: Avg Net Energy=320.955, Avg CO2=78929.173, Water Usage=46318185.469
+Tasks in Queue=8173739.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1380/2034 episodes, total num timesteps 16957440/25000000, FPS 429.
+Average step reward is 0.242148756980896.
+Some episodes done, average episode reward is 288.1579348615168.
+
+Episode 1380: Avg Net Energy=320.360, Avg CO2=84964.486, Water Usage=16399774.385
+Tasks in Queue=2726672.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1385/2034 episodes, total num timesteps 17018880/25000000, FPS 429.
+Average step reward is 0.20778922736644745.
+Some episodes done, average episode reward is 178.04422242879096.
+
+Episode 1385: Avg Net Energy=325.123, Avg CO2=71521.069, Water Usage=16492195.429
+Tasks in Queue=2729969.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1390/2034 episodes, total num timesteps 17080320/25000000, FPS 429.
+Average step reward is 0.2013281136751175.
+Some episodes done, average episode reward is 192.60089534941926.
+
+Episode 1390: Avg Net Energy=323.137, Avg CO2=77309.188, Water Usage=16535364.793
+Tasks in Queue=2974474.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1395/2034 episodes, total num timesteps 17141760/25000000, FPS 429.
+Average step reward is 0.2080109566450119.
+Some episodes done, average episode reward is 225.40724902015188.
+
+Episode 1395: Avg Net Energy=322.790, Avg CO2=87896.261, Water Usage=16532723.016
+Tasks in Queue=2522032.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1400/2034 episodes, total num timesteps 17203200/25000000, FPS 430.
+Average step reward is 0.24914111196994781.
+Some episodes done, average episode reward is 392.7744087570061.
+
+Episode 1400: Avg Net Energy=320.104, Avg CO2=86061.586, Water Usage=16443413.559
+Tasks in Queue=2696302.000, Tasks Dropped=0.000
+Evaluation average episode reward is 374.5138923527725.
+
+Episode 1400: Avg Net Energy=320.882, Avg CO2=81554.388, Water Usage=46380708.366
+Tasks in Queue=10589806.000, Tasks Dropped=4037.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1405/2034 episodes, total num timesteps 17264640/25000000, FPS 429.
+Average step reward is 0.2267121821641922.
+Some episodes done, average episode reward is 233.3425452136827.
+
+Episode 1405: Avg Net Energy=320.976, Avg CO2=77430.244, Water Usage=16435186.155
+Tasks in Queue=3072619.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1410/2034 episodes, total num timesteps 17326080/25000000, FPS 429.
+Average step reward is 0.20086830854415894.
+Some episodes done, average episode reward is 153.4988852087112.
+
+Episode 1410: Avg Net Energy=322.631, Avg CO2=72606.532, Water Usage=16558718.052
+Tasks in Queue=3246723.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1415/2034 episodes, total num timesteps 17387520/25000000, FPS 429.
+Average step reward is 0.19252045452594757.
+Some episodes done, average episode reward is 170.868933453891.
+
+Episode 1415: Avg Net Energy=320.416, Avg CO2=79624.627, Water Usage=16482039.935
+Tasks in Queue=3483236.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1420/2034 episodes, total num timesteps 17448960/25000000, FPS 429.
+Average step reward is 0.06759484112262726.
+Some episodes done, average episode reward is 214.56708738352222.
+
+Episode 1420: Avg Net Energy=321.440, Avg CO2=87088.200, Water Usage=16450975.698
+Tasks in Queue=4324596.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1425/2034 episodes, total num timesteps 17510400/25000000, FPS 430.
+Average step reward is 0.023149875923991203.
+Some episodes done, average episode reward is 77.56005872051828.
+
+Episode 1425: Avg Net Energy=322.958, Avg CO2=84189.860, Water Usage=16419802.722
+Tasks in Queue=4604763.000, Tasks Dropped=0.000
+Evaluation average episode reward is 36.38871872660406.
+
+Episode 1425: Avg Net Energy=320.803, Avg CO2=81266.229, Water Usage=46351300.738
+Tasks in Queue=14994709.000, Tasks Dropped=5206.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1430/2034 episodes, total num timesteps 17571840/25000000, FPS 429.
+Average step reward is 0.1817968636751175.
+Some episodes done, average episode reward is 38.62115578638683.
+
+Episode 1430: Avg Net Energy=322.715, Avg CO2=75914.744, Water Usage=16476382.866
+Tasks in Queue=3707264.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1435/2034 episodes, total num timesteps 17633280/25000000, FPS 429.
+Average step reward is 0.27256736159324646.
+Some episodes done, average episode reward is 186.05973264089644.
+
+Episode 1435: Avg Net Energy=319.959, Avg CO2=76313.295, Water Usage=16360234.621
+Tasks in Queue=3452960.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1440/2034 episodes, total num timesteps 17694720/25000000, FPS 429.
+Average step reward is 0.22044412791728973.
+Some episodes done, average episode reward is 177.3987170200346.
+
+Episode 1440: Avg Net Energy=320.601, Avg CO2=86767.853, Water Usage=16344261.242
+Tasks in Queue=3449062.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1445/2034 episodes, total num timesteps 17756160/25000000, FPS 429.
+Average step reward is 0.2667301893234253.
+Some episodes done, average episode reward is 270.03500170533727.
+
+Episode 1445: Avg Net Energy=319.674, Avg CO2=85418.017, Water Usage=16295190.984
+Tasks in Queue=3242751.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1450/2034 episodes, total num timesteps 17817600/25000000, FPS 429.
+Average step reward is 0.3080146014690399.
+Some episodes done, average episode reward is 269.42659448221605.
+
+Episode 1450: Avg Net Energy=320.189, Avg CO2=78258.451, Water Usage=16436515.857
+Tasks in Queue=2562946.000, Tasks Dropped=0.000
+Evaluation average episode reward is 405.54822666767564.
+
+Episode 1450: Avg Net Energy=320.959, Avg CO2=82216.556, Water Usage=46311201.631
+Tasks in Queue=9223744.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1455/2034 episodes, total num timesteps 17879040/25000000, FPS 429.
+Average step reward is 0.2566651701927185.
+Some episodes done, average episode reward is 255.83215720042224.
+
+Episode 1455: Avg Net Energy=323.594, Avg CO2=71207.622, Water Usage=16439463.210
+Tasks in Queue=2618550.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1460/2034 episodes, total num timesteps 17940480/25000000, FPS 429.
+Average step reward is 0.2698184549808502.
+Some episodes done, average episode reward is 266.2324555654752.
+
+Episode 1460: Avg Net Energy=321.309, Avg CO2=79038.240, Water Usage=16477933.425
+Tasks in Queue=2734665.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1465/2034 episodes, total num timesteps 18001920/25000000, FPS 429.
+Average step reward is 0.14080877602100372.
+Some episodes done, average episode reward is 256.112736479902.
+
+Episode 1465: Avg Net Energy=324.896, Avg CO2=88698.667, Water Usage=16458389.374
+Tasks in Queue=3535022.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1470/2034 episodes, total num timesteps 18063360/25000000, FPS 429.
+Average step reward is 0.14029952883720398.
+Some episodes done, average episode reward is 206.42491760206872.
+
+Episode 1470: Avg Net Energy=324.278, Avg CO2=85930.653, Water Usage=16539542.678
+Tasks in Queue=3744641.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1475/2034 episodes, total num timesteps 18124800/25000000, FPS 429.
+Average step reward is 0.19146494567394257.
+Some episodes done, average episode reward is 262.8217251477472.
+
+Episode 1475: Avg Net Energy=326.139, Avg CO2=74271.307, Water Usage=16528430.828
+Tasks in Queue=3310949.000, Tasks Dropped=0.000
+Evaluation average episode reward is 219.46761190871555.
+
+Episode 1475: Avg Net Energy=321.171, Avg CO2=80705.273, Water Usage=46278666.743
+Tasks in Queue=11714407.000, Tasks Dropped=6155.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1480/2034 episodes, total num timesteps 18186240/25000000, FPS 429.
+Average step reward is 0.27024298906326294.
+Some episodes done, average episode reward is 258.2844497988095.
+
+Episode 1480: Avg Net Energy=320.916, Avg CO2=74948.687, Water Usage=16401990.512
+Tasks in Queue=3088679.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1485/2034 episodes, total num timesteps 18247680/25000000, FPS 429.
+Average step reward is 0.22997407615184784.
+Some episodes done, average episode reward is 242.13982048389002.
+
+Episode 1485: Avg Net Energy=320.932, Avg CO2=88486.545, Water Usage=16546032.720
+Tasks in Queue=3247356.000, Tasks Dropped=57.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1490/2034 episodes, total num timesteps 18309120/25000000, FPS 429.
+Average step reward is 0.3328581154346466.
+Some episodes done, average episode reward is 209.43786177325333.
+
+Episode 1490: Avg Net Energy=317.304, Avg CO2=84858.795, Water Usage=16348092.460
+Tasks in Queue=2421808.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1495/2034 episodes, total num timesteps 18370560/25000000, FPS 429.
+Average step reward is 0.1870238333940506.
+Some episodes done, average episode reward is 253.10510875123182.
+
+Episode 1495: Avg Net Energy=324.910, Avg CO2=83019.193, Water Usage=16598112.296
+Tasks in Queue=3057844.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1500/2034 episodes, total num timesteps 18432000/25000000, FPS 429.
+Average step reward is 0.24013687670230865.
+Some episodes done, average episode reward is 228.06523490576487.
+
+Episode 1500: Avg Net Energy=324.422, Avg CO2=71193.579, Water Usage=16591834.655
+Tasks in Queue=2782406.000, Tasks Dropped=0.000
+Evaluation average episode reward is 172.41598454978106.
+
+Episode 1500: Avg Net Energy=322.519, Avg CO2=81487.785, Water Usage=46375950.647
+Tasks in Queue=11105412.000, Tasks Dropped=4268.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1505/2034 episodes, total num timesteps 18493440/25000000, FPS 429.
+Average step reward is 0.18578386306762695.
+Some episodes done, average episode reward is 230.74896277027574.
+
+Episode 1505: Avg Net Energy=322.787, Avg CO2=84501.263, Water Usage=16491244.949
+Tasks in Queue=3573070.000, Tasks Dropped=24.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1510/2034 episodes, total num timesteps 18554880/25000000, FPS 429.
+Average step reward is 0.1520167738199234.
+Some episodes done, average episode reward is 98.29089001019963.
+
+Episode 1510: Avg Net Energy=325.286, Avg CO2=88451.375, Water Usage=16724076.832
+Tasks in Queue=3258772.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1515/2034 episodes, total num timesteps 18616320/25000000, FPS 429.
+Average step reward is 0.2076711505651474.
+Some episodes done, average episode reward is 351.5896446614422.
+
+Episode 1515: Avg Net Energy=323.151, Avg CO2=83487.754, Water Usage=16480095.130
+Tasks in Queue=2659346.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1520/2034 episodes, total num timesteps 18677760/25000000, FPS 429.
+Average step reward is 0.13252080976963043.
+Some episodes done, average episode reward is 227.25060301702442.
+
+Episode 1520: Avg Net Energy=330.135, Avg CO2=74640.259, Water Usage=16501502.808
+Tasks in Queue=1890897.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1525/2034 episodes, total num timesteps 18739200/25000000, FPS 429.
+Average step reward is 0.21797482669353485.
+Some episodes done, average episode reward is 173.22014793240453.
+
+Episode 1525: Avg Net Energy=322.970, Avg CO2=76922.501, Water Usage=16587907.931
+Tasks in Queue=1639079.000, Tasks Dropped=0.000
+Evaluation average episode reward is 167.32315939365637.
+
+Episode 1525: Avg Net Energy=321.548, Avg CO2=80086.697, Water Usage=46258461.059
+Tasks in Queue=7411338.000, Tasks Dropped=41.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1530/2034 episodes, total num timesteps 18800640/25000000, FPS 429.
+Average step reward is 0.20652081072330475.
+Some episodes done, average episode reward is 223.190947947708.
+
+Episode 1530: Avg Net Energy=321.974, Avg CO2=88417.261, Water Usage=16436431.431
+Tasks in Queue=2055112.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1535/2034 episodes, total num timesteps 18862080/25000000, FPS 429.
+Average step reward is 0.12515045702457428.
+Some episodes done, average episode reward is 128.3146045034416.
+
+Episode 1535: Avg Net Energy=323.374, Avg CO2=86279.443, Water Usage=16535601.511
+Tasks in Queue=2546969.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1540/2034 episodes, total num timesteps 18923520/25000000, FPS 429.
+Average step reward is 0.2778436243534088.
+Some episodes done, average episode reward is 139.93411038589664.
+
+Episode 1540: Avg Net Energy=319.213, Avg CO2=77043.101, Water Usage=16348818.057
+Tasks in Queue=2568932.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1545/2034 episodes, total num timesteps 18984960/25000000, FPS 429.
+Average step reward is 0.35561248660087585.
+Some episodes done, average episode reward is 190.08102647627538.
+
+Episode 1545: Avg Net Energy=316.856, Avg CO2=72120.608, Water Usage=16216665.230
+Tasks in Queue=1906814.000, Tasks Dropped=62.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1550/2034 episodes, total num timesteps 19046400/25000000, FPS 429.
+Average step reward is 0.2937600612640381.
+Some episodes done, average episode reward is 221.8016646765798.
+
+Episode 1550: Avg Net Energy=315.700, Avg CO2=80186.205, Water Usage=16305003.175
+Tasks in Queue=3043783.000, Tasks Dropped=754.000
+Evaluation average episode reward is 184.45299754835088.
+
+Episode 1550: Avg Net Energy=321.282, Avg CO2=82449.317, Water Usage=46570478.258
+Tasks in Queue=10212693.000, Tasks Dropped=5211.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1555/2034 episodes, total num timesteps 19107840/25000000, FPS 429.
+Average step reward is 0.1633884757757187.
+Some episodes done, average episode reward is 202.56806303645294.
+
+Episode 1555: Avg Net Energy=322.958, Avg CO2=87310.006, Water Usage=16488625.876
+Tasks in Queue=3115200.000, Tasks Dropped=345.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1560/2034 episodes, total num timesteps 19169280/25000000, FPS 429.
+Average step reward is 0.13208557665348053.
+Some episodes done, average episode reward is 206.98684464927237.
+
+Episode 1560: Avg Net Energy=324.904, Avg CO2=84006.980, Water Usage=16530480.523
+Tasks in Queue=3698865.000, Tasks Dropped=471.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1565/2034 episodes, total num timesteps 19230720/25000000, FPS 429.
+Average step reward is 0.2212342470884323.
+Some episodes done, average episode reward is 185.27976251119722.
+
+Episode 1565: Avg Net Energy=323.264, Avg CO2=79275.774, Water Usage=16515826.945
+Tasks in Queue=2962435.000, Tasks Dropped=126.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1570/2034 episodes, total num timesteps 19292160/25000000, FPS 429.
+Average step reward is 0.2212187498807907.
+Some episodes done, average episode reward is 212.06225274153857.
+
+Episode 1570: Avg Net Energy=322.663, Avg CO2=77020.498, Water Usage=16482425.910
+Tasks in Queue=1598632.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1575/2034 episodes, total num timesteps 19353600/25000000, FPS 429.
+Average step reward is 0.2830021381378174.
+Some episodes done, average episode reward is 183.57547043968853.
+
+Episode 1575: Avg Net Energy=320.280, Avg CO2=88625.548, Water Usage=16357758.822
+Tasks in Queue=1480806.000, Tasks Dropped=0.000
+Evaluation average episode reward is 194.38361039715255.
+
+Episode 1575: Avg Net Energy=320.917, Avg CO2=82260.060, Water Usage=46373815.870
+Tasks in Queue=5946805.000, Tasks Dropped=50.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1580/2034 episodes, total num timesteps 19415040/25000000, FPS 429.
+Average step reward is 0.20678575336933136.
+Some episodes done, average episode reward is 341.07847249444137.
+
+Episode 1580: Avg Net Energy=322.513, Avg CO2=86418.249, Water Usage=16475239.170
+Tasks in Queue=1945158.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1585/2034 episodes, total num timesteps 19476480/25000000, FPS 429.
+Average step reward is 0.3110252320766449.
+Some episodes done, average episode reward is 223.64854893630013.
+
+Episode 1585: Avg Net Energy=318.416, Avg CO2=76578.056, Water Usage=16290806.604
+Tasks in Queue=2419348.000, Tasks Dropped=33.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1590/2034 episodes, total num timesteps 19537920/25000000, FPS 429.
+Average step reward is 0.3250604569911957.
+Some episodes done, average episode reward is 228.26611796775637.
+
+Episode 1590: Avg Net Energy=318.207, Avg CO2=72406.681, Water Usage=16501102.097
+Tasks in Queue=2683139.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1595/2034 episodes, total num timesteps 19599360/25000000, FPS 429.
+Average step reward is 0.21226565539836884.
+Some episodes done, average episode reward is 217.25087542284737.
+
+Episode 1595: Avg Net Energy=318.275, Avg CO2=83819.741, Water Usage=16418657.525
+Tasks in Queue=3621692.000, Tasks Dropped=259.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1600/2034 episodes, total num timesteps 19660800/25000000, FPS 429.
+Average step reward is 0.256113201379776.
+Some episodes done, average episode reward is 128.33623507761794.
+
+Episode 1600: Avg Net Energy=318.368, Avg CO2=86367.786, Water Usage=16352452.655
+Tasks in Queue=3722332.000, Tasks Dropped=0.000
+Evaluation average episode reward is 244.8217405476668.
+
+Episode 1600: Avg Net Energy=321.011, Avg CO2=80251.151, Water Usage=46498045.747
+Tasks in Queue=11797213.000, Tasks Dropped=6444.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1605/2034 episodes, total num timesteps 19722240/25000000, FPS 428.
+Average step reward is 0.06467848271131516.
+Some episodes done, average episode reward is 138.98956369929624.
+
+Episode 1605: Avg Net Energy=325.585, Avg CO2=84328.429, Water Usage=16663621.893
+Tasks in Queue=4323124.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1610/2034 episodes, total num timesteps 19783680/25000000, FPS 429.
+Average step reward is 0.16553157567977905.
+Some episodes done, average episode reward is 190.77386933772814.
+
+Episode 1610: Avg Net Energy=322.161, Avg CO2=79214.253, Water Usage=16461529.892
+Tasks in Queue=4286133.000, Tasks Dropped=8.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1615/2034 episodes, total num timesteps 19845120/25000000, FPS 429.
+Average step reward is 0.16205839812755585.
+Some episodes done, average episode reward is 112.32191926617675.
+
+Episode 1615: Avg Net Energy=321.554, Avg CO2=78782.360, Water Usage=16560971.916
+Tasks in Queue=4233092.000, Tasks Dropped=45.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1620/2034 episodes, total num timesteps 19906560/25000000, FPS 429.
+Average step reward is 0.25511130690574646.
+Some episodes done, average episode reward is 146.04989186841271.
+
+Episode 1620: Avg Net Energy=319.021, Avg CO2=87404.833, Water Usage=16200329.361
+Tasks in Queue=3659996.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1625/2034 episodes, total num timesteps 19968000/25000000, FPS 429.
+Average step reward is 0.14115875959396362.
+Some episodes done, average episode reward is 182.52410033463778.
+
+Episode 1625: Avg Net Energy=323.801, Avg CO2=86419.210, Water Usage=16459219.616
+Tasks in Queue=3360602.000, Tasks Dropped=0.000
+Evaluation average episode reward is 237.075543120764.
+
+Episode 1625: Avg Net Energy=321.912, Avg CO2=81841.339, Water Usage=46660264.476
+Tasks in Queue=9896943.000, Tasks Dropped=537.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1630/2034 episodes, total num timesteps 20029440/25000000, FPS 429.
+Average step reward is 0.2907288074493408.
+Some episodes done, average episode reward is 209.17646721571813.
+
+Episode 1630: Avg Net Energy=321.976, Avg CO2=74637.242, Water Usage=16548928.179
+Tasks in Queue=2032871.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1635/2034 episodes, total num timesteps 20090880/25000000, FPS 429.
+Average step reward is 0.24948377907276154.
+Some episodes done, average episode reward is 261.3695007755464.
+
+Episode 1635: Avg Net Energy=324.927, Avg CO2=72369.516, Water Usage=16467886.284
+Tasks in Queue=2608518.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1640/2034 episodes, total num timesteps 20152320/25000000, FPS 429.
+Average step reward is 0.22056734561920166.
+Some episodes done, average episode reward is 233.03905971970656.
+
+Episode 1640: Avg Net Energy=321.074, Avg CO2=83506.103, Water Usage=16407399.191
+Tasks in Queue=3461472.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1645/2034 episodes, total num timesteps 20213760/25000000, FPS 429.
+Average step reward is 0.07798334956169128.
+Some episodes done, average episode reward is 206.5057997096226.
+
+Episode 1645: Avg Net Energy=325.050, Avg CO2=87642.754, Water Usage=16596577.342
+Tasks in Queue=3953680.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1650/2034 episodes, total num timesteps 20275200/25000000, FPS 429.
+Average step reward is 0.16611787676811218.
+Some episodes done, average episode reward is 251.33024108119196.
+
+Episode 1650: Avg Net Energy=323.330, Avg CO2=83575.008, Water Usage=16395612.731
+Tasks in Queue=3612770.000, Tasks Dropped=0.000
+Evaluation average episode reward is 241.42415175627568.
+
+Episode 1650: Avg Net Energy=320.645, Avg CO2=79795.080, Water Usage=46314374.505
+Tasks in Queue=12106270.000, Tasks Dropped=1517.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1655/2034 episodes, total num timesteps 20336640/25000000, FPS 428.
+Average step reward is 0.13288457691669464.
+Some episodes done, average episode reward is 136.2915668016987.
+
+Episode 1655: Avg Net Energy=326.881, Avg CO2=74652.922, Water Usage=16578752.359
+Tasks in Queue=3879381.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1660/2034 episodes, total num timesteps 20398080/25000000, FPS 429.
+Average step reward is 0.26778116822242737.
+Some episodes done, average episode reward is 200.37291629415412.
+
+Episode 1660: Avg Net Energy=318.918, Avg CO2=75073.968, Water Usage=16371565.096
+Tasks in Queue=3683183.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1665/2034 episodes, total num timesteps 20459520/25000000, FPS 429.
+Average step reward is 0.1186075434088707.
+Some episodes done, average episode reward is 154.46692473318646.
+
+Episode 1665: Avg Net Energy=323.186, Avg CO2=87411.970, Water Usage=16403197.915
+Tasks in Queue=4239528.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1670/2034 episodes, total num timesteps 20520960/25000000, FPS 429.
+Average step reward is 0.10889149457216263.
+Some episodes done, average episode reward is 67.97820458910657.
+
+Episode 1670: Avg Net Energy=322.450, Avg CO2=86371.145, Water Usage=16397865.557
+Tasks in Queue=4577042.000, Tasks Dropped=8.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1675/2034 episodes, total num timesteps 20582400/25000000, FPS 429.
+Average step reward is 0.2018604278564453.
+Some episodes done, average episode reward is 127.82820017415321.
+
+Episode 1675: Avg Net Energy=321.641, Avg CO2=77608.926, Water Usage=16536027.304
+Tasks in Queue=4221335.000, Tasks Dropped=0.000
+Evaluation average episode reward is 87.3500890484882.
+
+Episode 1675: Avg Net Energy=320.445, Avg CO2=81039.503, Water Usage=46388365.111
+Tasks in Queue=14761223.000, Tasks Dropped=3554.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1680/2034 episodes, total num timesteps 20643840/25000000, FPS 428.
+Average step reward is 0.2132631093263626.
+Some episodes done, average episode reward is 148.79016939619416.
+
+Episode 1680: Avg Net Energy=321.307, Avg CO2=72158.059, Water Usage=16399348.281
+Tasks in Queue=4265425.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1685/2034 episodes, total num timesteps 20705280/25000000, FPS 429.
+Average step reward is 0.18697531521320343.
+Some episodes done, average episode reward is 94.61882777794138.
+
+Episode 1685: Avg Net Energy=319.323, Avg CO2=79993.494, Water Usage=16373535.197
+Tasks in Queue=4613446.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1690/2034 episodes, total num timesteps 20766720/25000000, FPS 429.
+Average step reward is 0.059020042419433594.
+Some episodes done, average episode reward is 149.6756755511427.
+
+Episode 1690: Avg Net Energy=321.922, Avg CO2=86996.978, Water Usage=16359863.538
+Tasks in Queue=4974506.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1695/2034 episodes, total num timesteps 20828160/25000000, FPS 429.
+Average step reward is 0.11125025898218155.
+Some episodes done, average episode reward is 25.24896308214082.
+
+Episode 1695: Avg Net Energy=321.167, Avg CO2=84781.794, Water Usage=16386880.108
+Tasks in Queue=4678545.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1700/2034 episodes, total num timesteps 20889600/25000000, FPS 429.
+Average step reward is 0.18570703268051147.
+Some episodes done, average episode reward is 90.50699852806929.
+
+Episode 1700: Avg Net Energy=322.448, Avg CO2=77090.837, Water Usage=16501740.384
+Tasks in Queue=4086230.000, Tasks Dropped=0.000
+Evaluation average episode reward is 3.927909825450238.
+
+Episode 1700: Avg Net Energy=322.122, Avg CO2=81886.583, Water Usage=46438124.554
+Tasks in Queue=13931896.000, Tasks Dropped=1710.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1705/2034 episodes, total num timesteps 20951040/25000000, FPS 428.
+Average step reward is 0.20845086872577667.
+Some episodes done, average episode reward is 140.26276939855325.
+
+Episode 1705: Avg Net Energy=321.773, Avg CO2=78147.155, Water Usage=16424931.021
+Tasks in Queue=3644750.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1710/2034 episodes, total num timesteps 21012480/25000000, FPS 428.
+Average step reward is 0.3418674170970917.
+Some episodes done, average episode reward is 232.75043632526726.
+
+Episode 1710: Avg Net Energy=316.819, Avg CO2=87402.555, Water Usage=16272745.528
+Tasks in Queue=3474894.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1715/2034 episodes, total num timesteps 21073920/25000000, FPS 429.
+Average step reward is 0.20944525301456451.
+Some episodes done, average episode reward is 177.01215159513038.
+
+Episode 1715: Avg Net Energy=320.110, Avg CO2=85750.836, Water Usage=16244064.216
+Tasks in Queue=3582440.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1720/2034 episodes, total num timesteps 21135360/25000000, FPS 429.
+Average step reward is 0.1590268313884735.
+Some episodes done, average episode reward is 195.33344343352624.
+
+Episode 1720: Avg Net Energy=325.698, Avg CO2=77648.954, Water Usage=16542794.100
+Tasks in Queue=3276254.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1725/2034 episodes, total num timesteps 21196800/25000000, FPS 429.
+Average step reward is 0.3665551245212555.
+Some episodes done, average episode reward is 170.59556176444332.
+
+Episode 1725: Avg Net Energy=318.830, Avg CO2=72292.890, Water Usage=16122759.418
+Tasks in Queue=2580481.000, Tasks Dropped=0.000
+Evaluation average episode reward is 231.25916571879557.
+
+Episode 1725: Avg Net Energy=322.161, Avg CO2=81605.439, Water Usage=46384245.068
+Tasks in Queue=10077818.000, Tasks Dropped=224.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1730/2034 episodes, total num timesteps 21258240/25000000, FPS 428.
+Average step reward is 0.2873258888721466.
+Some episodes done, average episode reward is 246.22499185943192.
+
+Episode 1730: Avg Net Energy=319.064, Avg CO2=83295.886, Water Usage=16362729.352
+Tasks in Queue=3050937.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1735/2034 episodes, total num timesteps 21319680/25000000, FPS 428.
+Average step reward is 0.16350387036800385.
+Some episodes done, average episode reward is 210.9132464576542.
+
+Episode 1735: Avg Net Energy=323.307, Avg CO2=87943.030, Water Usage=16420497.973
+Tasks in Queue=3432588.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1740/2034 episodes, total num timesteps 21381120/25000000, FPS 429.
+Average step reward is 0.16590087115764618.
+Some episodes done, average episode reward is 147.8272243504437.
+
+Episode 1740: Avg Net Energy=323.308, Avg CO2=85438.601, Water Usage=16529740.674
+Tasks in Queue=3260310.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1745/2034 episodes, total num timesteps 21442560/25000000, FPS 429.
+Average step reward is 0.1981547623872757.
+Some episodes done, average episode reward is 169.90341192795418.
+
+Episode 1745: Avg Net Energy=324.382, Avg CO2=78194.847, Water Usage=16465555.949
+Tasks in Queue=3532492.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1750/2034 episodes, total num timesteps 21504000/25000000, FPS 429.
+Average step reward is 0.23112677037715912.
+Some episodes done, average episode reward is 250.49584811460616.
+
+Episode 1750: Avg Net Energy=321.726, Avg CO2=79443.647, Water Usage=16476958.707
+Tasks in Queue=4020480.000, Tasks Dropped=84.000
+Evaluation average episode reward is 228.37391940584516.
+
+Episode 1750: Avg Net Energy=320.112, Avg CO2=78434.522, Water Usage=46567577.359
+Tasks in Queue=13776581.000, Tasks Dropped=647.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1755/2034 episodes, total num timesteps 21565440/25000000, FPS 428.
+Average step reward is 0.20115816593170166.
+Some episodes done, average episode reward is 173.74378552001545.
+
+Episode 1755: Avg Net Energy=319.115, Avg CO2=87156.258, Water Usage=16229094.163
+Tasks in Queue=4320874.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1760/2034 episodes, total num timesteps 21626880/25000000, FPS 428.
+Average step reward is 0.10245443135499954.
+Some episodes done, average episode reward is 193.24055487991265.
+
+Episode 1760: Avg Net Energy=324.564, Avg CO2=87661.217, Water Usage=16584696.042
+Tasks in Queue=4158553.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1765/2034 episodes, total num timesteps 21688320/25000000, FPS 429.
+Average step reward is 0.27223554253578186.
+Some episodes done, average episode reward is 186.2867427830084.
+
+Episode 1765: Avg Net Energy=321.816, Avg CO2=74753.453, Water Usage=16416040.466
+Tasks in Queue=3380047.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1770/2034 episodes, total num timesteps 21749760/25000000, FPS 429.
+Average step reward is 0.3144659698009491.
+Some episodes done, average episode reward is 241.89927793366815.
+
+Episode 1770: Avg Net Energy=318.720, Avg CO2=73663.039, Water Usage=16328920.864
+Tasks in Queue=3354911.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1775/2034 episodes, total num timesteps 21811200/25000000, FPS 429.
+Average step reward is 0.2209959775209427.
+Some episodes done, average episode reward is 198.426554372479.
+
+Episode 1775: Avg Net Energy=320.040, Avg CO2=84681.035, Water Usage=16409285.592
+Tasks in Queue=3767650.000, Tasks Dropped=0.000
+Evaluation average episode reward is 135.60753283551597.
+
+Episode 1775: Avg Net Energy=322.271, Avg CO2=82159.596, Water Usage=46038202.642
+Tasks in Queue=12707773.000, Tasks Dropped=528.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1780/2034 episodes, total num timesteps 21872640/25000000, FPS 428.
+Average step reward is 0.10962435603141785.
+Some episodes done, average episode reward is 124.68410130769769.
+
+Episode 1780: Avg Net Energy=322.913, Avg CO2=87015.513, Water Usage=16576464.316
+Tasks in Queue=3995020.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1785/2034 episodes, total num timesteps 21934080/25000000, FPS 428.
+Average step reward is 0.18440626561641693.
+Some episodes done, average episode reward is 150.8549749693621.
+
+Episode 1785: Avg Net Energy=321.681, Avg CO2=83499.910, Water Usage=16401258.733
+Tasks in Queue=3632489.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1790/2034 episodes, total num timesteps 21995520/25000000, FPS 428.
+Average step reward is 0.221155047416687.
+Some episodes done, average episode reward is 224.98609437294513.
+
+Episode 1790: Avg Net Energy=323.550, Avg CO2=71365.091, Water Usage=16463055.013
+Tasks in Queue=2963498.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1795/2034 episodes, total num timesteps 22056960/25000000, FPS 429.
+Average step reward is 0.23813419044017792.
+Some episodes done, average episode reward is 147.15356745906763.
+
+Episode 1795: Avg Net Energy=322.149, Avg CO2=75869.916, Water Usage=16507517.695
+Tasks in Queue=2756243.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1800/2034 episodes, total num timesteps 22118400/25000000, FPS 429.
+Average step reward is 0.1652078777551651.
+Some episodes done, average episode reward is 237.95177147976062.
+
+Episode 1800: Avg Net Energy=323.172, Avg CO2=88219.509, Water Usage=16537055.919
+Tasks in Queue=3464717.000, Tasks Dropped=0.000
+Evaluation average episode reward is 224.93301828412206.
+
+Episode 1800: Avg Net Energy=321.784, Avg CO2=80350.277, Water Usage=46320447.797
+Tasks in Queue=11668612.000, Tasks Dropped=399.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1805/2034 episodes, total num timesteps 22179840/25000000, FPS 428.
+Average step reward is 0.139332577586174.
+Some episodes done, average episode reward is 152.5305256164091.
+
+Episode 1805: Avg Net Energy=322.095, Avg CO2=85855.333, Water Usage=16422662.990
+Tasks in Queue=3600670.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1810/2034 episodes, total num timesteps 22241280/25000000, FPS 428.
+Average step reward is 0.22272898256778717.
+Some episodes done, average episode reward is 135.91060223755468.
+
+Episode 1810: Avg Net Energy=321.080, Avg CO2=80043.740, Water Usage=16446208.788
+Tasks in Queue=3401305.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1815/2034 episodes, total num timesteps 22302720/25000000, FPS 428.
+Average step reward is 0.22793300449848175.
+Some episodes done, average episode reward is 200.4536560233677.
+
+Episode 1815: Avg Net Energy=321.187, Avg CO2=74619.690, Water Usage=16466536.741
+Tasks in Queue=3132938.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1820/2034 episodes, total num timesteps 22364160/25000000, FPS 428.
+Average step reward is 0.15219871699810028.
+Some episodes done, average episode reward is 165.27310117670223.
+
+Episode 1820: Avg Net Energy=321.041, Avg CO2=80399.266, Water Usage=16433854.272
+Tasks in Queue=3301669.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1825/2034 episodes, total num timesteps 22425600/25000000, FPS 429.
+Average step reward is -0.0022888730745762587.
+Some episodes done, average episode reward is 177.60840983498633.
+
+Episode 1825: Avg Net Energy=325.904, Avg CO2=88236.872, Water Usage=16659249.499
+Tasks in Queue=3942184.000, Tasks Dropped=0.000
+Evaluation average episode reward is 197.23427487944238.
+
+Episode 1825: Avg Net Energy=321.289, Avg CO2=81042.586, Water Usage=46003478.249
+Tasks in Queue=12273435.000, Tasks Dropped=2287.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1830/2034 episodes, total num timesteps 22487040/25000000, FPS 428.
+Average step reward is 0.10246012359857559.
+Some episodes done, average episode reward is 170.09602750504732.
+
+Episode 1830: Avg Net Energy=323.907, Avg CO2=82415.610, Water Usage=16480758.858
+Tasks in Queue=3403258.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1835/2034 episodes, total num timesteps 22548480/25000000, FPS 428.
+Average step reward is 0.22451089322566986.
+Some episodes done, average episode reward is 158.9579716548727.
+
+Episode 1835: Avg Net Energy=322.154, Avg CO2=71431.738, Water Usage=16539056.256
+Tasks in Queue=3105335.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1840/2034 episodes, total num timesteps 22609920/25000000, FPS 428.
+Average step reward is 0.16535408794879913.
+Some episodes done, average episode reward is 143.91019859855638.
+
+Episode 1840: Avg Net Energy=322.137, Avg CO2=79520.779, Water Usage=16374684.463
+Tasks in Queue=3085403.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1845/2034 episodes, total num timesteps 22671360/25000000, FPS 428.
+Average step reward is 0.23615087568759918.
+Some episodes done, average episode reward is 132.36117603129637.
+
+Episode 1845: Avg Net Energy=321.449, Avg CO2=89252.785, Water Usage=16432126.127
+Tasks in Queue=3078896.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1850/2034 episodes, total num timesteps 22732800/25000000, FPS 429.
+Average step reward is 0.18815837800502777.
+Some episodes done, average episode reward is 223.07796224424135.
+
+Episode 1850: Avg Net Energy=322.719, Avg CO2=86676.664, Water Usage=16643773.078
+Tasks in Queue=3122474.000, Tasks Dropped=0.000
+Evaluation average episode reward is 298.1117935396226.
+
+Episode 1850: Avg Net Energy=321.142, Avg CO2=80974.735, Water Usage=46217333.715
+Tasks in Queue=9872111.000, Tasks Dropped=232.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1855/2034 episodes, total num timesteps 22794240/25000000, FPS 428.
+Average step reward is 0.2635625898838043.
+Some episodes done, average episode reward is 265.4813339597043.
+
+Episode 1855: Avg Net Energy=321.640, Avg CO2=78774.306, Water Usage=16435927.546
+Tasks in Queue=3082846.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1860/2034 episodes, total num timesteps 22855680/25000000, FPS 428.
+Average step reward is 0.2591209411621094.
+Some episodes done, average episode reward is 238.24442451742206.
+
+Episode 1860: Avg Net Energy=322.640, Avg CO2=70070.028, Water Usage=16469524.914
+Tasks in Queue=2827416.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1865/2034 episodes, total num timesteps 22917120/25000000, FPS 428.
+Average step reward is 0.18500757217407227.
+Some episodes done, average episode reward is 131.70157672886663.
+
+Episode 1865: Avg Net Energy=321.401, Avg CO2=82810.108, Water Usage=16470474.330
+Tasks in Queue=3536479.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1870/2034 episodes, total num timesteps 22978560/25000000, FPS 428.
+Average step reward is 0.2376287430524826.
+Some episodes done, average episode reward is 184.79684044077783.
+
+Episode 1870: Avg Net Energy=319.481, Avg CO2=85816.043, Water Usage=16383878.196
+Tasks in Queue=3551280.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1875/2034 episodes, total num timesteps 23040000/25000000, FPS 428.
+Average step reward is 0.01566537283360958.
+Some episodes done, average episode reward is 236.66615740568363.
+
+Episode 1875: Avg Net Energy=327.086, Avg CO2=86615.076, Water Usage=16642619.659
+Tasks in Queue=3935154.000, Tasks Dropped=0.000
+Evaluation average episode reward is 267.40609334403166.
+
+Episode 1875: Avg Net Energy=320.932, Avg CO2=81306.808, Water Usage=46445100.918
+Tasks in Queue=12132594.000, Tasks Dropped=1026.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1880/2034 episodes, total num timesteps 23101440/25000000, FPS 428.
+Average step reward is 0.2999793589115143.
+Some episodes done, average episode reward is 261.1847164788831.
+
+Episode 1880: Avg Net Energy=319.827, Avg CO2=67996.283, Water Usage=16510399.744
+Tasks in Queue=3210100.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1885/2034 episodes, total num timesteps 23162880/25000000, FPS 428.
+Average step reward is 0.11835189908742905.
+Some episodes done, average episode reward is 128.75762464173633.
+
+Episode 1885: Avg Net Energy=322.752, Avg CO2=79466.663, Water Usage=16488967.032
+Tasks in Queue=3810497.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1890/2034 episodes, total num timesteps 23224320/25000000, FPS 428.
+Average step reward is 0.21544969081878662.
+Some episodes done, average episode reward is 189.32285396233917.
+
+Episode 1890: Avg Net Energy=319.686, Avg CO2=86155.527, Water Usage=16388900.070
+Tasks in Queue=3730807.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1895/2034 episodes, total num timesteps 23285760/25000000, FPS 428.
+Average step reward is 0.10707887262105942.
+Some episodes done, average episode reward is 218.07994297127058.
+
+Episode 1895: Avg Net Energy=324.210, Avg CO2=87534.952, Water Usage=16565869.936
+Tasks in Queue=3675455.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1900/2034 episodes, total num timesteps 23347200/25000000, FPS 428.
+Average step reward is 0.32846248149871826.
+Some episodes done, average episode reward is 234.0185897441717.
+
+Episode 1900: Avg Net Energy=318.886, Avg CO2=79089.490, Water Usage=16392219.284
+Tasks in Queue=2898617.000, Tasks Dropped=0.000
+Evaluation average episode reward is 465.48853597375154.
+
+Episode 1900: Avg Net Energy=319.973, Avg CO2=82072.401, Water Usage=46620160.162
+Tasks in Queue=10098187.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1905/2034 episodes, total num timesteps 23408640/25000000, FPS 428.
+Average step reward is 0.43615102767944336.
+Some episodes done, average episode reward is 337.75715012988854.
+
+Episode 1905: Avg Net Energy=316.910, Avg CO2=67813.551, Water Usage=16208506.040
+Tasks in Queue=1734641.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1910/2034 episodes, total num timesteps 23470080/25000000, FPS 428.
+Average step reward is 0.3342839777469635.
+Some episodes done, average episode reward is 379.24239425284554.
+
+Episode 1910: Avg Net Energy=321.068, Avg CO2=82764.440, Water Usage=16530328.370
+Tasks in Queue=2217507.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1915/2034 episodes, total num timesteps 23531520/25000000, FPS 428.
+Average step reward is 0.18498532474040985.
+Some episodes done, average episode reward is 374.58432729381815.
+
+Episode 1915: Avg Net Energy=324.634, Avg CO2=87164.747, Water Usage=16619383.069
+Tasks in Queue=2367840.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1920/2034 episodes, total num timesteps 23592960/25000000, FPS 428.
+Average step reward is 0.10068470239639282.
+Some episodes done, average episode reward is 331.7487631070359.
+
+Episode 1920: Avg Net Energy=326.596, Avg CO2=85434.883, Water Usage=16617779.020
+Tasks in Queue=3228276.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1925/2034 episodes, total num timesteps 23654400/25000000, FPS 428.
+Average step reward is 0.13828562200069427.
+Some episodes done, average episode reward is 267.47984917678724.
+
+Episode 1925: Avg Net Energy=323.625, Avg CO2=77863.126, Water Usage=16405851.316
+Tasks in Queue=3879456.000, Tasks Dropped=0.000
+Evaluation average episode reward is 89.32095189871103.
+
+Episode 1925: Avg Net Energy=320.704, Avg CO2=80232.787, Water Usage=46090795.932
+Tasks in Queue=13617167.000, Tasks Dropped=1990.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1930/2034 episodes, total num timesteps 23715840/25000000, FPS 428.
+Average step reward is 0.20969116687774658.
+Some episodes done, average episode reward is 72.69029216221962.
+
+Episode 1930: Avg Net Energy=319.393, Avg CO2=76153.176, Water Usage=16424328.905
+Tasks in Queue=3732234.000, Tasks Dropped=8.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1935/2034 episodes, total num timesteps 23777280/25000000, FPS 428.
+Average step reward is 0.12882064282894135.
+Some episodes done, average episode reward is 92.83062575499537.
+
+Episode 1935: Avg Net Energy=320.628, Avg CO2=87475.282, Water Usage=16592153.278
+Tasks in Queue=3927227.000, Tasks Dropped=34.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1940/2034 episodes, total num timesteps 23838720/25000000, FPS 428.
+Average step reward is 0.15345673263072968.
+Some episodes done, average episode reward is 142.17243269981006.
+
+Episode 1940: Avg Net Energy=321.193, Avg CO2=85490.669, Water Usage=16398774.941
+Tasks in Queue=3510477.000, Tasks Dropped=72.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1945/2034 episodes, total num timesteps 23900160/25000000, FPS 428.
+Average step reward is 0.24654018878936768.
+Some episodes done, average episode reward is 150.57338137447837.
+
+Episode 1945: Avg Net Energy=320.574, Avg CO2=80094.740, Water Usage=16457734.567
+Tasks in Queue=3307920.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1950/2034 episodes, total num timesteps 23961600/25000000, FPS 428.
+Average step reward is 0.3273307681083679.
+Some episodes done, average episode reward is 214.5500623757122.
+
+Episode 1950: Avg Net Energy=318.965, Avg CO2=73246.689, Water Usage=16377441.808
+Tasks in Queue=2840069.000, Tasks Dropped=0.000
+Evaluation average episode reward is 286.1464147518806.
+
+Episode 1950: Avg Net Energy=321.338, Avg CO2=81591.979, Water Usage=46222891.404
+Tasks in Queue=10954812.000, Tasks Dropped=220.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1955/2034 episodes, total num timesteps 24023040/25000000, FPS 428.
+Average step reward is 0.15246917307376862.
+Some episodes done, average episode reward is 204.41084732948434.
+
+Episode 1955: Avg Net Energy=323.128, Avg CO2=83354.123, Water Usage=16506478.708
+Tasks in Queue=3863192.000, Tasks Dropped=123.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1960/2034 episodes, total num timesteps 24084480/25000000, FPS 428.
+Average step reward is 0.07536042481660843.
+Some episodes done, average episode reward is 20.488563892196044.
+
+Episode 1960: Avg Net Energy=326.250, Avg CO2=89152.811, Water Usage=16493472.091
+Tasks in Queue=4037131.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1965/2034 episodes, total num timesteps 24145920/25000000, FPS 428.
+Average step reward is 0.15409564971923828.
+Some episodes done, average episode reward is 251.7111016320126.
+
+Episode 1965: Avg Net Energy=325.569, Avg CO2=82424.090, Water Usage=16619052.839
+Tasks in Queue=3860830.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1970/2034 episodes, total num timesteps 24207360/25000000, FPS 428.
+Average step reward is 0.1263139694929123.
+Some episodes done, average episode reward is 277.0008252404397.
+
+Episode 1970: Avg Net Energy=327.086, Avg CO2=80113.752, Water Usage=16559505.908
+Tasks in Queue=3730479.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1975/2034 episodes, total num timesteps 24268800/25000000, FPS 428.
+Average step reward is 0.3273588716983795.
+Some episodes done, average episode reward is 257.1979342175592.
+
+Episode 1975: Avg Net Energy=319.615, Avg CO2=76182.925, Water Usage=16307570.164
+Tasks in Queue=3075136.000, Tasks Dropped=47.000
+Evaluation average episode reward is 269.94121808037175.
+
+Episode 1975: Avg Net Energy=321.436, Avg CO2=82055.707, Water Usage=45972657.885
+Tasks in Queue=11041454.000, Tasks Dropped=638.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1980/2034 episodes, total num timesteps 24330240/25000000, FPS 428.
+Average step reward is 0.37308406829833984.
+Some episodes done, average episode reward is 246.76809313489733.
+
+Episode 1980: Avg Net Energy=317.009, Avg CO2=86815.140, Water Usage=16303860.424
+Tasks in Queue=3390464.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1985/2034 episodes, total num timesteps 24391680/25000000, FPS 428.
+Average step reward is 0.2726690173149109.
+Some episodes done, average episode reward is 170.9758347952204.
+
+Episode 1985: Avg Net Energy=320.321, Avg CO2=86031.084, Water Usage=16408108.260
+Tasks in Queue=3437181.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1990/2034 episodes, total num timesteps 24453120/25000000, FPS 428.
+Average step reward is 0.2918663024902344.
+Some episodes done, average episode reward is 227.12627714037657.
+
+Episode 1990: Avg Net Energy=321.536, Avg CO2=76896.825, Water Usage=16533783.206
+Tasks in Queue=3181316.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 1995/2034 episodes, total num timesteps 24514560/25000000, FPS 428.
+Average step reward is 0.22914843261241913.
+Some episodes done, average episode reward is 293.79869534998585.
+
+Episode 1995: Avg Net Energy=324.926, Avg CO2=73238.296, Water Usage=16583555.750
+Tasks in Queue=3115183.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2000/2034 episodes, total num timesteps 24576000/25000000, FPS 428.
+Average step reward is 0.28103718161582947.
+Some episodes done, average episode reward is 252.6672841777972.
+
+Episode 2000: Avg Net Energy=319.552, Avg CO2=80315.819, Water Usage=16417572.435
+Tasks in Queue=3574814.000, Tasks Dropped=0.000
+Evaluation average episode reward is 292.7301753202303.
+
+Episode 2000: Avg Net Energy=320.772, Avg CO2=81188.915, Water Usage=46222493.735
+Tasks in Queue=12079285.000, Tasks Dropped=2142.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2005/2034 episodes, total num timesteps 24637440/25000000, FPS 428.
+Average step reward is 0.06048653647303581.
+Some episodes done, average episode reward is 273.55780279111985.
+
+Episode 2005: Avg Net Energy=324.419, Avg CO2=88555.055, Water Usage=16602783.812
+Tasks in Queue=4503213.000, Tasks Dropped=35.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2010/2034 episodes, total num timesteps 24698880/25000000, FPS 428.
+Average step reward is 0.047540534287691116.
+Some episodes done, average episode reward is 157.70630012096302.
+
+Episode 2010: Avg Net Energy=326.360, Avg CO2=86469.168, Water Usage=16614380.185
+Tasks in Queue=4224522.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2015/2034 episodes, total num timesteps 24760320/25000000, FPS 428.
+Average step reward is 0.3121054470539093.
+Some episodes done, average episode reward is 156.03174833519049.
+
+Episode 2015: Avg Net Energy=319.378, Avg CO2=78525.270, Water Usage=16457817.382
+Tasks in Queue=3573022.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2020/2034 episodes, total num timesteps 24821760/25000000, FPS 428.
+Average step reward is 0.1849391907453537.
+Some episodes done, average episode reward is 194.1254942251413.
+
+Episode 2020: Avg Net Energy=325.052, Avg CO2=78987.936, Water Usage=16559810.978
+Tasks in Queue=3267419.000, Tasks Dropped=0.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2025/2034 episodes, total num timesteps 24883200/25000000, FPS 428.
+Average step reward is 0.22154046595096588.
+Some episodes done, average episode reward is 257.9880560188937.
+
+Episode 2025: Avg Net Energy=323.524, Avg CO2=89681.160, Water Usage=16484231.542
+Tasks in Queue=3277480.000, Tasks Dropped=0.000
+Evaluation average episode reward is 352.61595045741245.
+
+Episode 2025: Avg Net Energy=321.740, Avg CO2=79667.187, Water Usage=46365233.168
+Tasks in Queue=10172891.000, Tasks Dropped=1754.000
+Env sustaindc Task ca-discrete Algo haa2c Exp haa2c_baseline_ny_medium updates 2030/2034 episodes, total num timesteps 24944640/25000000, FPS 428.
+Average step reward is 0.11993169039487839.
+Some episodes done, average episode reward is 335.7744401725476.
+
+Episode 2030: Avg Net Energy=325.868, Avg CO2=87817.569, Water Usage=16553102.094
+Tasks in Queue=3437697.000, Tasks Dropped=0.000
