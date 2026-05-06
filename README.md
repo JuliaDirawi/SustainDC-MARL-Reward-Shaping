@@ -119,6 +119,16 @@ squeue -u $USER
 ```
 
 Results are saved automatically to the `results/` directory.
+### Step 8 — Visualize training curves 
+
+To view learning curves for all experiments:
+
+```bash
+pip install tensorboard
+tensorboard --logdir results/
+```
+
+Then open http://localhost:6006 in your browser.
 
 ## Deviations from Original Setup
 
