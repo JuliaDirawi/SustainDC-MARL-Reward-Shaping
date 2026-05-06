@@ -4,10 +4,10 @@
 #SBATCH --time=24:00:00
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=32G
-#SBATCH --output=logs/happo_rcarbon_%j.log
+#SBATCH --output=/scratch/8691520-jnd06/SustainDC-MARL-Reward-Shaping/logs/happo_rcarbon_%j.log
 
-cd $SLURM_SUBMIT_DIR
-source sustaindc_venv/bin/activate
+cd /scratch/8691520-jnd06/SustainDC-MARL-Reward-Shaping
+source /scratch/8691520-jnd06/sustaindc_venv/bin/activate
 mkdir -p logs
 
 echo "=== HAPPO + RCARBON ==="
