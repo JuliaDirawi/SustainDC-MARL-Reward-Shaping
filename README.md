@@ -68,21 +68,28 @@ SustainDC-MARL-Reward-Shaping/
 └── requirements.txt
 ```
 
-## Setup
-
-See [SETUP.md](SETUP.md) for the full installation guide.
+## Setup and Running on HPC (SLURM)
 
 ```bash
+# SSH into the cluster
+ssh username@octopus.aub.edu.lb
+
+# Clone the repository into your scratch directory
+cd /scratch/$USER
 git clone https://github.com/JuliaDirawi/SustainDC-MARL-Reward-Shaping.git
 cd SustainDC-MARL-Reward-Shaping
-python -m venv sustaindc_env
-source sustaindc_env/bin/activate
+
+# Create and activate virtual environment
+python -m venv sustaindc_venv
+source sustaindc_venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
 ## Running Experiments
 
-### On an HPC cluster (SLURM)
+Submit each experiment as a SLURM job:
 
 ```bash
 sbatch run_happo_rcarbon.sbatch
@@ -93,26 +100,12 @@ sbatch run_haa2c_rcarbon.sbatch
 sbatch run_haa2c_rtask.sbatch
 ```
 
-### Locally
-
+Monitor jobs:
 ```bash
-python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_baseline
-
-python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_rcarbon_25M --ls_reward rcarbon_ls_reward --dc_reward rcarbon_dc_reward --bat_reward rcarbon_bat_reward
-
-python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_rtask_25M --ls_reward rtask_ls_reward --dc_reward rtask_dc_reward --bat_reward rtask_bat_reward
+squeue -u $USER
 ```
 
-Replace `mappo` with `happo` or `haa2c` for other algorithms.
-
-### Visualize results
-
-```bash
-pip install tensorboard
-tensorboard --logdir results/
-```
-
-Then open http://localhost:6006 in your browser.
+Results are saved to the `results/` directory automatically.
 
 ## Deviations from Original Setup
 
