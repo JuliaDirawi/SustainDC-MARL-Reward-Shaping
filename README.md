@@ -1,75 +1,128 @@
-# SustainDC-MARL-Reward-Shaping
+# Reward Shaping and Algorithm Comparison in MARL for Sustainable Data Center Control
 
-Reward shaping and algorithm comparison in multi-agent reinforcement learning for sustainable data center control using SustainDC.
+This project studies how reward function design affects cooperative multi-agent reinforcement learning (MARL) in sustainable data center control. We use [SustainDC](https://github.com/HewlettPackard/dc-rl), an open-source benchmark introduced at NeurIPS 2024, and evaluate two custom reward shaping variants across three MARL algorithms.
 
-## Project Overview
-This project studies cooperative multi-agent reinforcement learning (MARL) for sustainable data center control using SustainDC, an open-source benchmark introduced at NeurIPS 2024.
+## Environment
 
-We reproduce three core MARL algorithms:
-- IPPO
-- MAPPO
-- HAPPO
+SustainDC models three interconnected data center control tasks trained jointly as a cooperative MARL system:
 
-We then extend the benchmark by comparing three reward shaping variants:
-- Carbon-Focused (`Rcarbon`)
-- Task-Delay-Focused (`Rtask`)
-- Balanced (`Rbalanced`)
+- **Workload Scheduling (AgentLS)** — shifts compute jobs to low-carbon time windows
+- **Cooling Optimization (AgentDC)** — adjusts CRAC setpoint to reduce HVAC energy
+- **Battery Management (AgentBAT)** — decides when to charge or discharge an on-site battery
 
-## Task and Environment
-SustainDC models three interconnected data center control components:
-- Workload Scheduling
-- Cooling Optimization
-- Battery Management
+## Algorithms
 
-These components are affected by workload traces, weather conditions, and grid carbon intensity.
+We evaluate three algorithms from the [HARL](https://github.com/PKU-MARL/HARL) framework:
 
-## Research Goal
-We study how cooperative reward design affects:
-- system-level performance
-- inter-agent coordination
-- differences between independent-critic and shared-critic MARL methods
+- **MAPPO** — Multi-Agent PPO with a centralized shared critic
+- **HAPPO** — Heterogeneous-Agent PPO with per-agent critics
+- **HAA2C** — Heterogeneous Agent Advantage Actor-Critic
 
-## Evaluation Metrics
-We evaluate experiments using the five SustainDC benchmark metrics:
-- CO2 Footprint
-- HVAC Energy
-- IT Energy
-- Task Queue
-- Water Usage
+## Reward Variants
 
-## Planned Experiments
-The main planned experiments follow a 3×3 grid:
-- Algorithms: IPPO, MAPPO, HAPPO
-- Reward variants: `Rcarbon`, `Rtask`, `Rbalanced`
+All reward functions are defined in `utils/reward_creator.py`.
 
-If time permits, we will also study cross-region generalization by training on New York and testing zero-shot on Texas.
+**Baseline (default)** — balanced weights across carbon, energy, and task objectives. Used for reproduction.
+
+**R_carbon** — heavily penalizes CO2 emissions across all three agents (3x carbon weight). Agents learn to strongly prefer low-carbon periods even at the cost of task delays.
+
+**R_task** — heavily penalizes task queue buildup and delays (0.5x carbon, higher task penalties). Agents prioritize responsiveness over emissions reduction.
+
+## Results
+
+All 9 experiments (3 algorithms x 3 reward variants) were trained for 25 million timesteps on the California (ca-discrete) environment.
+
+| Algorithm | Variant | Start Reward | End Reward | Improvement |
+|-----------|---------|-------------|------------|-------------|
+| HAPPO | Baseline | -417 | -138 | yes |
+| HAPPO | R_carbon | -3087 | -2596 | +15.9% |
+| HAPPO | R_task | -1701 | -1194 | +29.8% |
+| MAPPO | Baseline | -580 | +164 | yes |
+| MAPPO | R_carbon | -2930 | -2361 | +19.4% |
+| MAPPO | R_task | -1175 | -1255 | stable |
+| HAA2C | Baseline | -1200 | +352 | yes |
+| HAA2C | R_carbon | -2822 | -2509 | +11.1% |
+| HAA2C | R_task | -1378 | -1234 | +10.4% |
+
+Reward magnitudes differ across variants by design. R_carbon applies a 3x carbon penalty producing larger negative values. Learning is assessed by improvement trend, not absolute value.
 
 ## Repository Structure
-- `src/` — source code
-- `configs/` — experiment configurations
-- `scripts/` — training, evaluation, and reproduction scripts
-- `results/` — experiment outputs
-- `figures/` — plots for report and presentation
-- `docs/` — planning notes and experiment logs
-- `report/` — report material
 
-## Team Members
-- Julia Dirawi
-- Zahraa Hussein
-- Buthaina Alabrash
-- Fatima Abbas
-
-## Team Responsibilities
-- Zahraa Hussein — workload scheduling component
-- Fatima Abbas — cooling optimization component and results/figures
-- Julia Dirawi — battery management component and repository/README organization
-- Buthaina Alabrash — full-system integration and end-to-end experiment coordination
-
-## Current Status
-Repository structure initialized. Implementation in progress.
+```
+SustainDC-MARL-Reward-Shaping/
+├── utils/reward_creator.py          # Default + custom reward functions
+├── train_sustaindc.py               # Main training script
+├── eval_sustaindc.py                # Evaluation script
+├── run_happo_rcarbon.sbatch         # HPC job script - HAPPO + R_carbon
+├── run_happo_rtask.sbatch           # HPC job script - HAPPO + R_task
+├── run_mappo_rcarbon.sbatch         # HPC job script - MAPPO + R_carbon
+├── run_mappo_rtask.sbatch           # HPC job script - MAPPO + R_task
+├── run_haa2c_rcarbon.sbatch         # HPC job script - HAA2C + R_carbon
+├── run_haa2c_rtask.sbatch           # HPC job script - HAA2C + R_task
+├── results/
+│   ├── baselines_final_complete/    # Baseline reproduction results
+│   └── reward_shaping/             # R_carbon and R_task experiment results
+│       ├── rcarbon/
+│       └── rtask/
+├── SETUP.md                         # Installation guide
+└── requirements.txt
+```
 
 ## Setup
-Setup instructions and dependency installation steps will be added after the environment configuration is finalized.
 
-## Reproducibility
-Commands for reproduction and reward-shaping experiments will be added as implementation is completed.
+See [SETUP.md](SETUP.md) for the full installation guide.
+
+```bash
+git clone https://github.com/JuliaDirawi/SustainDC-MARL-Reward-Shaping.git
+cd SustainDC-MARL-Reward-Shaping
+python -m venv sustaindc_env
+source sustaindc_env/bin/activate
+pip install -r requirements.txt
+```
+
+## Running Experiments
+
+### On an HPC cluster (SLURM)
+
+```bash
+sbatch run_happo_rcarbon.sbatch
+sbatch run_happo_rtask.sbatch
+sbatch run_mappo_rcarbon.sbatch
+sbatch run_mappo_rtask.sbatch
+sbatch run_haa2c_rcarbon.sbatch
+sbatch run_haa2c_rtask.sbatch
+```
+
+### Locally
+
+```bash
+python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_baseline
+
+python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_rcarbon_25M --ls_reward rcarbon_ls_reward --dc_reward rcarbon_dc_reward --bat_reward rcarbon_bat_reward
+
+python train_sustaindc.py --algo mappo --env sustaindc --exp_name mappo_rtask_25M --ls_reward rtask_ls_reward --dc_reward rtask_dc_reward --bat_reward rtask_bat_reward
+```
+
+Replace `mappo` with `happo` or `haa2c` for other algorithms.
+
+### Visualize results
+
+```bash
+pip install tensorboard
+tensorboard --logdir results/
+```
+
+Then open http://localhost:6006 in your browser.
+
+## Deviations from Original Setup
+
+| Aspect | Original SustainDC | This Project |
+|--------|-------------------|--------------|
+| Timesteps | ~2 billion | 25 million |
+| Reason | 24-hour HPC time limit | Fixed budget ensures fair cross-variant comparison |
+| Location | Multiple | California (ca-discrete) |
+| Algorithms | IPPO, MAPPO, HAPPO | MAPPO, HAPPO, HAA2C |
+
+## Reference
+
+Naug, A., Guillen, A., Luna, R., et al. (2024). SustainDC: Benchmarking for Sustainable Data Center Control. NeurIPS 2024. https://github.com/HewlettPackard/dc-rl
