@@ -68,29 +68,42 @@ SustainDC-MARL-Reward-Shaping/
 └── requirements.txt
 ```
 
-## Setup and Running on HPC (SLURM)
+## How to Reproduce on AUB HPC (Octopus)
 
+### Step 1 — SSH into the cluster
 ```bash
-# SSH into the cluster
 ssh username@octopus.aub.edu.lb
+```
 
-# Clone the repository into your scratch directory
-cd /scratch/$USER
+### Step 2 — Find your scratch directory
+```bash
+ls /scratch/ | grep $USER
+```
+This will show your scratch folder name, for example: `8691520-jnd06`
+
+### Step 3 — Clone the repository into your scratch folder
+```bash
+cd /scratch/YOUR_SCRATCH_FOLDER
 git clone https://github.com/JuliaDirawi/SustainDC-MARL-Reward-Shaping.git
 cd SustainDC-MARL-Reward-Shaping
+```
+Replace `YOUR_SCRATCH_FOLDER` with the folder name from Step 2.
 
-# Create and activate virtual environment
-python -m venv sustaindc_venv
-source sustaindc_venv/bin/activate
-
-# Install dependencies
+### Step 4 — Create and activate virtual environment
+```bash
+python -m venv /scratch/YOUR_SCRATCH_FOLDER/sustaindc_venv
+source /scratch/YOUR_SCRATCH_FOLDER/sustaindc_venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Running Experiments
+### Step 5 — Update the sbatch scripts with your scratch path
+Open each `.sbatch` file and replace `/scratch/8691520-jnd06` with your own scratch path:
+```bash
+sed -i 's|/scratch/8691520-jnd06|/scratch/YOUR_SCRATCH_FOLDER|g' run_*.sbatch
+```
+Replace `YOUR_SCRATCH_FOLDER` with your actual scratch folder name.
 
-Submit each experiment as a SLURM job:
-
+### Step 6 — Submit experiments
 ```bash
 sbatch run_happo_rcarbon.sbatch
 sbatch run_happo_rtask.sbatch
@@ -100,12 +113,12 @@ sbatch run_haa2c_rcarbon.sbatch
 sbatch run_haa2c_rtask.sbatch
 ```
 
-Monitor jobs:
+### Step 7 — Monitor jobs
 ```bash
 squeue -u $USER
 ```
 
-Results are saved to the `results/` directory automatically.
+Results are saved automatically to the `results/` directory.
 
 ## Deviations from Original Setup
 
