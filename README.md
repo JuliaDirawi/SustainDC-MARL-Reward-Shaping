@@ -137,7 +137,6 @@ Then open http://localhost:6006 in your browser.
 | Timesteps | ~2 billion | 25 million |
 | Reason | 24-hour HPC time limit | Fixed budget ensures fair cross-variant comparison |
 | Location | Multiple | California (ca-discrete) |
-| Algorithms | IPPO, MAPPO, HAPPO | MAPPO, HAPPO, HAA2C |
 
 ## Reference
 
