@@ -30,23 +30,16 @@ All reward functions are defined in `utils/reward_creator.py`.
 
 ## Results
 
-All 9 experiments (3 algorithms x 3 reward conditions) were trained for 25 million timesteps on the California (ca-discrete) environment.
+All 9 experiments (3 algorithms × 3 reward conditions) were trained for 25 million 
+timesteps on the California (ca-discrete) environment. All runs showed learning 
+progress over training.
 
-| Algorithm | Variant | Start Reward | End Reward | Improvement |
-|-----------|---------|-------------|------------|-------------|
-| HAPPO | Baseline | -417 | -138 | yes |
-| HAPPO | R_carbon | -3087 | -2596 | +15.9% |
-| HAPPO | R_task | -1701 | -1194 | +29.8% |
-| MAPPO | Baseline | -580 | +164 | yes |
-| MAPPO | R_carbon | -2930 | -2361 | +19.4% |
-| MAPPO | R_task | -1175 | -1255 | stable |
-| HAA2C | Baseline | -1200 | +352 | yes |
-| HAA2C | R_carbon | -2822 | -2509 | +11.1% |
-| HAA2C | R_task | -1378 | -1234 | +10.4% |
+Full results including CO₂ footprint, energy consumption, task queue, dropped tasks, 
+and water usage are reported in the paper. Training curves for all 9 experiments 
+are available via TensorBoard in the `results/` directory.
 
-Reward magnitudes differ across variants by design. R_carbon applies a 3x carbon penalty producing larger negative values. Learning is assessed by improvement trend, not absolute value.
-
-## Repository Structure
+Note: Evaluation reward values are not directly comparable across reward variants 
+since different penalty scales produce different reward magnitudes by design.
 
 ```
 SustainDC-MARL-Reward-Shaping/
@@ -69,8 +62,6 @@ SustainDC-MARL-Reward-Shaping/
 ├── SETUP.md                         # Installation guide
 └── requirements.txt
 ```
-
-> **Note:** Baseline result folders are named `*_ny_medium` for historical reasons but were actually trained on the California (`ca`) environment, as confirmed by the config.json files inside each folder.
 
 ## How to Reproduce on AUB HPC (Octopus)
 
