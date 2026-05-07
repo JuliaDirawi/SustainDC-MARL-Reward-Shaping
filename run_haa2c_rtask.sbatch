@@ -4,11 +4,14 @@
 #SBATCH --time=24:00:00
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=32G
-#SBATCH --output=/scratch/8691520-jnd06/SustainDC-MARL-Reward-Shaping/logs/haa2c_rtask_%j.log
+#SBATCH --output=logs/haa2c_rtask_%j.log
 
-cd /scratch/8691520-jnd06/SustainDC-MARL-Reward-Shaping
-source /scratch/8691520-jnd06/sustaindc_venv/bin/activate
+REPO_DIR=$SLURM_SUBMIT_DIR
+VENV_DIR=$REPO_DIR/../sustaindc_venv
+
+cd $REPO_DIR
 mkdir -p logs
+source $VENV_DIR/bin/activate
 
 echo "=== HAA2C + RTASK ==="
 echo "Start: $(date)"
