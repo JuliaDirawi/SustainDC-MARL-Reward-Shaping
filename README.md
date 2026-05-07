@@ -22,7 +22,7 @@ We evaluate three algorithms from the [HARL](https://github.com/PKU-MARL/HARL) f
 
 All reward functions are defined in `utils/reward_creator.py`.
 
-**Baseline (default)** — balanced weights across carbon, energy, and task objectives. Used for reproduction.
+**Baseline (default)** — original SustainDC reward. Used as the baseline for comparison.
 
 **R_carbon** — heavily penalizes CO2 emissions across all three agents (3x carbon weight). Agents learn to strongly prefer low-carbon periods even at the cost of task delays.
 
@@ -30,7 +30,7 @@ All reward functions are defined in `utils/reward_creator.py`.
 
 ## Results
 
-All 9 experiments (3 algorithms x 3 reward variants) were trained for 25 million timesteps on the California (ca-discrete) environment.
+All 9 experiments (3 algorithms x 3 reward conditions) were trained for 25 million timesteps on the California (ca-discrete) environment.
 
 | Algorithm | Variant | Start Reward | End Reward | Improvement |
 |-----------|---------|-------------|------------|-------------|
@@ -59,14 +59,18 @@ SustainDC-MARL-Reward-Shaping/
 ├── run_mappo_rtask.sbatch           # HPC job script - MAPPO + R_task
 ├── run_haa2c_rcarbon.sbatch         # HPC job script - HAA2C + R_carbon
 ├── run_haa2c_rtask.sbatch           # HPC job script - HAA2C + R_task
+├── run_rbalanced.sbatch             # HPC job script - R_balanced (not run, future work)
 ├── results/
-│   ├── baselines_final_complete/    # Baseline reproduction results
+│   ├── baselines_final_complete/    # Baseline results (folders named *_ny_medium but trained on California)
 │   └── reward_shaping/             # R_carbon and R_task experiment results
 │       ├── rcarbon/
 │       └── rtask/
+├── experiment_logs/                 # Full HPC training logs for all 9 experiments
 ├── SETUP.md                         # Installation guide
 └── requirements.txt
 ```
+
+> **Note:** Baseline result folders are named `*_ny_medium` for historical reasons but were actually trained on the California (`ca`) environment, as confirmed by the config.json files inside each folder.
 
 ## How to Reproduce on AUB HPC (Octopus)
 
@@ -96,14 +100,7 @@ source /scratch/YOUR_SCRATCH_FOLDER/sustaindc_venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 5 — Update the sbatch scripts with your scratch path
-Open each `.sbatch` file and replace `/scratch/8691520-jnd06` with your own scratch path:
-```bash
-sed -i 's|/scratch/8691520-jnd06|/scratch/YOUR_SCRATCH_FOLDER|g' run_*.sbatch
-```
-Replace `YOUR_SCRATCH_FOLDER` with your actual scratch folder name.
-
-### Step 6 — Submit experiments
+### Step 5 — Submit experiments
 ```bash
 sbatch run_happo_rcarbon.sbatch
 sbatch run_happo_rtask.sbatch
@@ -113,13 +110,14 @@ sbatch run_haa2c_rcarbon.sbatch
 sbatch run_haa2c_rtask.sbatch
 ```
 
-### Step 7 — Monitor jobs
+### Step 6 — Monitor jobs
 ```bash
 squeue -u $USER
 ```
 
 Results are saved automatically to the `results/` directory.
-### Step 8 — Visualize training curves 
+
+### Step 7 — Visualize training curves
 
 To view learning curves for all experiments:
 
@@ -137,6 +135,7 @@ Then open http://localhost:6006 in your browser.
 | Timesteps | ~2 billion | 25 million |
 | Reason | 24-hour HPC time limit | Fixed budget ensures fair cross-variant comparison |
 | Location | Multiple | California (ca-discrete) |
+| Seeds | 5 | 1 |
 
 ## Reference
 
