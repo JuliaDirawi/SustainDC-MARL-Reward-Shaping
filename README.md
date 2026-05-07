@@ -60,8 +60,6 @@ SustainDC-MARL-Reward-Shaping/
 └── requirements.txt
 ```
 
-> **Note:** Baseline result folders are named `*_ny_medium` for historical reasons but were actually trained on the California (`ca`) environment, as confirmed by the config.json files inside each folder.
-
 ## How to Reproduce on AUB HPC (Octopus)
 
 ### Step 1 — SSH into the cluster
