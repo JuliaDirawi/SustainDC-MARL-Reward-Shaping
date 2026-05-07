@@ -30,16 +30,13 @@ All reward functions are defined in `utils/reward_creator.py`.
 
 ## Results
 
-All 9 experiments (3 algorithms × 3 reward conditions) were trained for 25 million 
-timesteps on the California (ca-discrete) environment. All runs showed learning 
-progress over training.
+All 9 experiments (3 algorithms x 3 reward conditions) were trained for 25 million timesteps on the California (ca-discrete) environment. All runs showed learning progress over training.
 
-Full results including CO₂ footprint, energy consumption, task queue, dropped tasks, 
-and water usage are reported in the paper. Training curves for all 9 experiments 
-are available via TensorBoard in the `results/` directory.
+Full results including CO₂ footprint, energy consumption, task queue, dropped tasks, and water usage are reported in the paper. Training curves for all 9 experiments are available via TensorBoard in the `results/` directory.
 
-Note: Evaluation reward values are not directly comparable across reward variants 
-since different penalty scales produce different reward magnitudes by design.
+Note: Evaluation reward values are not directly comparable across reward variants since different penalty scales produce different reward magnitudes by design.
+
+## Repository Structure
 
 ```
 SustainDC-MARL-Reward-Shaping/
@@ -63,6 +60,8 @@ SustainDC-MARL-Reward-Shaping/
 └── requirements.txt
 ```
 
+> **Note:** Baseline result folders are named `*_ny_medium` for historical reasons but were actually trained on the California (`ca`) environment, as confirmed by the config.json files inside each folder.
+
 ## How to Reproduce on AUB HPC (Octopus)
 
 ### Step 1 — SSH into the cluster
@@ -84,11 +83,14 @@ cd SustainDC-MARL-Reward-Shaping
 ```
 Replace `YOUR_SCRATCH_FOLDER` with the folder name from Step 2.
 
-### Step 4 — Create and activate virtual environment
+### Step 4 — Create and activate conda environment
 ```bash
-python -m venv /scratch/YOUR_SCRATCH_FOLDER/sustaindc_venv
-source /scratch/YOUR_SCRATCH_FOLDER/sustaindc_venv/bin/activate
+eval "$(/apps/sw/miniconda/bin/conda shell.bash hook)"
+conda create -n sustaindc python=3.10 -y
+conda activate sustaindc
+pip install --upgrade pip
 pip install -r requirements.txt
+pip install matplotlib dash dash-bootstrap-components flask plotly nest-asyncio retrying
 ```
 
 ### Step 5 — Submit experiments
