@@ -6,12 +6,11 @@
 #SBATCH --mem=32G
 #SBATCH --output=logs/mappo_rcarbon_%j.log
 
-REPO_DIR=$SLURM_SUBMIT_DIR
-VENV_DIR=$REPO_DIR/../sustaindc_venv
+eval "$(/apps/sw/miniconda/bin/conda shell.bash hook)"
+conda activate sustaindc
 
-cd $REPO_DIR
+cd $SLURM_SUBMIT_DIR
 mkdir -p logs
-source $VENV_DIR/bin/activate
 
 echo "=== MAPPO + RCARBON ==="
 echo "Start: $(date)"
